@@ -1566,6 +1566,10 @@ th.hide-for-touch { display: table-cell !important; }
   tr.show-for-print { display: table-row !important; }
   td.show-for-print { display: table-cell !important; }
   th.show-for-print { display: table-cell !important; } }
+html, body { min-width: 0 !important; }
+
+#MainForm { min-height: 0 !important; position: static !important; }
+
 .jrw-resp .main { width: 100%; margin-left: auto; margin-right: auto; margin-top: 0; margin-bottom: 0; max-width: 62.5rem; background-color: #fdfbfb; border-left: 1px solid #cacaca; border-right: 1px solid #cacaca; }
 .jrw-resp .main:before, .jrw-resp .main:after { content: " "; display: table; }
 .jrw-resp .main:after { clear: both; }
