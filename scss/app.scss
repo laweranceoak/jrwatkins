@@ -41,19 +41,22 @@
 //   "foundation/components/offcanvas",
 //   "foundation/components/visibility";
 
+.jrw-resp {
+	@import 
+	
+	//Structure
+	"main",
 
-//Structure
-@import "main";
+	//Elements
+	"header",
+	"login",
+	"search",
+	"added-to-cart",
+	"jrw-carousel-container",
+	"body-nav",
+	"subscribe",
+	"footer",
 
-//Elements
-@import "header";
-@import "login";
-@import "search";
-@import "added-to-cart";
-@import "jrw-carousel-container";
-@import "body-nav";
-@import "subscribe";
-@import "footer";
-
-//Products
-@import "category";
+	//Products
+	"category";
+}
