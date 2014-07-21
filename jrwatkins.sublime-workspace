@@ -1,0 +1,836 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"in",
+				"inherit"
+			],
+			[
+				"bord",
+				"border-bottom"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"padding",
+				"padding"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"tab1",
+				"tab1Info"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"lt",
+				"lt-ie9"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"h",
+				"h5	Tag"
+			],
+			[
+				"web",
+				"webkit-appearance"
+			],
+			[
+				"su",
+				"sup	Tag"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"bo",
+				"box-shadow"
+			],
+			[
+				"paddin",
+				"padding"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"list-",
+				"list-style"
+			],
+			[
+				"se",
+				"section	Tag"
+			],
+			[
+				"a",
+				"a	Tag"
+			],
+			[
+				"slideUP",
+				"slideUp2"
+			],
+			[
+				"animated",
+				"animated2"
+			],
+			[
+				"slide",
+				"slideUp"
+			],
+			[
+				"ar",
+				"article	Tag"
+			],
+			[
+				"margi",
+				"margin-bottom"
+			],
+			[
+				"med",
+				"mediumscreen"
+			],
+			[
+				"medi",
+				"mediumscreen"
+			],
+			[
+				"me",
+				"mediumscreen"
+			],
+			[
+				"re",
+				"relative"
+			],
+			[
+				"rb",
+				"rgba"
+			],
+			[
+				"span",
+				"span_1"
+			],
+			[
+				"it",
+				"italic"
+			],
+			[
+				"backg",
+				"background"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"white",
+				"white-space"
+			],
+			[
+				"spa",
+				"span_2"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"sec",
+				"section-padding"
+			],
+			[
+				"op",
+				"font-open-sans-700"
+			],
+			[
+				"pr",
+				"primary-color"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"border",
+				"border-top"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"bot",
+				"bottom"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"font-o",
+				"font-open-sans-700"
+			],
+			[
+				"webkit-mar",
+				"webkit-margin-before"
+			],
+			[
+				"import",
+				"important"
+			],
+			[
+				"backgroun",
+				"background"
+			],
+			[
+				"he",
+				"head	Tag"
+			],
+			[
+				"list-sty",
+				"list-style-type"
+			],
+			[
+				"large",
+				"large-8"
+			],
+			[
+				"hero",
+				"hero_copy"
+			],
+			[
+				"ma",
+				"max-width"
+			],
+			[
+				"first",
+				"first-child"
+			],
+			[
+				"li",
+				"li	Tag"
+			],
+			[
+				"nor",
+				"normal"
+			],
+			[
+				"lo",
+				"lowercase"
+			],
+			[
+				"lin",
+				"line-height"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"g",
+				"green-border-bottom"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"paddi",
+				"padding-bottom"
+			],
+			[
+				"backgound",
+				"background-color"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"rem",
+				"removeClass"
+			],
+			[
+				"toggle",
+				"slideToggle"
+			],
+			[
+				"nav",
+				"navItem"
+			],
+			[
+				"mi",
+				"min-height"
+			],
+			[
+				"log",
+				"logo_lba"
+			],
+			[
+				"mobile",
+				"Mobile"
+			],
+			[
+				"swap",
+				"swapImage2"
+			],
+			[
+				"logged",
+				"loggedOut"
+			],
+			[
+				"bod",
+				"border-top"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"logg",
+				"loggedIn"
+			],
+			[
+				"l",
+				"learnHealthyLiving"
+			],
+			[
+				"bloc",
+				"block"
+			],
+			[
+				"na",
+				"navFlyoutBox"
+			],
+			[
+				"tx",
+				"text-align"
+			],
+			[
+				"u",
+				"url"
+			],
+			[
+				"block",
+				"inline-block"
+			],
+			[
+				"hea",
+				"header	Tag"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"mob",
+				"mobileCopy"
+			],
+			[
+				"party",
+				"partyName"
+			],
+			[
+				"i",
+				"important"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"fac",
+				"facebookStats"
+			],
+			[
+				"f",
+				"float"
+			],
+			[
+				"facebo",
+				"facebookPartyResults"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"cl",
+				"clear"
+			],
+			[
+				"news",
+				"newsdown"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"sass",
+				"Set Syntax: Shell Script (Bash)"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/index.html",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/scss/_settings.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/config.rb",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/stylesheets/app.css",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/bower_components/foundation/scss/foundation/components/_grid.scss",
+		"/Volumes/NEWCMServer/xinetCMServer/Creative/Clients/KeyBank/2014/1042730 Checking/Landing-Page/Development/KeyBank/1042730 Checking/build/index.html",
+		"/Users/ryan.payne/Dropbox/Public/Prototype/_build/css/styles.css",
+		"/Users/ryan.payne/Desktop/WORK/KeyBank/1042730 Checking/build/index.html",
+		"/Volumes/NEWCMServer/xinetCMServer/Creative/Clients/KeyBank/2014/1042730 Checking/Landing-Page/Development/KeyBank/1042730 Checking/build/sass/_styles.scss",
+		"/Volumes/NEWCMServer/xinetCMServer/Creative/Clients/KeyBank/2014/1042730 Checking/Landing-Page/Development/KeyBank/1042730 Checking/build/sass/app.scss",
+		"/Volumes/NEWCMServer/xinetCMServer/Creative/Clients/KeyBank/2014/1042730 Checking/Landing-Page/Development/KeyBank/1042730 Checking/build/stylesheets/app.css",
+		"/Users/ryan.payne/Desktop/WORK/KeyBank/1042730 Checking/build/sass/_styles.scss",
+		"/Users/ryan.payne/Desktop/FILEStoEDIT/landing-page.html",
+		"/Users/ryan.payne/Desktop/WORK/KeyBank/1042730 Checking/build/javascripts/vendor/app.js",
+		"/Users/ryan.payne/Desktop/WORK/KeyBank/1042730 Checking/build/javascripts/app.js",
+		"/Users/ryan.payne/Desktop/WORK/KeyBank/1042730 Checking/build/stylesheets/app.css",
+		"/Users/ryan.payne/Desktop/WORK/KeyBank/1042730 Checking/build/javascripts/foundation/foundation.section.js",
+		"/Users/ryan.payne/Desktop/WORK/KeyBank/1042730 Checking/build/sass/app.scss",
+		"/Users/ryan.payne/Desktop/Checking/_setup/settings.asp",
+		"/Users/ryan.payne/Desktop/PeterVanD_Key/index.html",
+		"/Users/ryan.payne/Desktop/PeterVanD_Key/css/foundation.css",
+		"/Users/ryan.payne/Desktop/WORK/KeyBank/1042730 Checking/build/sass/_fonts.scss",
+		"/Users/ryan.payne/Desktop/WORK/KeyBank/1042730 Checking/build/sass/_mixins.scss",
+		"/Users/ryan.payne/Desktop/WORK/KeyBank/1042730 Checking/build/indexOriginal.html",
+		"/Users/ryan.payne/Desktop/WORK/Prototype/HideHeader/_build/index.html",
+		"/Users/ryan.payne/Desktop/WORK/Prototype/HideHeader/_build/js/vendor/headroom.js",
+		"/Users/ryan.payne/Desktop/WORK/Prototype/HideHeader/_build/sass/styles.scss",
+		"/Users/ryan.payne/Desktop/WORK/Prototype/HideHeader/_build/js/vendor/headroom.min.js",
+		"/Users/ryan.payne/Desktop/WORK/Prototype/HideHeader/_build/css/styles.css",
+		"/Users/ryan.payne/Desktop/WORK/Prototype/HideHeader/_build/compass_app_log.txt",
+		"/Users/ryan.payne/Desktop/WORK/Prototype/HideHeader/_build/css/animate.css",
+		"/Users/ryan.payne/Desktop/WORK/Prototype/HideHeader/_build/css/foundation.css",
+		"/Users/ryan.payne/Desktop/WORK/Prototype/HideHeader/_build/js/vendor/hide.js",
+		"/Users/ryan.payne/Desktop/WORK/Prototype/HideHeader/_build/sass/styles2.scss",
+		"/Users/ryan.payne/Desktop/WORK/Prototype/HideHeader/_build/indexJS.html",
+		"/Users/ryan.payne/Desktop/WORK/Prototype/HideHeader/_build/css/styles2.css",
+		"/Users/ryan.payne/Desktop/WORK/WOW Guide/May Wow Guide/WOWGuide/sass/wow-guide-styles.scss",
+		"/Users/ryan.payne/Desktop/WORK/Prototype/HideHeader/_build/css/animate2.css",
+		"/Users/ryan.payne/Desktop/WORK/Prototype/HideHeader/_build/sass/_mixins.scss",
+		"/Users/ryan.payne/Desktop/WORK/Prototype/HideHeader/_build/config.rb",
+		"/Users/ryan.payne/Desktop/WORK/Prototype/HideHeader/build/index.html",
+		"/Users/ryan.payne/Desktop/WORK/Prototype/HideHeader/build/stylesheets/app.css",
+		"/Users/ryan.payne/Desktop/WORK/Brando/assets/grunticon/icons.fallback.css",
+		"/Users/ryan.payne/Desktop/WORK/Brando/assets/grunticon/icons.data.png.css",
+		"/Users/ryan.payne/Desktop/WORK/WOW Guide/May Wow Guide/WOWGuide/index_sitecore.html",
+		"/Users/ryan.payne/Desktop/WORK/WOW Guide/May Wow Guide/WOWGuide/stylesheets/wow-guide-styles.css",
+		"/Users/ryan.payne/Desktop/WORK/WOW Guide/May Wow Guide/WOWGuide/pictureFillSetup.html",
+		"/Users/ryan.payne/Desktop/WORK/WOW Guide/May Wow Guide/WOWGuide/sass/_mixins.scss",
+		"/Users/ryan.payne/Desktop/WORK/WOW Guide/April Wow Guide/_build/stylesheets/wow-guide-styles.css",
+		"/Users/ryan.payne/Desktop/WORK/WOW Guide/April Wow Guide/_build/index_sitecore.html",
+		"/Users/ryan.payne/Desktop/WORK/WOW Guide/May Wow Guide/WOWGuide/sass/_variables.scss",
+		"/Users/ryan.payne/Desktop/WORK/WOW Guide/May Wow Guide/WOWGuide/config.rb",
+		"/Users/ryan.payne/Desktop/WORK/WOW Guide/STPattyLookbook/build/_build/index_sitebuilder_V.html",
+		"/Users/ryan.payne/Desktop/WORK/WOW Guide/April Wow Guide/_build/sass/_variables.scss",
+		"/Users/ryan.payne/Desktop/WORK/WOW Guide/STPattyLookbook/build/_build/css/main.scss",
+		"/Users/ryan.payne/Desktop/WORK/WOW Guide/April Wow Guide/_build/index.html",
+		"/Users/ryan.payne/Desktop/WORK/April Wow Guide/_build/sass/wow-guide-styles.scss",
+		"/Users/ryan.payne/Desktop/WORK/April Wow Guide/_build/index_sitecore.html",
+		"/Users/ryan.payne/Desktop/WORK/April Wow Guide/_build/stylesheets/wow-guide-styles.css",
+		"/Users/ryan.payne/Desktop/WORK/STPattyLookbook/build/_build/css/main.css",
+		"/Users/ryan.payne/Desktop/WORK/STPattyLookbook/build/_build/css/main.scss",
+		"/Users/ryan.payne/Desktop/WORK/STPattyLookbook/build/_build/index_sitebuilder_V.html",
+		"/Users/ryan.payne/Desktop/WORK/April Wow Guide/_build/stylesheets/screen.css",
+		"/Users/ryan.payne/Desktop/foundation_edited.css",
+		"/Users/ryan.payne/Desktop/WORK/STPattyLookbook/build/_build/css/foundation.css",
+		"/Users/ryan.payne/Desktop/WORK/April Wow Guide/_build/index.html",
+		"/Users/ryan.payne/Desktop/WORK/April Wow Guide/_build/sass/_variables.scss",
+		"/Users/ryan.payne/Desktop/WORK/April Wow Guide/_build/sass/_mixins.scss",
+		"/Users/ryan.payne/Desktop/WORK/STPattyLookbook/build/_build/newGrid_sitebuilder_V.html",
+		"/Users/ryan.payne/Desktop/WORK/Prototype/_build/index.html",
+		"/Users/ryan.payne/Desktop/WORK/Prototype/_build/sass/wow-guide-styles.scss",
+		"/Users/ryan.payne/Desktop/WORK/Prototype/_build/stylesheets/wow-guide-styles.css",
+		"/Users/ryan.payne/Desktop/WORK/STPattyLookbook/build/_build/index_final.html",
+		"/Users/ryan.payne/Desktop/WORK/Prototype/_build/sass/_variables.scss",
+		"/Users/ryan.payne/Desktop/WORK/Prototype/_build/sass/_mixins.scss",
+		"/Users/ryan.payne/Desktop/prototype/stylesheets/screen.css",
+		"/Users/ryan.payne/Desktop/prototype/sass/screen.scss",
+		"/Users/ryan.payne/Desktop/WORK/Prototype/_build/css/_mixins.scss",
+		"/Users/ryan.payne/Desktop/WORK/Prototype/_build/css/_variables.scss",
+		"/Users/ryan.payne/Desktop/WORK/Prototype/_build/css/wow-guide-styles.scss",
+		"/Users/ryan.payne/Desktop/WORK/Prototype/_build/css/wow-guide-styles.css",
+		"/Users/ryan.payne/Desktop/WORK/Prototype/_build/css/grid_OG.css",
+		"/Users/ryan.payne/Dropbox/Public/Prototype/_build/css/normalize.css",
+		"/Users/ryan.payne/Dropbox/Public/Prototype/_build/index.html",
+		"/Users/ryan.payne/Dropbox/Public/Prototype/_build/css/grid_OG.css",
+		"/Users/ryan.payne/Dropbox/Public/Prototype/_build/css/wow-guide-styles.scss.haml",
+		"/Users/ryan.payne/Desktop/WORK/Prototype/assets/gridpak (1)/README.md",
+		"/Users/ryan.payne/Desktop/WORK/Prototype/assets/gridpak (1)/gridpak.scss",
+		"/Users/ryan.payne/Desktop/WORK/Prototype/assets/gridpak/gridpak.css",
+		"/Users/ryan.payne/Desktop/WORK/Prototype/assets/gridpak/README.md",
+		"/Users/ryan.payne/Desktop/WORK/Prototype/assets/gridpak/gridpak.scss",
+		"/Users/ryan.payne/Desktop/WORK/ericksonBCI/_build/highway-construction.html",
+		"/Users/ryan.payne/Desktop/WORK/ericksonBCI/_build/wordpress/RP Version/Industries.html",
+		"/Users/ryan.payne/Desktop/WORK/ericksonBCI/_build/wordpress/RP Version/header.php",
+		"/Users/ryan.payne/Desktop/WORK/ericksonBCI/_build/css/recongnation.scss",
+		"/Users/ryan.payne/Desktop/WORK/ericksonBCI/_build/css/recongnation.css",
+		"/Users/ryan.payne/Desktop/WORK/ericksonBCI/_build/css/layout.css",
+		"/Users/ryan.payne/Desktop/WORK/ericksonBCI/_build/wordpress/wp-content/themes/erickson/Industries-page.php",
+		"/Users/ryan.payne/Desktop/WORK/ericksonBCI/_build/achieving_recongnation.html",
+		"/Users/ryan.payne/Desktop/WORK/ericksonBCI/_build/wordpress/RP Version/nggallery.css",
+		"/Users/ryan.payne/Desktop/WORK/STPattyLookbook/build/_build/css/main2.scss",
+		"/Users/ryan.payne/Desktop/WORK/STPattyLookbook/build/_build/css/_mixins.scss",
+		"/Users/ryan.payne/Desktop/WORK/STPattyLookbook/build/_build/css/unsemantic-grid-responsive.css",
+		"/Users/ryan.payne/Desktop/WORK/STPattyLookbook/build/_build/css/main2.css",
+		"/Users/ryan.payne/Desktop/WORK/LookBookV3/_build/index_OG.html",
+		"/Users/ryan.payne/Desktop/WORK/STPattyLookbook/Assets/REM-unit-polyfill-master/js/rem.min.js",
+		"/Users/ryan.payne/Desktop/WORK/ericksonBCI/_build/wordpress/erickson_backup/Industries-page.php",
+		"/Users/ryan.payne/Desktop/WORK/ericksonBCI/_build/wordpress/erickson_backup/js/fonts/Gotham_Bold_400.font.js",
+		"/Users/ryan.payne/Desktop/WORK/ericksonBCI/_build/wordpress/erickson_backup/js/fonts/Gotham_Bold_italic_400.font.js",
+		"/Users/ryan.payne/Desktop/WORK/ericksonBCI/_build/wordpress/erickson_backup/js/fonts/Gotham_Book_325.font.js",
+		"/Users/ryan.payne/Desktop/WORK/ericksonBCI/_build/wordpress/erickson_backup/js/fonts/Gotham_Light_300.font.js",
+		"/Users/ryan.payne/Desktop/WORK/ericksonBCI/_build/wordpress/erickson_backup/js/fonts/Perpetua_Titling_MT_300.font.js",
+		"/Users/ryan.payne/Desktop/WORK/ericksonBCI/_build/wordpress/RP Version/front_page.php",
+		"/Users/ryan.payne/Desktop/WORK/ericksonBCI/_build/wordpress/erickson_backup/js/fonts/cufon-yui.js",
+		"/Users/ryan.payne/Desktop/WORK/ericksonBCI/_build/css/rtl.css",
+		"/Users/ryan.payne/Desktop/WORK/ericksonBCI/_build/css/style.css",
+		"/Users/ryan.payne/Desktop/WORK/ericksonBCI/_build/css/editor-style-rtl.css",
+		"/Users/ryan.payne/Desktop/WORK/ericksonBCI/_build/css/editor-style.css",
+		"/Users/ryan.payne/Desktop/WORK/STPattyLookbook/Assets/rem-master/README.mdown",
+		"/Users/ryan.payne/Desktop/WORK/STPattyLookbook/Assets/rem-master/stylesheets/_rem.scss",
+		"/Users/ryan.payne/Desktop/WORK/STPattyLookbook/build/_build/css/_variables.scss",
+		"/Users/ryan.payne/Desktop/WORK/LookBookV3/_build/index.html",
+		"/Users/ryan.payne/Desktop/WORK/LookBookV3/_build/index2.html",
+		"/Users/ryan.payne/Desktop/WORK/STPattyLookbook/build/_build/copyTemplate.html",
+		"/Users/ryan.payne/Desktop/WORK/STPatty Lookbook/build/_build/index_final.html",
+		"/Users/ryan.payne/Desktop/WORK/STPattyLookbook/build/_build/css/mystyles.css",
+		"/Users/ryan.payne/Desktop/foundation-5.0.3.custom/index_final.html",
+		"/Users/ryan.payne/Desktop/Prototype/_build/index_final.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/ryan.payne/Documents/CM/sites/popeyes/work/SurfTurf/_build",
+			"/Applications/MAMP/htdocs/wordpress/wp-content/themes/CMWP_rev2"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"video",
+			"hide",
+			"\"Helvetica\",",
+			"®",
+			"medium",
+			"border",
+			"rad",
+			"&",
+			"small",
+			"last",
+			"auto",
+			"vertical-nav",
+			"nav_selector",
+			"data-section",
+			"ie9",
+			"panel3",
+			"max-width: 500px",
+			"font-size, 14px",
+			"font-size, 12px",
+			"radiu",
+			"offset",
+			"ease-in-out",
+			".25s",
+			"offset",
+			"notTop",
+			"reset",
+			"slide--up",
+			"pastBottom",
+			"isOutOfBounds",
+			"pastBottom",
+			"getScrollY",
+			"scrollTop",
+			"top",
+			"notTop",
+			"top",
+			"slide--up",
+			"headroom",
+			"http://www.pillsbury.com/everyday-eats/dinner-tonight/meaty-mains",
+			"#bdddf8",
+			"http://www.pillsbury.com/recipes/one-pot-creamy-spaghetti/d4c894b6-4a7f-4279-8c2e-3215d4e72c0f",
+			"#chicken",
+			"#wgbeef",
+			"#beef",
+			"one-pot-spaghetti.gif",
+			"May_WG_grill_pizza_2X.jpg",
+			"May_WG_grill_pizza.jpg",
+			"How to Grill Pizza",
+			"http://www.pillsbury.com/everyday-eats/dinner-tonight/meaty-mains#beef",
+			"http://www.pillsbury.com/recipes/carrot-cake-bars/d901a14a-9bdf-4eaa-a564-1c34dc13a03f",
+			"ttp://www.pillsbury.com/recipes/carrot-cake-bars/d901a14a-9bdf-4eaa-a564-1c34dc13a03f",
+			"Sign me up",
+			"@include rem(font-size, 14px);",
+			".recipeDescriptionAndRating .actionBoxesSection, .centralfull .actionBoxesSection, .central ",
+			"May_WG_makers_2X.jpg",
+			"Makers Spotlight",
+			"May_WG_makers.jpg",
+			"May_WG_10Seconds_2X.jpg",
+			"10 Seconds to Dinner",
+			"May_WG_10Seconds.jpg",
+			"May_WG_brownie_2X.jpg",
+			"PB Cup Cookie Dough Brownie",
+			"May_WG_brownie.jpg",
+			"May_WG_pasta_plate_2X.jpg",
+			"One-Pot Pasta",
+			"May_WG_pasta_plate.jpg",
+			"May_WG_ground_beef_2X.jpg",
+			"Stuffed Cheeseburger Loaf",
+			"May_WG_ground_beef.jpg",
+			"font-bitter-Bold",
+			"font-bitter-Italic",
+			"Images//",
+			"img src=\"",
+			"<img src=\"",
+			"href=\"#\"",
+			"/-/media/PB/Images/everyday-eats/breakfast-brunch/wow-guide-april-2014/images/Makers_Spotlight.jpg",
+			"wowguild",
+			"data-filetype=\"image\"",
+			"href=\"#\"",
+			"margin-top: 10%;",
+			"10%",
+			"Mom Hints",
+			"min-height",
+			"40px",
+			"svg",
+			"src=\"images",
+			"width: 100%;",
+			"brown-color",
+			"bodyPadding",
+			"green-color",
+			"@media",
+			"page_bottom_box",
+			"h4",
+			"page_inner",
+			"textwidget",
+			"img/",
+			"images",
+			"arege",
+			"small-",
+			"small-l",
+			"small-",
+			"min-width",
+			"max",
+			"-only",
+			"hide-for-small-only",
+			"icon_new.png",
+			"medium",
+			"medium-12",
+			"medium-",
+			"medium-12",
+			"z-index",
+			"http://www.pillsbury.com/recipes/shamrock-pizza-pot-pies/faf24b85-65a2-4cd3-a76d-67a5345204f6",
+			"http://www.pillsbury.com/recipes/mini-whoopie-pies/bf82e918-c44e-4de8-80f1-483582c496d9",
+			"/-/media/PB/Images/holidays-celebrations/more-holiday-ideas/st-patricks-day/wow-guide/",
+			" style=\"background: green;\"",
+			"style=\"background: red;\"",
+			"owl.carousel.css",
+			"href=\"#\"",
+			"‐",
+			"•	",
+			"Contract Dollar Value",
+			"page_bottom_box",
+			"erickson_builders",
+			"src=\"img",
+			"font-family",
+			"/*\nTheme Name: ereckson\n*/\n/*\nUsed to style the TinyMCE editor.\n*/\nhtml .mceContentBody{\n	direction: rtl;\n	unicode-bidi: embed;\n	float: right;\n	width: 640px;\n}\n* {\n	font-family: Arial, Tahoma, sans-serif;\n}\n/* Text elements */\nul, ol {\n	margin: 0 -18px 18px 0;\n}\ndd {\n	margin-right: 0;\n}\nblockquote {\n	font-style: normal;\n}\ntable {\n	text-align: right;\n	margin: 0 0 24px -1px;\n}\n/*\nTheme Name: ereckson\n*/\n/*\nUsed to style the TinyMCE editor.\n*/\nhtml .mceContentBody{\n	direction: rtl;\n	unicode-bidi: embed;\n	float: right;\n	width: 640px;\n}\n* {\n	font-family: Arial, Tahoma, sans-serif;\n}\n/* Text elements */\nul, ol {\n	margin: 0 -18px 18px 0;\n}\ndd {\n	margin-right: 0;\n}\nblockquote {\n	font-style: normal;\n}\ntable {\n	text-align: right;\n	margin: 0 0 24px -1px;\n}\n/*\nTheme Name: ereckson\n*/\n/*\nUsed to style the TinyMCE editor.\n*/\nhtml .mceContentBody{\n	direction: rtl;\n	unicode-bidi: embed;\n	float: right;\n	width: 640px;\n}\n* {\n	font-family: Arial, Tahoma, sans-serif;\n}\n/* Text elements */\nul, ol {\n	margin: 0 -18px 18px 0;\n}\ndd {\n	margin-right: 0;\n}\nblockquote {\n	font-style: normal;\n}\ntable {\n	text-align: right;\n	margin: 0 0 24px -1px;\n}\nfont-family",
+			"font-family",
+			"href=\"#\"",
+			"Lucky Charms&trade"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"div:first-child",
+			"data-title=\"Ryan Accepted\""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 112.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 234.0,
+	"status_bar_visible": false
+}

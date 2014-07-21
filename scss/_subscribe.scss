@@ -1,0 +1,42 @@
+.subscribe {
+	@include grid-row();
+	@extend %spacing;
+
+	& > div {
+		@include grid-column(
+			$columns:12,
+			$last-column:true
+		);
+
+		p {
+			color: $gray;
+			font-size: rem-calc(13px);
+			font-style: italic;
+			line-height: rem-calc(15px);
+		}
+
+		.email-container {
+			@include grid-row();
+		}
+
+		.submit-email {
+			font-size: rem-calc(16px);
+			font-style: italic;
+			@include border-radius(0 5px 5px 0);
+			@include prefix-postfix-base();
+			@include postfix($bg: $red-orange,$is-button: true);
+			@include grid-column(
+			 	$columns:4,
+			 	$last-column:true,
+			 	$float:right
+		 	);
+			 border: none;
+		}
+
+		input[type="email"].enter-email {
+			font-style: italic;
+			@include grid-column($columns:8);
+			@include border-radius(5px 0 0 5px);
+		}
+	}
+}

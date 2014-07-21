@@ -1,0 +1,36 @@
+.body-nav {
+	@include grid-row();
+	@extend %spacing;
+
+	nav {
+		@include grid-column(
+			$columns:12,
+			$collapse:true,
+			$last-column:true
+		);
+
+		ul {
+			list-style: none;
+			text-align: center;
+			margin: 0;
+
+			li {
+				border-bottom: 1px solid $hr-gray;
+				font-size: rem-calc(26px);
+				line-height: rem-calc(26px);
+				text-transform: uppercase;
+
+				&:first-child {
+					border-top: 1px solid $hr-gray;
+				}
+
+				a {
+					color: black;
+					display: block;
+					font-family: $HelveticaNeue;
+					padding: rem-calc(15px);
+				}
+			}
+		}
+	}
+}

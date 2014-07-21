@@ -1,0 +1,7 @@
+.jrw-carousel-container {
+	@include grid-row();
+
+	.orbit-bullets {
+		margin: 0 auto 10px;
+	}
+}

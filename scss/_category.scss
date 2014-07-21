@@ -1,0 +1,128 @@
+.product-header {
+	@include grid-row();
+	@extend %spacing;
+
+	& > div {
+		@include grid-column(
+			$columns:12,
+			$last-column:true
+		);
+
+		h1 {
+			font-family: $HelveticaNeueBdCn;
+			text-transform: uppercase;
+		}
+
+		p {
+			color: $gray;
+			font-size: rem-calc(13px);
+			line-height: rem-calc(15px);
+		}
+	}
+}
+
+.product-filter {
+	@include grid-row();
+	@extend %spacing;
+
+	& > div {
+		@include grid-column(
+			$columns:12,
+			$last-column:true
+		);
+	}
+
+	select {
+		background-image: url('../images/icon-arrow-down.png');
+		background-size: rem-calc(15px) rem-calc(10px);
+		background-position: 96% center;
+		border-color: $gray-border;
+		color: $dark-gray;
+		font-family: $body-font-family;
+		@extend %font-bold-italic;
+		@extend %border-radius;
+	}
+}
+
+.category-list {
+	@include grid-row();
+	@extend %spacing;
+
+	ul {
+		list-style: none;
+		@include grid-row();
+
+		.product-column {
+			@media #{$small-only} {
+				@include grid-column(
+					$columns:6
+				);
+			}
+
+			@media #{$medium-up} {
+				@include grid-column(
+					$columns:3
+				);
+			}
+
+			
+			margin: 0 0 10%;
+			
+			.product {
+
+				header {
+					margin: 0 0 5%;
+				}
+			}
+
+			.product-price {
+				color: $dark-gray;
+				font-size: rem-calc(17px);
+				margin: rem-calc(5px) 0 0;
+				@extend %font-bold-italic;
+			}
+
+			.product-name {
+				color: black;
+				font-family: $HelveticaNeueBdCn;
+				font-size: rem-calc(20px);
+				margin: 0 0 rem-calc(5px);
+				text-transform: uppercase;
+			}
+
+			.ratings {
+				margin: 0 0 rem-calc(5px);
+
+				a {
+					font-size: rem-calc(13px);
+					@extend %font-bold-italic;
+				}
+			}
+
+			.cta-add-to-cart {
+				background-color: white;
+				border: 1px solid $gray-border;
+				color: $red-orange;
+				display: block;
+				font-size: rem-calc(16px);
+				padding: rem-calc(10px) 0;
+				position: relative;
+				width: 100%;
+				@extend %border-radius;
+				@extend %font-bold-italic;
+
+				&:after {
+					content: "Add to Cart";
+					display: block;
+				}
+				&.added {
+					background-color: $normal-gray;
+
+					&:after {
+						content: "Added";
+					}
+				}
+			}
+		}
+	}
+}
