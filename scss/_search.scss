@@ -45,7 +45,6 @@
 	.search-cta {
 		@include grid-column(
 		    $columns:3,
-		    $last-column:true,
 		    $collapse:true
 		);
 		

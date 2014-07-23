@@ -5,8 +5,7 @@
 	article {
 		@include grid-column(
 			$columns:12,
-			$collapse:true,
-			$last-column:true
+			$collapse:true
 			);
 
 		h3 {
@@ -15,14 +14,11 @@
 		}
 
 		ul {
-			@include grid-row();
+			@include grid-row($behavior: nest);
 			list-style: none;
 
 			> li {
-				@include grid-column(
-					$columns:6,
-					$collapse:true
-					);
+				@include grid-column(6);
 			}
 		}
 		// Related Products
@@ -32,25 +28,18 @@
 				margin-bottom: 2%;
 			}
 
-			img {
-				width: 90%;
-				margin: 0 0 5%;
-			}
-
 			h1 {
 				color: $dark-gray;
-				font-size: rem-calc(16px);
-				line-height: rem-calc(16px);
-				margin: 0 0 1%;
-				text-align: left;
+				font-size: rem-calc(17px);
+				margin: rem-calc(5px) 0 0;
 				@extend %font-bold-italic;
 			}
 
 			h2 {
+				color: black;
 				font-family: $HelveticaNeueBdCn;
 				font-size: rem-calc(20px);
-				line-height: rem-calc(20px);
-				margin: 0 0 5%;
+				margin: 0 0 rem-calc(5px);
 				text-transform: uppercase;
 			}
 

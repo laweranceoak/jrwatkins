@@ -25,9 +25,7 @@
 			font-family: $HelveticaNeueBdCn;
 			position: relative;
 			text-transform: uppercase;
-			@include grid-column(
-				$columns:7
-			);
+			@include grid-column(7);
 
 			&:before {
 				background: url('../images/icon-check.svg') no-repeat center left;
@@ -46,10 +44,7 @@
 			display: inline-block;
 			font-family: $HelveticaNeueBdCn;
 			text-transform: uppercase;
-			@include grid-column(
-				$columns:5,
-				$last-column:true
-			);
+			@include grid-column(5);
 
 			&:after {
 				background: url('../images/icon-arrow-right.png') no-repeat center left;

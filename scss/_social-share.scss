@@ -4,8 +4,7 @@
 	article {
 		@include grid-column(
 			$columns:12,
-			$collapse:true,
-			$last-column:true
+			$collapse:true
 			);
 		text-align: center;
 		vertical-align: top;

@@ -4,10 +4,7 @@
 	@extend %spacing;
 
 	.product-info {
-		@include grid-column(
-			$columns:12,
-			$last-column:true
-			);
+		@include grid-column(12);
 
 		> header {
 			@include grid-row();
@@ -142,15 +139,20 @@
 			@extend %spacing;
 			
 			.cta-review {
-				@include grid-column($columns:12,$last-column:true);
-				border: 1px solid #d2d2d2;
-				color: #a8a8a8;
-				display: block;
-				font-size: rem-calc(16px);
-				padding: rem-calc(15px) 0;
-				text-align: center;
-				@extend %font-bold-italic;
-				@include border-radius(5px);
+				@include button(
+				    // Primary color set in settings file. Default: $primary-color.
+				    $bg: white,
+				    // If true, set to button radius which is $global-radius or explicitly set radius amount in px (ex. $radius:10px). Default:false.
+				    $radius: 5px,
+				    // We can set $full-width:true to remove side padding extend width. Default:false
+				    $full-width:true,
+				    // We can set $disabled:true to create a disabled transparent button. Default:false
+				    $disabled:false
+				    );
+				    @extend %font-bold-italic;
+				    border: 1px solid #d2d2d2;
+					color: #a8a8a8;
+				    font-weight: bold !important;
 			}
 		}
 
@@ -253,7 +255,6 @@
 			article {
 				@include grid-column(
 			    $columns:12,
-			    $last-column:true,
 			    $collapse:true
 			    );
 
@@ -277,9 +278,20 @@
 			    	font-size: (17px);
 			    }
 			    select {
-			    	@include grid-column($columns:6,$last-column:true,$collapse:true);
-			    	@include border-radius(5px);
+			    	@include grid-column(6);
+			    	@extend %border-radius;
 			    }
+
+			    select {
+					background-image: url('../images/icon-arrow-down.png');
+					background-size: rem-calc(15px) rem-calc(10px);
+					background-position: 96% center;
+					border-color: $gray-border;
+					color: $dark-gray;
+					font-family: $body-font-family;
+					@extend %font-bold-italic;
+					@extend %border-radius;
+				}
 
 			    .cta-add-to-cart {
 			    	@include button(
@@ -306,7 +318,6 @@
 			article {
 				@include grid-column(
 			    $columns:12,
-			    $last-column:true,
 			    $collapse:true
 			    );
 

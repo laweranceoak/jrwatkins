@@ -4,10 +4,7 @@
 	@extend %spacing;
 
 	& > div {
-		@include grid-column(
-			$columns:12,
-			$last-column:true
-		);
+		@include grid-column(12);
 
 		p {
 			color: $gray;
@@ -28,15 +25,14 @@
 			@include postfix($bg: $red-orange,$is-button: true);
 			@include grid-column(
 			 	$columns:4,
-			 	$last-column:true,
-			 	$float:right
+			 	$last-column:true
 		 	);
 			 border: none;
 		}
 
 		input[type="email"].enter-email {
 			font-style: italic;
-			@include grid-column($columns:8);
+			@include grid-column(8);
 			@include border-radius(5px 0 0 5px);
 		}
 	}

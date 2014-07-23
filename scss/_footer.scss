@@ -8,10 +8,7 @@ footer {
 	& > section {
 		text-align: center;
 		font-size: rem-calc(12px);
-		@include grid-column(
-			$columns:12,
-			$last-column:true
-		);
+		@include grid-column(12);
 
 		p:first-child {
 			
