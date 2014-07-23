@@ -1,0 +1,62 @@
+.related-products {
+	@include grid-row();
+	@extend %spacing;
+
+	article {
+		@include grid-column(
+			$columns:12,
+			$collapse:true,
+			$last-column:true
+			);
+
+		h3 {
+			font-size: rem-calc(18px);
+			@extend %font-bold-italic;
+		}
+
+		ul {
+			@include grid-row();
+			list-style: none;
+
+			> li {
+				@include grid-column(
+					$columns:6,
+					$collapse:true
+					);
+			}
+		}
+		// Related Products
+		.related-item {
+
+			header {
+				margin-bottom: 2%;
+			}
+
+			img {
+				width: 90%;
+				margin: 0 0 5%;
+			}
+
+			h1 {
+				color: $dark-gray;
+				font-size: rem-calc(16px);
+				line-height: rem-calc(16px);
+				margin: 0 0 1%;
+				text-align: left;
+				@extend %font-bold-italic;
+			}
+
+			h2 {
+				font-family: $HelveticaNeueBdCn;
+				font-size: rem-calc(20px);
+				line-height: rem-calc(20px);
+				margin: 0 0 5%;
+				text-transform: uppercase;
+			}
+
+			.ratings {
+				width: 100%;
+			}
+		}
+	}
+}

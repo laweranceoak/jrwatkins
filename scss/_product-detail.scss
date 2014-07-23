@@ -1,0 +1,385 @@
+@import "compass";
+.product-detail {
+	@include grid-row();
+	@extend %spacing;
+
+	.product-info {
+		@include grid-column(
+			$columns:12,
+			$last-column:true
+			);
+
+		> header {
+			@include grid-row();
+			text-align: center;
+
+			img {
+				margin-bottom: 5%;
+			}
+
+			h1 {
+				color: black;
+				font-family: $HelveticaNeueBdCn;
+				font-size: rem-calc(25px);
+				line-height: rem-calc(25px);
+				margin: 0 0 1%;
+				text-align: left;
+				text-transform: uppercase;
+			}
+
+			h2 {
+				color: $dark-gray;
+				font-size: rem-calc(21px);
+				line-height: rem-calc(21px);
+				margin: 0 0 5%;
+				text-align: left;
+				@extend %font-bold-italic;
+			}
+		}
+
+		.ratings {
+			@include grid-column(
+			$columns:6,
+			$collapse:true
+			);
+			cursor: pointer;
+			text-align: left;
+			background-color: transparent;
+			color: $red-orange;
+			font-size: rem-calc(14px);
+			@extend %font-bold-italic;
+		}
+
+		// Accordion Container
+		.reviews-container {
+			position: relative;
+			
+			// Hiding Duplicated "+/-" sign
+			dd {
+
+				> a.accordion-read-review {
+
+					&.duplicate {
+
+						&:after {
+							display: none;
+						}
+					}
+				}
+
+				// Changing the contents of the "+/-" sign and showing the duplicated one
+				&.active {
+
+					> a.accordion-read-review {
+
+						&:after {
+							content: "-";
+						}
+
+						&.duplicate {
+
+							&:after {
+								display: block;
+							}
+						}
+					}	
+				}
+			} 
+		}
+
+		// Accordion Navigation
+		.accordion-read-review {
+			background-color: transparent;
+			color: $red-orange;
+			font-size: rem-calc(14px);
+			text-align: left;
+			@extend %font-bold-italic;
+			@include grid-column(
+				$columns:6,
+				$collapse:true,
+				$last-column:true
+				);
+
+			&:after {
+				background-color: white;
+				border: 1px solid $gray-border;
+				content: "+";
+				display: inline-block;
+				font-size: rem-calc(20px);
+				line-height: rem-calc(16px);
+				height: 20px;
+				margin-left: rem-calc(15px);
+				text-align: center;
+				vertical-align: top;
+				width: 20px;
+				@include border-radius(50%);
+			}
+
+			&.expanded {
+
+				&:after {
+					content: "-";
+				}
+			}
+
+			&.duplicate {
+				bottom: 10px;
+				// display: none;
+				position: absolute;
+				right: 10px;
+				width: auto;
+
+				&:after {
+					margin: 0;
+				}
+			}
+
+		}
+
+		//Product Detail - Review CTA
+		.cta-review-section {
+			@include grid-row();
+			@extend %spacing;
+			
+			.cta-review {
+				@include grid-column($columns:12,$last-column:true);
+				border: 1px solid #d2d2d2;
+				color: #a8a8a8;
+				display: block;
+				font-size: rem-calc(16px);
+				padding: rem-calc(15px) 0;
+				text-align: center;
+				@extend %font-bold-italic;
+				@include border-radius(5px);
+			}
+		}
+
+		// Review Section
+		.product-reviews {
+			@include grid-row($behavior: nest);
+			border-bottom: 1px solid #e2e0e0;
+			text-align: left;
+
+			// Review List
+			.rating-review-list {
+				@include grid-column($columns:12, $collapse:true);
+				@extend %no-padding;
+				list-style: none;
+			}
+
+			.item {
+				@include grid-column($columns:12, $collapse:true);
+			}
+
+			// Review
+			.review {
+				header {
+					@extend %spacing;
+					margin: 0;
+				}
+
+				h3 {
+					font-size: rem-calc(14px);
+					@extend %font-bold-italic;
+					margin: 0;
+				}
+
+				.review-ratings {
+					color: $red-orange;
+					font-size: rem-calc(14px);
+					margin-bottom: 5%;
+					@extend %font-bold-italic;
+				}
+
+				// Filter of Product
+				.filter {
+					display: block;
+					font-size: rem-calc(11px);
+					line-height: normal;
+					margin: 0;
+					padding: 0;
+
+					dt {
+						font-weight: normal;
+
+						&:before {
+							content: "|";
+							display: inline-block;
+							margin-right: rem-calc(5px);
+						}
+
+						&:first-child:before {
+							content: "";
+							margin-right: 0;
+						}
+					}
+					dt, dd  {
+						display: inline-block;
+					}
+				}
+
+				p {
+					font-size: rem-calc(13px);
+				}
+
+				.reviewed-by {
+					font-size: rem-calc(11px);
+					line-height: normal;
+					@extend %no-padding;
+
+					dt, dd {
+						display: inline-block;
+						font-weight: normal;
+					}
+					.review-name {
+						color: $red-orange;
+						font-weight: bold;
+					}
+					dt ~ dt {
+						display: none;
+						visibility: hidden;
+					}
+				}
+
+			}
+		}
+
+
+		// Product Description
+		.product-description {
+			@include grid-row();
+			@extend %spacing;
+
+			article {
+				@include grid-column(
+			    $columns:12,
+			    $last-column:true,
+			    $collapse:true
+			    );
+
+			    h3 {
+			    	@extend %font-bold-italic;
+			    	font-size: rem-calc(18px);
+			    }
+
+			    p {
+					font-size: rem-calc(14px);
+			    }
+
+			    .product-size {
+			    	font-size: rem-calc(11px);
+			    }
+
+			    label {
+			    	@include grid-column($columns:6,$collapse:true);
+			    	@extend %font-bold-italic;
+			    	font-weight: normal;
+			    	font-size: (17px);
+			    }
+			    select {
+			    	@include grid-column($columns:6,$last-column:true,$collapse:true);
+			    	@include border-radius(5px);
+			    }
+
+			    .cta-add-to-cart {
+			    	@include button(
+				    // Primary color set in settings file. Default: $primary-color.
+				    $bg: $red-orange,
+				    // If true, set to button radius which is $global-radius or explicitly set radius amount in px (ex. $radius:10px). Default:false.
+				    $radius: 5px,
+				    // We can set $full-width:true to remove side padding extend width. Default:false
+				    $full-width:true,
+				    // We can set $disabled:true to create a disabled transparent button. Default:false
+				    $disabled:false
+				    );
+				    @extend %font-bold-italic;
+				    font-weight: bold !important;
+			    }
+			}
+		}
+
+		// Learn More
+		.learn-more {
+			@include grid-row();
+			@extend %spacing;
+
+			article {
+				@include grid-column(
+			    $columns:12,
+			    $last-column:true,
+			    $collapse:true
+			    );
+
+				h3 {
+					@extend %font-bold-italic;
+			    	font-size: rem-calc(18px);
+				}
+
+
+				.prod-desc-accordion {
+					position: relative;
+					@include grid-row($behavior: nest);
+
+					dd.active > a {
+
+						&:after {
+							content: "-";
+						}
+					}
+
+
+
+					a {
+						background-color: transparent;
+						border-top: 1px solid rgba(black, 0.2);
+						font-size: rem-calc(14px);
+						font-style: italic;
+						padding: rem-calc(5px) rem-calc(15px);
+						text-align: left;
+
+						&:after {
+							background-color: white;
+							border: 1px solid $gray-border;
+							color: $red-orange;
+							content: "+";
+							display: inline-block;
+							float: right;
+							font-size: rem-calc(20px);
+							line-height: rem-calc(16px);
+							height: 20px;
+							text-align: center;
+							vertical-align: top;
+							width: 20px;
+							@include border-radius(50%);
+						}
+					}
+
+					dd:last-child {
+
+						a {
+							border-bottom: 1px solid rgba(black, 0.2);
+						}
+					}
+
+				}
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

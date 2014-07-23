@@ -12,6 +12,18 @@ footer {
 			$columns:12,
 			$last-column:true
 		);
+
+		p:first-child {
+			
+			&:after {
+				content: "";
+				background: url('../images/footer-separator.png') no-repeat center center;
+				background-size: 85% 85%;
+				display: block;
+				height: 5px;
+				margin-top:  rem-calc(10px);
+			}
+		}
 	}
 
 	.footer-nav {

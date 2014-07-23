@@ -1,0 +1,60 @@
+.share-social {
+	@include grid-row();
+
+	article {
+		@include grid-column(
+			$columns:12,
+			$collapse:true,
+			$last-column:true
+			);
+		text-align: center;
+		vertical-align: top;
+
+		h3 {
+			display: inline-block;
+			font-size: rem-calc(14px);
+			line-height: rem-calc(14px);
+			margin: 0;
+			text-transform: uppercase;
+			vertical-align: middle;
+
+		}
+
+		ul {
+			display: inline-block;
+			list-style: none;
+			vertical-align: middle;
+			margin: 0 0 0 rem-calc(10px);
+
+			li {
+				display: inline-block;
+				
+
+				a {
+					@extend %hide-text;
+					display: block;
+					height: rem-calc(23px);
+					width: rem-calc(23px);
+				}
+
+				// Facebook
+				&:nth-child(1) {
+					a { background: url('../images/logo-social.png') no-repeat 0 -1px; }
+				}
+				// Twitter
+				&:nth-child(2) {
+					a { background: url('../images/logo-social.png') no-repeat -26px -1px; }
+				}
+				// Pinterest
+				&:nth-child(3) {
+					a { 
+						background: url('../images/logo-social.png') no-repeat -52px -1px; }
+				}
+				// Tumblr
+				&:nth-child(4) {
+					a { background: url('../images/logo-social.png') no-repeat -78px -1px; }
+				}
+			}
+		}
+	}
+}
