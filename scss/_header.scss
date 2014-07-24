@@ -30,7 +30,7 @@ header {
 		vertical-align: top;
 		width: rem-calc(25px);
 	}
-	.shopping-calc {
+	.shopping-calc, .shopping-calc-single {
 		background-color: $red-orange;
 		display: inline-block;
 		height: rem-calc(25px);
@@ -39,8 +39,8 @@ header {
 		line-height: rem-calc(22px);
 		margin-top: rem-calc(17px);
 		margin-right: rem-calc(-2px);
-		padding-right: 4px;
-		padding-top: 1px;
+		padding-right: rem-calc(4px);
+		padding-top: rem-calc(2px);
 		text-align: right;
 		vertical-align: top;
 		width: rem-calc(25px);
@@ -51,6 +51,10 @@ header {
 			text-decoration: none;
 		}
 	}
+	.shopping-calc-single {
+		padding-right: rem-calc(8px);
+	}
+
 	#icon-cart {
 		cursor: pointer;
 		height: auto;
@@ -90,7 +94,7 @@ header {
 					&:last-child {
 
 						a {
-							padding-bottom: 0.5rem;
+							padding-bottom: rem-calc(8px);
 						}
 					}
 				}

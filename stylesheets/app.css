@@ -1577,8 +1577,9 @@ html, body { min-width: 0 !important; }
 .jrw-resp header .tab-bar { background: url("../images/main_nav_header_bg.png") repeat-x center left; position: relative; z-index: 1000; -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0 2px 2px 0; -moz-box-shadow: rgba(0, 0, 0, 0.5) 0 2px 2px 0; box-shadow: rgba(0, 0, 0, 0.5) 0 2px 2px 0; }
 @media only screen { .jrw-resp header .tab-bar-section { text-align: center; } }
 .jrw-resp header #icon-search { cursor: pointer; height: auto; float: left; margin-right: -1.5625rem; padding-top: 1.0625rem; vertical-align: top; width: 1.5625rem; }
-.jrw-resp header .shopping-calc { background-color: #ac3c1b; display: inline-block; height: 1.5625rem; font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; font-size: 1.0625rem; line-height: 1.375rem; margin-top: 1.0625rem; margin-right: -0.125rem; padding-right: 4px; padding-top: 1px; text-align: right; vertical-align: top; width: 1.5625rem; -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; border-radius: 50%; }
-.jrw-resp header .shopping-calc a { color: white; text-decoration: none; }
+.jrw-resp header .shopping-calc, .jrw-resp header .shopping-calc-single { background-color: #ac3c1b; display: inline-block; height: 1.5625rem; font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; font-size: 1.0625rem; line-height: 1.375rem; margin-top: 1.0625rem; margin-right: -0.125rem; padding-right: 0.25rem; padding-top: 0.125rem; text-align: right; vertical-align: top; width: 1.5625rem; -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; border-radius: 50%; }
+.jrw-resp header .shopping-calc a, .jrw-resp header .shopping-calc-single a { color: white; text-decoration: none; }
+.jrw-resp header .shopping-calc-single { padding-right: 0.5rem; }
 .jrw-resp header #icon-cart { cursor: pointer; height: auto; padding-top: 1.1875rem; vertical-align: top; width: 1.875rem; }
 .jrw-resp header .jrw-logo { background: url(../images/logo-jrw.png) no-repeat center center; background-size: 7.5rem auto; display: inline-block; width: 130px; }
 .jrw-resp header .left-off-canvas-menu li { font-style: italic; }
