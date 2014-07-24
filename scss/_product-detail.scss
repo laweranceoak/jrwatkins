@@ -159,7 +159,7 @@
 		// Review Section
 		.product-reviews {
 			@include grid-row($behavior: nest);
-			border-bottom: 1px solid #e2e0e0;
+			border-bottom: 1px solid $hr-gray;
 			text-align: left;
 
 			// Review List
@@ -342,7 +342,7 @@
 
 					a {
 						background-color: transparent;
-						border-top: 1px solid rgba(black, 0.2);
+						border-top: 1px solid $hr-gray;
 						font-size: rem-calc(14px);
 						font-style: italic;
 						padding: rem-calc(5px) rem-calc(15px);
@@ -368,7 +368,7 @@
 					dd:last-child {
 
 						a {
-							border-bottom: 1px solid rgba(black, 0.2);
+							border-bottom: 1px solid $hr-gray;
 						}
 					}
 
