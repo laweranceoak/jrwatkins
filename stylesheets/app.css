@@ -2,6 +2,8 @@
 
 .clarendon-bold { font-family: "Clarendon W01 Bold 927496", Georgia, "Times New Roman", Times, serif; font-style: normal; font-weight: normal; }
 
+.jrw-resp .body-nav nav ul li a { font-family: "HelveticaNeueW01-77BdCn 692722", "HelveticaNeue-CondensedBold", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; font-style: normal; font-weight: normal; text-transform: uppercase; }
+
 .jrw-resp .added-cart, .jrw-resp .body-nav, .jrw-resp .subscribe, .jrw-resp footer, .jrw-resp .related-products, .jrw-resp .product-header, .jrw-resp .product-filter, .jrw-resp .category-list, .jrw-resp .product-detail, .jrw-resp .product-detail .product-info .cta-review-section, .jrw-resp .product-detail .product-info .product-reviews .review header, .jrw-resp .product-detail .product-info .product-description, .jrw-resp .product-detail .product-info .learn-more { padding: 1.25rem 0; }
 
 .jrw-resp .login-container .login, .jrw-resp .login-container .logged-in, .jrw-resp .login-container .language, .jrw-resp .login-container .login li:last-child a, .jrw-resp .login-container .logged-in li:last-child a, .jrw-resp .login-container .language li:last-child a, .jrw-resp .product-detail .product-info .product-reviews .rating-review-list, .jrw-resp .product-detail .product-info .product-reviews .review .reviewed-by { margin: 0; padding: 0; }
@@ -1643,7 +1645,7 @@ html, body { min-width: 0 !important; }
 .jrw-resp .body-nav nav ul { list-style: none; text-align: center; margin: 0; }
 .jrw-resp .body-nav nav ul li { border-bottom: 1px solid #d9d8d8; font-size: 1.625rem; line-height: 1.625rem; text-transform: uppercase; }
 .jrw-resp .body-nav nav ul li:first-child { border-top: 1px solid #d9d8d8; }
-.jrw-resp .body-nav nav ul li a { color: black; display: block; font-family: "HelveticaNeueW01-77BdCn 692722", "HelveticaNeue-CondensedBold", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; font-weight: normal; padding: 0.9375rem; }
+.jrw-resp .body-nav nav ul li a { color: black; display: block; padding: 0.9375rem; }
 .jrw-resp .subscribe { width: 100%; margin-left: auto; margin-right: auto; margin-top: 0; margin-bottom: 0; max-width: 62.5rem; }
 .jrw-resp .subscribe:before, .jrw-resp .subscribe:after { content: " "; display: table; }
 .jrw-resp .subscribe:after { clear: both; }

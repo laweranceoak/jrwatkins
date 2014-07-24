@@ -26,6 +26,9 @@ $HelveticaNeue: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 $HelveticaNeueBdCn: "HelveticaNeueW01-77BdCn 692722", "HelveticaNeue-CondensedBold", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 $Clarendon: "Clarendon W01 Bold 927496", Georgia, "Times New Roman", Times, serif;
 
+
+
+
 .helvetica-neue-77-bold-condensed { font-family: $HelveticaNeueBdCn; font-style: normal; font-weight: normal; text-transform: uppercase; }
 .clarendon-bold { font-family: $Clarendon; font-style: normal; font-weight: normal; }
 
@@ -33,6 +36,13 @@ $Clarendon: "Clarendon W01 Bold 927496", Georgia, "Times New Roman", Times, seri
 
 
 // 4. Mixins/Extend/Function
+%helvetica-neue-77-bold-condensed { 
+	font-family: "HelveticaNeueW01-77BdCn 692722", "HelveticaNeue-CondensedBold", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-style: normal; 
+	font-weight: normal; 
+	text-transform: uppercase;
+}
+
 %spacing {
 	padding: 1.25rem 0;
 }
