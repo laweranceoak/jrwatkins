@@ -6,8 +6,7 @@
 		@include grid-column(12);
 
 		h1 {
-			font-family: $HelveticaNeueBdCn;
-			text-transform: uppercase;
+			@extend %helvetica-neue-77-bold-condensed;
 		}
 
 		p {
@@ -74,10 +73,9 @@
 
 			.product-name {
 				color: black;
-				font-family: $HelveticaNeueBdCn;
+				@extend %helvetica-neue-77-bold-condensed;
 				font-size: rem-calc(20px);
 				margin: 0 0 rem-calc(5px);
-				text-transform: uppercase;
 			}
 
 			.ratings {
