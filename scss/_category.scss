@@ -147,14 +147,7 @@
 				// Required for text-overflow to do anything
 				white-space: nowrap;
 				overflow: hidden;
-
-				select {
-				    width:80%; 
-				    overflow:hidden; 
-				    white-space:nowrap; 
-				    text-overflow:ellipsis;
-				    @include appearance(none);
-				}
+				@include appearance(none);
 			}
 		}
 	}
