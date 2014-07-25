@@ -135,7 +135,9 @@
 				background-color: white;
 				border-color: $gray-border;
 				color: $dark-gray;
-				font: italic rem-calc(12px)/rem-calc(12) $body-font-family;
+				font: italic $body-font-family;
+				font-size: rem-calc(12px);
+				line-height: rem-calc(12);
 				@extend %border-radius;
 			}
 		}

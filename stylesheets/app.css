@@ -1716,7 +1716,7 @@ html, body { min-width: 0 !important; }
 .jrw-resp .category-list ul .product-column .cta-add-to-cart:after { content: "Add to Cart"; display: block; }
 .jrw-resp .category-list ul .product-column .cta-add-to-cart.added { background-color: #e6e6e6; }
 .jrw-resp .category-list ul .product-column .cta-add-to-cart.added:after { content: "Added"; }
-.jrw-resp .category-list ul .product-column .product-variant-filter { background-image: url("../images/icon-arrow-down.png"); background-size: 0.9375rem 0.625rem; background-position: 96% center; background-color: white; border-color: #dad7d7; color: #606060; font: italic 1 Georgia, "Times New Roman", Times, serif; }
+.jrw-resp .category-list ul .product-column .product-variant-filter { background-image: url("../images/icon-arrow-down.png"); background-size: 0.9375rem 0.625rem; background-position: 96% center; background-color: white; border-color: #dad7d7; color: #606060; font: italic Georgia, "Times New Roman", Times, serif; font-size: 0.75rem; line-height: 0.75rem; }
 .jrw-resp .product-variant { display: none; }
 .jrw-resp .product-variant.active { display: initial; }
 .jrw-resp .product-detail { width: 100%; margin-left: auto; margin-right: auto; margin-top: 0; margin-bottom: 0; max-width: 62.5rem; }
