@@ -82,7 +82,7 @@
 				}
 			}
 
-			.review-link {
+			.rating-review-container {
 				margin: 0 0 rem-calc(5px);
 
 				a {
@@ -132,16 +132,16 @@
 				background-image: url('../images/icon-arrow-down.png');
 				background-size: rem-calc(15px) rem-calc(10px);
 				background-position: 96% center;
+				background-color: white;
 				border-color: $gray-border;
 				color: $dark-gray;
-				font-family: $body-font-family;
-				@extend %font-bold-italic;
+				font: rem-calc(12px)/rem-calc(12) $body-font-family;
 				@extend %border-radius;
 			}
 		}
 	}
 }
-
+// Kurt Need this to function
 .product-variant {
 	display: none;
 
