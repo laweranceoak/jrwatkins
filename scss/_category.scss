@@ -76,9 +76,13 @@
 				@extend %helvetica-neue-77-bold-condensed;
 				font-size: rem-calc(20px);
 				margin: 0 0 rem-calc(5px);
+
+				a {
+					color: inherit;
+				}
 			}
 
-			.ratings {
+			.review-link {
 				margin: 0 0 rem-calc(5px);
 
 				a {
@@ -86,6 +90,8 @@
 					@extend %font-bold-italic;
 				}
 			}
+
+
 
 			.cta-add-to-cart {
 				@include button(
@@ -121,6 +127,34 @@
 					}
 				}
 			}
+
+			.product-variant-filter {
+				background-image: url('../images/icon-arrow-down.png');
+				background-size: rem-calc(15px) rem-calc(10px);
+				background-position: 96% center;
+				border-color: $gray-border;
+				color: $dark-gray;
+				font-family: $body-font-family;
+				@extend %font-bold-italic;
+				@extend %border-radius;
+			}
 		}
 	}
 }
+
+.product-variant {
+	display: none;
+
+	&.active {
+		display: initial;
+	}
+}
+
+
+
+
+
+
+
+
+

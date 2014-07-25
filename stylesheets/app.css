@@ -6,9 +6,9 @@
 
 .jrw-resp header .jrw-logo, .jrw-resp .login-container .language li a, .jrw-resp .share-social article ul li a { text-indent: 100%; white-space: nowrap; overflow: hidden; }
 
-.jrw-resp .product-filter select, .jrw-resp .category-list ul .product-column .cta-add-to-cart, .jrw-resp .product-detail .product-info .product-description article select { -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px; }
+.jrw-resp .product-filter select, .jrw-resp .category-list ul .product-column .cta-add-to-cart, .jrw-resp .category-list ul .product-column .product-variant-filter, .jrw-resp .product-detail .product-info .product-description article select { -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px; }
 
-.jrw-resp .related-products article h3, .jrw-resp .related-products article .related-item h1, .jrw-resp .product-filter select, .jrw-resp .category-list ul .product-column .product-price, .jrw-resp .category-list ul .product-column .ratings a, .jrw-resp .category-list ul .product-column .cta-add-to-cart, .jrw-resp .product-detail .product-info > header h2, .jrw-resp .product-detail .product-info .ratings, .jrw-resp .product-detail .product-info .accordion-read-review, .jrw-resp .product-detail .product-info .cta-review-section .cta-review, .jrw-resp .product-detail .product-info .product-reviews .review h3, .jrw-resp .product-detail .product-info .product-reviews .review .review-ratings, .jrw-resp .product-detail .product-info .product-description article h3, .jrw-resp .product-detail .product-info .product-description article label, .jrw-resp .product-detail .product-info .product-description article select, .jrw-resp .product-detail .product-info .product-description article .cta-add-to-cart, .jrw-resp .product-detail .product-info .learn-more article h3 { font-style: italic; font-weight: bold; }
+.jrw-resp .related-products article h3, .jrw-resp .related-products article .related-item h1, .jrw-resp .product-filter select, .jrw-resp .category-list ul .product-column .product-price, .jrw-resp .category-list ul .product-column .review-link a, .jrw-resp .category-list ul .product-column .cta-add-to-cart, .jrw-resp .category-list ul .product-column .product-variant-filter, .jrw-resp .product-detail .product-info > header h2, .jrw-resp .product-detail .product-info .ratings, .jrw-resp .product-detail .product-info .accordion-read-review, .jrw-resp .product-detail .product-info .cta-review-section .cta-review, .jrw-resp .product-detail .product-info .product-reviews .review h3, .jrw-resp .product-detail .product-info .product-reviews .review .review-ratings, .jrw-resp .product-detail .product-info .product-description article h3, .jrw-resp .product-detail .product-info .product-description article label, .jrw-resp .product-detail .product-info .product-description article select, .jrw-resp .product-detail .product-info .product-description article .cta-add-to-cart, .jrw-resp .product-detail .product-info .learn-more article h3 { font-style: italic; font-weight: bold; }
 
 meta.foundation-version { font-family: "/5.2.3/"; }
 
@@ -1707,14 +1707,18 @@ html, body { min-width: 0 !important; }
 .jrw-resp .category-list ul .product-column .product header { margin: 0 0 5%; }
 .jrw-resp .category-list ul .product-column .product-price { color: #606060; font-size: 1.0625rem; margin: 0.3125rem 0 0; }
 .jrw-resp .category-list ul .product-column .product-name { color: black; font-size: 1.25rem; margin: 0 0 0.3125rem; }
-.jrw-resp .category-list ul .product-column .ratings { margin: 0 0 0.3125rem; }
-.jrw-resp .category-list ul .product-column .ratings a { font-size: 0.8125rem; }
+.jrw-resp .category-list ul .product-column .product-name a { color: inherit; }
+.jrw-resp .category-list ul .product-column .review-link { margin: 0 0 0.3125rem; }
+.jrw-resp .category-list ul .product-column .review-link a { font-size: 0.8125rem; }
 .jrw-resp .category-list ul .product-column .cta-add-to-cart { border-style: solid; border-width: 0px; cursor: pointer; font-family: Georgia, "Times New Roman", Times, serif; font-weight: normal; line-height: normal; margin: 0 0 1.25rem; position: relative; text-decoration: none; text-align: center; -webkit-appearance: none; -webkit-border-radius: 0; display: inline-block; padding-top: 1rem; padding-right: 2rem; padding-bottom: 1.0625rem; padding-left: 2rem; font-size: 1rem; padding-top: 1rem; padding-bottom: 1.0625rem; padding-right: 0; padding-left: 0; width: 100%; background-color: white; border-color: #cccccc; color: #333333; border-radius: 5px; border: 1px solid #dad7d7; color: #ac3c1b; display: block; font-size: 1rem; padding: 0.625rem 0; position: relative; font-weight: bold; }
 .jrw-resp .category-list ul .product-column .cta-add-to-cart:hover, .jrw-resp .category-list ul .product-column .cta-add-to-cart:focus { background-color: #cccccc; }
 .jrw-resp .category-list ul .product-column .cta-add-to-cart:hover, .jrw-resp .category-list ul .product-column .cta-add-to-cart:focus { color: #333333; }
 .jrw-resp .category-list ul .product-column .cta-add-to-cart:after { content: "Add to Cart"; display: block; }
 .jrw-resp .category-list ul .product-column .cta-add-to-cart.added { background-color: #e6e6e6; }
 .jrw-resp .category-list ul .product-column .cta-add-to-cart.added:after { content: "Added"; }
+.jrw-resp .category-list ul .product-column .product-variant-filter { background-image: url("../images/icon-arrow-down.png"); background-size: 0.9375rem 0.625rem; background-position: 96% center; border-color: #dad7d7; color: #606060; font-family: Georgia, "Times New Roman", Times, serif; }
+.jrw-resp .product-variant { display: none; }
+.jrw-resp .product-variant.active { display: initial; }
 .jrw-resp .product-detail { width: 100%; margin-left: auto; margin-right: auto; margin-top: 0; margin-bottom: 0; max-width: 62.5rem; }
 .jrw-resp .product-detail:before, .jrw-resp .product-detail:after { content: " "; display: table; }
 .jrw-resp .product-detail:after { clear: both; }
