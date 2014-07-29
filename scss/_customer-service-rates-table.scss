@@ -1,0 +1,28 @@
+.rates-table {
+	margin-bottom: rem-calc(30px);
+
+	& > ul {
+		list-style: none;
+		@include grid-row($behavior: nest);
+
+		& > li {
+			@include grid-column(6);
+
+			&:last-child {
+				text-align: right;
+			}
+
+			ul {
+				@extend %no-padding;
+			}
+
+			li {
+				display: block;
+			}
+		}
+
+		span {
+			text-transform: uppercase;
+		}
+	}
+}

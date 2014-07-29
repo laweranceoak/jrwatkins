@@ -1,0 +1,19 @@
+.contact-us {
+
+	form {
+		margin-bottom: rem-calc(35px);
+	}
+
+	.contact-us-footer {
+		h5 {
+			&:first-child {
+				margin: 0 0 rem-calc(26px);
+			}
+
+			a {
+				display: inline-block;
+				width: auto;
+			}
+		}
+	}
+}

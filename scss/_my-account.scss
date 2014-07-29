@@ -1,0 +1,33 @@
+.my-account {
+	@extend %internal-page-structure;
+	font-family: $body-font-family;
+	font-size: rem-calc(14px);
+
+	h3 {
+		margin-bottom: rem-calc(10px);
+	}
+
+	ul {
+		line-height: rem-calc(14px);
+		list-style: none;
+		@extend %no-padding;
+
+		li {
+			font-style: italic;
+			margin-bottom: rem-calc(10px);
+
+			&:last-child {
+				margin-bottom: 0;
+			}
+
+			&.edit {
+				margin-top: rem-calc(23px);
+			}
+
+			span {
+				font-style: normal;
+				font-weight: bold;
+			}
+		}
+	}
+}
