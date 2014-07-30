@@ -43,19 +43,34 @@
 
 	ul {
 		list-style: none;
-		@include grid-row();
+		// @include grid-row();
+		
+		@media #{$small-only} {
+			@include block-grid(2);
+			padding: 0 rem-calc(15px);
+		}
+
+		@media #{$medium-up} {
+			@include block-grid(3);
+			padding: 0 rem-calc(15px);
+		}
+		
+
 
 		.product-column {
-			@media #{$small-only} {
-				@include grid-column(6);
-			}
-
-			@media #{$medium-up} {
-				@include grid-column(3);
-			}
-
-			
 			margin: 0 0 10%;
+
+			&:last-child {
+				float: left;
+			}
+
+			// @media #{$small-only} {
+			// 	@include grid-column(6);
+			// }
+
+			// @media #{$medium-up} {
+			// 	@include grid-column(3);
+			// }			
 			
 			.product {
 

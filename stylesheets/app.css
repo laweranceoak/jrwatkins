@@ -276,30 +276,30 @@ select { width: 100%; }
   .pull-10 { position: relative; right: 83.33333%; left: auto; }
   .push-11 { position: relative; left: 91.66667%; right: auto; }
   .pull-11 { position: relative; right: 91.66667%; left: auto; } }
-.jrw-resp .customer-service h1, .jrw-resp .my-account h1, .jrw-resp .customer-service h3, .jrw-resp .my-account h3, .jrw-resp header .left-off-canvas-menu li label, .jrw-resp .added-cart > div p, .jrw-resp .added-cart > div a, .jrw-resp .body-nav nav ul li a, .jrw-resp .related-products article .related-item h2, .jrw-resp .product-header > div h1, .jrw-resp .category-list ul .product-column .product-name, .jrw-resp .product-detail .product-info > header h1 { font-family: "HelveticaNeueW01-77BdCn 692722", "HelveticaNeue-CondensedBold", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; font-style: normal; font-weight: normal; text-transform: uppercase; }
+.jrw-resp .customer-service h1, .jrw-resp .my-account h1, .jrw-resp .my-account-edit-page h1, .jrw-resp .customer-service h3, .jrw-resp .my-account h3, .jrw-resp .my-account-edit-page h3, .jrw-resp header .left-off-canvas-menu li label, .jrw-resp .added-cart > div p, .jrw-resp .added-cart > div a, .jrw-resp .body-nav nav ul li a, .jrw-resp .related-products article .related-item h2, .jrw-resp .product-header > div h1, .jrw-resp .category-list ul .product-column .product-name, .jrw-resp .product-detail .product-info > header h1 { font-family: "HelveticaNeueW01-77BdCn 692722", "HelveticaNeue-CondensedBold", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; font-style: normal; font-weight: normal; text-transform: uppercase; }
 
 .jrw-resp .added-cart, .jrw-resp .body-nav, .jrw-resp .subscribe, .jrw-resp footer, .jrw-resp .related-products, .jrw-resp .product-header, .jrw-resp .product-filter, .jrw-resp .category-list, .jrw-resp .product-detail, .jrw-resp .product-detail .product-info .cta-review-section, .jrw-resp .product-detail .product-info .product-reviews .review header, .jrw-resp .product-detail .product-info .product-description, .jrw-resp .product-detail .product-info .learn-more { padding: 1.25rem 0; }
 
-.jrw-resp .customer-service h1, .jrw-resp .my-account h1, .jrw-resp .customer-service h2, .jrw-resp .my-account h2, .jrw-resp .customer-service h3, .jrw-resp .my-account h3, .jrw-resp .customer-service h4, .jrw-resp .my-account h4, .jrw-resp .customer-service h5, .jrw-resp .my-account h5, .jrw-resp .customer-service h6, .jrw-resp .my-account h6, .jrw-resp header .left-off-canvas-menu li, .jrw-resp header .left-off-canvas-menu li ul, .jrw-resp header .left-off-canvas-menu li ul li, .jrw-resp header .left-off-canvas-menu li label, .jrw-resp .login-container .login, .jrw-resp .login-container .logged-in, .jrw-resp .login-container .language, .jrw-resp .login-container .login li:last-child a, .jrw-resp .login-container .logged-in li:last-child a, .jrw-resp .login-container .language li:last-child a, .jrw-resp .rates-table > ul > li ul, .jrw-resp .my-account ul, .jrw-resp .product-detail .product-info .product-reviews .rating-review-list, .jrw-resp .product-detail .product-info .product-reviews .review .reviewed-by { margin: 0; padding: 0; }
+.jrw-resp .customer-service h1, .jrw-resp .my-account h1, .jrw-resp .my-account-edit-page h1, .jrw-resp .customer-service h2, .jrw-resp .my-account h2, .jrw-resp .my-account-edit-page h2, .jrw-resp .customer-service h3, .jrw-resp .my-account h3, .jrw-resp .my-account-edit-page h3, .jrw-resp .customer-service h4, .jrw-resp .my-account h4, .jrw-resp .my-account-edit-page h4, .jrw-resp .customer-service h5, .jrw-resp .my-account h5, .jrw-resp .my-account-edit-page h5, .jrw-resp .customer-service h6, .jrw-resp .my-account h6, .jrw-resp .my-account-edit-page h6, .jrw-resp header .left-off-canvas-menu li, .jrw-resp header .left-off-canvas-menu li ul, .jrw-resp header .left-off-canvas-menu li ul li, .jrw-resp header .left-off-canvas-menu li label, .jrw-resp .login-container .login, .jrw-resp .login-container .logged-in, .jrw-resp .login-container .language, .jrw-resp .login-container .login li:last-child a, .jrw-resp .login-container .logged-in li:last-child a, .jrw-resp .login-container .language li:last-child a, .jrw-resp .rates-table > ul > li ul, .jrw-resp .my-account ul, .jrw-resp .product-detail .product-info .product-reviews .rating-review-list, .jrw-resp .product-detail .product-info .product-reviews .review .reviewed-by { margin: 0; padding: 0; }
 
 .jrw-resp header .jrw-logo, .jrw-resp .login-container .language li a, .jrw-resp .share-social article ul li a { text-indent: 100%; white-space: nowrap; overflow: hidden; }
 
-.jrw-resp .customer-service input, .jrw-resp .my-account input, .jrw-resp .customer-service textarea, .jrw-resp .my-account textarea, .jrw-resp .product-filter select, .jrw-resp .category-list ul .product-column .cta-add-to-cart, .jrw-resp .category-list ul .product-column .product-variant-filter, .jrw-resp .product-detail .product-info .product-description article select { -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px; }
+.jrw-resp .customer-service input, .jrw-resp .my-account input, .jrw-resp .my-account-edit-page input, .jrw-resp .customer-service textarea, .jrw-resp .my-account textarea, .jrw-resp .my-account-edit-page textarea, .jrw-resp .product-filter select, .jrw-resp .category-list ul .product-column .cta-add-to-cart, .jrw-resp .category-list ul .product-column .product-variant-filter, .jrw-resp .product-detail .product-info .product-description article select { -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px; }
 
-.jrw-resp .customer-service h5, .jrw-resp .my-account h5, .jrw-resp .related-products article h3, .jrw-resp .related-products article .related-item h1, .jrw-resp .product-filter select, .jrw-resp .category-list ul .product-column .product-price, .jrw-resp .category-list ul .product-column .rating-review-container a, .jrw-resp .category-list ul .product-column .cta-add-to-cart, .jrw-resp .product-detail .product-info > header h2, .jrw-resp .product-detail .product-info .ratings, .jrw-resp .product-detail .product-info .accordion-read-review, .jrw-resp .product-detail .product-info .cta-review-section .cta-review, .jrw-resp .product-detail .product-info .product-reviews .review h3, .jrw-resp .product-detail .product-info .product-reviews .review .review-ratings, .jrw-resp .product-detail .product-info .product-description article h3, .jrw-resp .product-detail .product-info .product-description article label, .jrw-resp .product-detail .product-info .product-description article select, .jrw-resp .product-detail .product-info .product-description article .cta-add-to-cart, .jrw-resp .product-detail .product-info .learn-more article h3 { font-style: italic; font-weight: bold; }
+.jrw-resp .customer-service h5, .jrw-resp .my-account h5, .jrw-resp .my-account-edit-page h5, .jrw-resp .related-products article h3, .jrw-resp .related-products article .related-item h1, .jrw-resp .product-filter select, .jrw-resp .category-list ul .product-column .product-price, .jrw-resp .category-list ul .product-column .rating-review-container a, .jrw-resp .category-list ul .product-column .cta-add-to-cart, .jrw-resp .product-detail .product-info > header h2, .jrw-resp .product-detail .product-info .ratings, .jrw-resp .product-detail .product-info .accordion-read-review, .jrw-resp .product-detail .product-info .cta-review-section .cta-review, .jrw-resp .product-detail .product-info .product-reviews .review h3, .jrw-resp .product-detail .product-info .product-reviews .review .review-ratings, .jrw-resp .product-detail .product-info .product-description article h3, .jrw-resp .product-detail .product-info .product-description article label, .jrw-resp .product-detail .product-info .product-description article select, .jrw-resp .product-detail .product-info .product-description article .cta-add-to-cart, .jrw-resp .product-detail .product-info .learn-more article h3 { font-style: italic; font-weight: bold; }
 
-.jrw-resp .customer-service, .jrw-resp .my-account { padding-left: 0; padding-right: 0; width: 100%; float: left; padding: 0.75rem 0; }
-.jrw-resp .customer-service > section, .jrw-resp .my-account > section { width: 100%; margin-left: auto; margin-right: auto; margin-top: 0; margin-bottom: 0; max-width: 62.5rem; overflow: hidden; *zoom: 1; border-bottom: 1px solid #d9d8d8; margin-bottom: 1.25rem; padding-bottom: 1.25rem; }
-.jrw-resp .customer-service > section:last-child, .jrw-resp .my-account > section:last-child { border: none; margin-bottom: 0; }
-.jrw-resp .customer-service > section > div, .jrw-resp .my-account > section > div { padding-left: 0.9375rem; padding-right: 0.9375rem; width: 100%; float: left; }
-.jrw-resp .customer-service article:last-child > p:last-child, .jrw-resp .my-account article:last-child > p:last-child { margin-bottom: 0; }
-.jrw-resp .customer-service article section:last-child > p:last-child, .jrw-resp .my-account article section:last-child > p:last-child { margin-bottom: 0; }
-.jrw-resp .customer-service h1, .jrw-resp .my-account h1 { border-bottom: 1px solid #d9d8d8; display: block; font-size: 1.5625rem; line-height: 1.5625rem; margin-bottom: 1.3125rem; padding-bottom: 0.75rem; text-align: center; }
-.jrw-resp .customer-service h3, .jrw-resp .my-account h3 { font-size: 1.25rem; line-height: 1.25rem; margin: 0 0 1.3125rem; }
-.jrw-resp .customer-service h5, .jrw-resp .my-account h5 { font-size: 1.125rem; line-height: 1.125rem; margin: 0 0 0.8125rem; }
-.jrw-resp .customer-service h6, .jrw-resp .my-account h6 { line-height: 0.875rem; font-weight: bold; }
-.jrw-resp .customer-service p, .jrw-resp .my-account p { line-height: 1.375rem; margin: 0 0 1.6875rem; }
-.jrw-resp .customer-service h6, .jrw-resp .my-account h6, .jrw-resp .customer-service p, .jrw-resp .my-account p, .jrw-resp .customer-service ul, .jrw-resp .my-account ul { font-size: 0.875rem; }
+.jrw-resp .customer-service, .jrw-resp .my-account, .jrw-resp .my-account-edit-page { padding-left: 0; padding-right: 0; width: 100%; float: left; padding: 0.75rem 0; }
+.jrw-resp .customer-service > section, .jrw-resp .my-account > section, .jrw-resp .my-account-edit-page > section { width: 100%; margin-left: auto; margin-right: auto; margin-top: 0; margin-bottom: 0; max-width: 62.5rem; overflow: hidden; *zoom: 1; border-bottom: 1px solid #d9d8d8; margin-bottom: 1.25rem; padding-bottom: 1.25rem; }
+.jrw-resp .customer-service > section:last-child, .jrw-resp .my-account > section:last-child, .jrw-resp .my-account-edit-page > section:last-child { border: none; margin-bottom: 0; }
+.jrw-resp .customer-service > section > div, .jrw-resp .my-account > section > div, .jrw-resp .my-account-edit-page > section > div { padding-left: 0.9375rem; padding-right: 0.9375rem; width: 100%; float: left; }
+.jrw-resp .customer-service article:last-child > p:last-child, .jrw-resp .my-account article:last-child > p:last-child, .jrw-resp .my-account-edit-page article:last-child > p:last-child { margin-bottom: 0; }
+.jrw-resp .customer-service article section:last-child > p:last-child, .jrw-resp .my-account article section:last-child > p:last-child, .jrw-resp .my-account-edit-page article section:last-child > p:last-child { margin-bottom: 0; }
+.jrw-resp .customer-service h1, .jrw-resp .my-account h1, .jrw-resp .my-account-edit-page h1 { border-bottom: 1px solid #d9d8d8; display: block; font-size: 1.5625rem; line-height: 1.5625rem; margin-bottom: 1.3125rem; padding-bottom: 0.75rem; text-align: center; }
+.jrw-resp .customer-service h3, .jrw-resp .my-account h3, .jrw-resp .my-account-edit-page h3 { font-size: 1.25rem; line-height: 1.25rem; margin: 0 0 1.3125rem; }
+.jrw-resp .customer-service h5, .jrw-resp .my-account h5, .jrw-resp .my-account-edit-page h5 { font-size: 1.125rem; line-height: 1.125rem; margin: 0 0 0.8125rem; }
+.jrw-resp .customer-service h6, .jrw-resp .my-account h6, .jrw-resp .my-account-edit-page h6 { line-height: 0.875rem; font-weight: bold; }
+.jrw-resp .customer-service p, .jrw-resp .my-account p, .jrw-resp .my-account-edit-page p { line-height: 1.375rem; margin: 0 0 1.6875rem; }
+.jrw-resp .customer-service h6, .jrw-resp .my-account h6, .jrw-resp .my-account-edit-page h6, .jrw-resp .customer-service p, .jrw-resp .my-account p, .jrw-resp .my-account-edit-page p, .jrw-resp .customer-service ul, .jrw-resp .my-account ul, .jrw-resp .my-account-edit-page ul { font-size: 0.875rem; }
 
 /*  Mixin: accordion-container() 
  Decription: Responsible for the container component of accordions, generating styles relating to a margin of zero and a clearfix
@@ -1719,6 +1719,8 @@ html, body { min-width: 0 !important; }
 .jrw-resp .my-account ul li:last-child { margin-bottom: 0; }
 .jrw-resp .my-account ul li.edit { margin-top: 1.4375rem; }
 .jrw-resp .my-account ul li span { font-style: normal; font-weight: bold; }
+.jrw-resp .my-account-edit-page { font-family: Georgia, "Times New Roman", Times, serif; font-size: 0.875rem; }
+.jrw-resp .my-account-edit-page label { font-style: italic; }
 .jrw-resp .product-header { width: 100%; margin-left: auto; margin-right: auto; margin-top: 0; margin-bottom: 0; max-width: 62.5rem; }
 .jrw-resp .product-header:before, .jrw-resp .product-header:after { content: " "; display: table; }
 .jrw-resp .product-header:after { clear: both; }
@@ -1732,12 +1734,23 @@ html, body { min-width: 0 !important; }
 .jrw-resp .category-list { width: 100%; margin-left: auto; margin-right: auto; margin-top: 0; margin-bottom: 0; max-width: 62.5rem; }
 .jrw-resp .category-list:before, .jrw-resp .category-list:after { content: " "; display: table; }
 .jrw-resp .category-list:after { clear: both; }
-.jrw-resp .category-list ul { list-style: none; width: 100%; margin-left: auto; margin-right: auto; margin-top: 0; margin-bottom: 0; max-width: 62.5rem; }
-.jrw-resp .category-list ul:before, .jrw-resp .category-list ul:after { content: " "; display: table; }
-.jrw-resp .category-list ul:after { clear: both; }
+.jrw-resp .category-list ul { list-style: none; }
+@media only screen and (max-width: 40em) { .jrw-resp .category-list ul { display: block; padding: 0; margin: 0 -0.625rem; padding: 0 0.9375rem; }
+  .jrw-resp .category-list ul:before, .jrw-resp .category-list ul:after { content: " "; display: table; }
+  .jrw-resp .category-list ul:after { clear: both; }
+  .jrw-resp .category-list ul > li { display: block; height: auto; float: left; padding: 0 0.625rem 1.25rem; }
+  .jrw-resp .category-list ul > li { width: 50%; padding: 0 0.625rem 1.25rem; list-style: none; }
+  .jrw-resp .category-list ul > li:nth-of-type(1n) { clear: none; }
+  .jrw-resp .category-list ul > li:nth-of-type(2n+1) { clear: both; } }
+@media only screen and (min-width: 40.063em) { .jrw-resp .category-list ul { display: block; padding: 0; margin: 0 -0.625rem; padding: 0 0.9375rem; }
+  .jrw-resp .category-list ul:before, .jrw-resp .category-list ul:after { content: " "; display: table; }
+  .jrw-resp .category-list ul:after { clear: both; }
+  .jrw-resp .category-list ul > li { display: block; height: auto; float: left; padding: 0 0.625rem 1.25rem; }
+  .jrw-resp .category-list ul > li { width: 33.33333%; padding: 0 0.625rem 1.25rem; list-style: none; }
+  .jrw-resp .category-list ul > li:nth-of-type(1n) { clear: none; }
+  .jrw-resp .category-list ul > li:nth-of-type(3n+1) { clear: both; } }
 .jrw-resp .category-list ul .product-column { margin: 0 0 10%; }
-@media only screen and (max-width: 40em) { .jrw-resp .category-list ul .product-column { padding-left: 0.9375rem; padding-right: 0.9375rem; width: 50%; float: left; } }
-@media only screen and (min-width: 40.063em) { .jrw-resp .category-list ul .product-column { padding-left: 0.9375rem; padding-right: 0.9375rem; width: 25%; float: left; } }
+.jrw-resp .category-list ul .product-column:last-child { float: left; }
 .jrw-resp .category-list ul .product-column .product header { margin: 0 0 5%; }
 .jrw-resp .category-list ul .product-column .product-price { color: #606060; font-size: 1.0625rem; margin: 0.3125rem 0 0; }
 .jrw-resp .category-list ul .product-column .product-name { color: black; font-size: 1.25rem; margin: 0 0 0.3125rem; }
