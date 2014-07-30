@@ -14,22 +14,26 @@
 		}
 
 		ul {
-			@media #{$small-only} {
-				@include block-grid(2);
-				padding: 0 rem-calc(15px);
-			}
-
-			@media #{$medium-up} {
-				@include block-grid(3);
-				padding: 0 rem-calc(15px);
-			}
+			padding: 0 rem-calc(15px);
 
 			> li {
-				margin: 0 0 10%;
 
-				&:last-child {
-					float: left;
+				@media #{$small-only} {
+					@include block-grid(2);
 				}
+
+				@media #{$medium-up} {
+					@include block-grid(3);
+				}
+
+				article {
+					margin: 0 0 10%;
+
+					&:last-child {
+						float: left;
+					}
+				}
+				
 			}
 		}
 		// Related Products
@@ -150,9 +154,6 @@
 				overflow: hidden;
 				@include appearance(none);
 			}
-
-
-			
 		}
 	}
 }
