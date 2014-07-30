@@ -2,7 +2,7 @@
 	@include grid-row();
 	@extend %spacing;
 
-	article {
+	> article {
 		@include grid-column(
 			$columns:12,
 			$collapse:true
