@@ -79,14 +79,14 @@
 				}
 			}
 
-			.product-price {
+			.product-name {
 				color: $dark-gray;
 				font-size: rem-calc(17px);
 				margin: rem-calc(5px) 0 0;
 				@extend %font-bold-italic;
 			}
 
-			.product-name {
+			.product-price {
 				color: black;
 				@extend %helvetica-neue-77-bold-condensed;
 				font-size: rem-calc(20px);

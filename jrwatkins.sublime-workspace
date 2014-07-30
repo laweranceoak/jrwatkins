@@ -4,8 +4,80 @@
 		"selected_items":
 		[
 			[
+				"fon",
+				"font-family"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"tex",
+				"textarea"
+			],
+			[
 				"mar",
-				"margin"
+				"margin-bottom"
+			],
+			[
+				"h",
+				"h6	Tag"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"st",
+				"strong	Tag"
+			],
+			[
+				"padd",
+				"padding-right"
+			],
+			[
+				"padding",
+				"padding-right"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"last",
+				"last-child"
+			],
+			[
+				"ex",
+				"extend"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"accor",
+				"accordionReadReview"
+			],
+			[
+				"rem",
+				"rem-calc"
+			],
+			[
+				"background",
+				"background-color"
 			],
 			[
 				"in",
@@ -16,14 +88,6 @@
 				"border-bottom"
 			],
 			[
-				"tex",
-				"text-decoration"
-			],
-			[
-				"fon",
-				"font-weight"
-			],
-			[
 				"bac",
 				"background"
 			],
@@ -32,48 +96,20 @@
 				"inline-block"
 			],
 			[
-				"back",
-				"background"
-			],
-			[
-				"padding",
-				"padding"
-			],
-			[
-				"min",
-				"min-width"
-			],
-			[
 				"pad",
 				"padding-top"
-			],
-			[
-				"bor",
-				"border"
 			],
 			[
 				"tab1",
 				"tab1Info"
 			],
 			[
-				"marg",
-				"margin-top"
-			],
-			[
 				"lt",
 				"lt-ie9"
 			],
 			[
-				"margin",
-				"margin-top"
-			],
-			[
 				"pa",
 				"padding"
-			],
-			[
-				"h",
-				"h5	Tag"
 			],
 			[
 				"web",
@@ -88,16 +124,8 @@
 				"letter-spacing"
 			],
 			[
-				"padd",
-				"padding"
-			],
-			[
 				"text",
 				"text-decoration"
-			],
-			[
-				"font",
-				"font-size"
 			],
 			[
 				"bo",
@@ -292,10 +320,6 @@
 				"green-border-bottom"
 			],
 			[
-				"background",
-				"background-color"
-			],
-			[
 				"paddi",
 				"padding-bottom"
 			],
@@ -306,10 +330,6 @@
 			[
 				"te",
 				"text-align"
-			],
-			[
-				"rem",
-				"removeClass"
 			],
 			[
 				"toggle",
@@ -435,6 +455,22 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "category.html",
+			"settings":
+			{
+				"buffer_size": 12342,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "scss/_category.scss",
+			"settings":
+			{
+				"buffer_size": 3431,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -442,6 +478,14 @@
 		"height": 392.0,
 		"selected_items":
 		[
+			[
+				"form",
+				"Format CSS: Compressed"
+			],
+			[
+				"forma",
+				"Format CSS: Expanded"
+			],
 			[
 				"",
 				"Package Control: Install Package"
@@ -472,30 +516,47 @@
 	},
 	"file_history":
 	[
-		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/index.html",
-		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_jrw-override.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_variables.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/customer-service.html",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/my-account-edit-page.html",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_my-account-edit-page.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/app.scss",
-		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/stylesheets/app.css",
-		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_jrw-overides.scss",
-		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/category.html",
-		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_category.scss",
-		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_added-to-cart.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_settings.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_customer-service.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_customer-service-contact-us.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_customer-service-rates-table.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_category.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_main.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/category.html",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/stylesheets/app.css",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_product-detail.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/index.html",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/humans.txt",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_header.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_body-nav.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_added-to-cart.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_related-products.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/js/app.js",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_subscribe.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_social-share.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_search.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_login.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_jrw-override.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_jrw-carousel-container.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_footer.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/product-detail.html",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/bower_components/foundation/scss/foundation/components/_accordion.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/bower_components/foundation/js/foundation.js",
+		"/Users/ryan.payne/Desktop/theme.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/config.rb",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/compass_app_log.txt",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_jrw-overides.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/bower_components/foundation/scss/foundation.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/bower_components/foundation/scss/foundation/components/_grid.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/bower_components/foundation/scss/normalize.scss",
-		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_variables.scss",
-		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_main.scss",
 		"/Users/ryan.payne/Desktop/WORK/WOW Guide/April Wow Guide/_build/sass/wow-guide-styles.scss",
 		"/Users/ryan.payne/Desktop/WORK/WOW Guide/STPattyLookbook/build/_build/css/main.scss",
 		"/Users/ryan.payne/Desktop/WORK/WOW Guide/STPattyLookbook/build/_build/css/main.css",
-		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_body-nav.scss",
-		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_footer.scss",
-		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_header.scss",
-		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_jrw-carousel-container.scss",
-		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_login.scss",
-		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_search.scss",
-		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_subscribe.scss",
 		"/Users/ryan.payne/Desktop/WORK/WOW Guide/STPattyLookbook/build/_build/css/main2.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/bower_components/foundation/scss/foundation/components/_global.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/index.html",
@@ -582,24 +643,7 @@
 		"/Users/ryan.payne/Dropbox/Public/Prototype/_build/css/normalize.css",
 		"/Users/ryan.payne/Dropbox/Public/Prototype/_build/index.html",
 		"/Users/ryan.payne/Dropbox/Public/Prototype/_build/css/grid_OG.css",
-		"/Users/ryan.payne/Dropbox/Public/Prototype/_build/css/wow-guide-styles.scss.haml",
-		"/Users/ryan.payne/Desktop/WORK/Prototype/assets/gridpak (1)/README.md",
-		"/Users/ryan.payne/Desktop/WORK/Prototype/assets/gridpak (1)/gridpak.scss",
-		"/Users/ryan.payne/Desktop/WORK/Prototype/assets/gridpak/gridpak.css",
-		"/Users/ryan.payne/Desktop/WORK/Prototype/assets/gridpak/README.md",
-		"/Users/ryan.payne/Desktop/WORK/Prototype/assets/gridpak/gridpak.scss",
-		"/Users/ryan.payne/Desktop/WORK/ericksonBCI/_build/highway-construction.html",
-		"/Users/ryan.payne/Desktop/WORK/ericksonBCI/_build/wordpress/RP Version/Industries.html",
-		"/Users/ryan.payne/Desktop/WORK/ericksonBCI/_build/wordpress/RP Version/header.php",
-		"/Users/ryan.payne/Desktop/WORK/ericksonBCI/_build/css/recongnation.scss",
-		"/Users/ryan.payne/Desktop/WORK/ericksonBCI/_build/css/recongnation.css",
-		"/Users/ryan.payne/Desktop/WORK/ericksonBCI/_build/css/layout.css",
-		"/Users/ryan.payne/Desktop/WORK/ericksonBCI/_build/wordpress/wp-content/themes/erickson/Industries-page.php",
-		"/Users/ryan.payne/Desktop/WORK/ericksonBCI/_build/achieving_recongnation.html",
-		"/Users/ryan.payne/Desktop/WORK/ericksonBCI/_build/wordpress/RP Version/nggallery.css",
-		"/Users/ryan.payne/Desktop/WORK/STPattyLookbook/build/_build/css/main2.scss",
-		"/Users/ryan.payne/Desktop/WORK/STPattyLookbook/build/_build/css/_mixins.scss",
-		"/Users/ryan.payne/Desktop/WORK/STPattyLookbook/build/_build/css/unsemantic-grid-responsive.css"
+		"/Users/ryan.payne/Dropbox/Public/Prototype/_build/css/wow-guide-styles.scss.haml"
 	],
 	"find":
 	{
@@ -611,6 +655,8 @@
 		"where_history":
 		[
 			"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins",
+			"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss",
+			"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins",
 			"/Users/ryan.payne/Documents/CM/sites/popeyes/work/SurfTurf/_build",
 			"/Applications/MAMP/htdocs/wordpress/wp-content/themes/CMWP_rev2"
 		]
@@ -620,6 +666,24 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"form ",
+			"$global-radius",
+			"form",
+			"rem-calc",
+			"$collapse:true",
+			"collaspe",
+			"moz",
+			"product-variant-filter",
+			".reviewrating-review-container",
+			"88",
+			"30",
+			"$HelveticaNeue",
+			"$HelveticaNeueBdCn",
+			"border",
+			"border-radius",
+			"border-radius;",
+			"button",
+			"$accordion-navigation-active-bg-color",
 			"#MainForm",
 			"$namespace",
 			"$include-html-classes",
@@ -729,25 +793,7 @@
 			"small-",
 			"min-width",
 			"max",
-			"-only",
-			"hide-for-small-only",
-			"icon_new.png",
-			"medium",
-			"medium-12",
-			"medium-",
-			"medium-12",
-			"z-index",
-			"http://www.pillsbury.com/recipes/shamrock-pizza-pot-pies/faf24b85-65a2-4cd3-a76d-67a5345204f6",
-			"http://www.pillsbury.com/recipes/mini-whoopie-pies/bf82e918-c44e-4de8-80f1-483582c496d9",
-			"/-/media/PB/Images/holidays-celebrations/more-holiday-ideas/st-patricks-day/wow-guide/",
-			" style=\"background: green;\"",
-			"style=\"background: red;\"",
-			"owl.carousel.css",
-			"href=\"#\"",
-			"‐",
-			"•	",
-			"Contract Dollar Value",
-			"page_bottom_box"
+			"-only"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -767,8 +813,64 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "category.html",
+					"settings":
+					{
+						"buffer_size": 12342,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								12324,
+								12324
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4471.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "scss/_category.scss",
+					"settings":
+					{
+						"buffer_size": 3431,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1022,
+								1022
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 229.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
