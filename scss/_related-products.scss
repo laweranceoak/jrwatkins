@@ -27,9 +27,11 @@
 			> li {
 				@extend %no-padding;
 				margin: 0 0 10%;
+				padding-bottom: 0;
 
 				&:last-child {
 					float: left;
+					margin: 0;
 				}
 			}
 		}
