@@ -18,7 +18,6 @@
 			padding: 0 rem-calc(15px);
 
 			> li {
-
 				@media #{$small-only} {
 					@include block-grid(2);
 				}
@@ -26,137 +25,102 @@
 				@media #{$medium-up} {
 					@include block-grid(3);
 				}
-
-				article {
-					margin: 0 0 10%;
-
-					&:last-child {
-						float: left;
-					}
-
-					.product {
-
-						header {
-							margin: 0 0 5%;
-						}
-					}
-
-					.product-name {
-						color: $dark-gray;
-						font-size: rem-calc(17px);
-						margin: rem-calc(5px) 0 0;
-						@extend %font-bold-italic;
-					}
-
-					.product-price {
-						color: black;
-						@extend %helvetica-neue-77-bold-condensed;
-						font-size: rem-calc(20px);
-						margin: 0 0 rem-calc(5px);
-
-						a {
-							color: inherit;
-						}
-					}
-
-					.rating-review-container {
-						margin: 0 0 rem-calc(5px);
-
-						a {
-							font-size: rem-calc(13px);
-							@extend %font-bold-italic;
-						}
-					}
-
-
-
-					.cta-add-to-cart {
-						@include button(
-						    // Primary color set in settings file. Default: $primary-color.
-						    $bg: white,
-						    // If true, set to button radius which is $global-radius or explicitly set radius amount in px (ex. $radius:10px). Default:false.
-						    $radius: 5px,
-						    // We can set $full-width:true to remove side padding extend width. Default:false
-						    $full-width:true,
-						    // We can set $disabled:true to create a disabled transparent button. Default:false
-						    $disabled:false
-						    );
-
-						border: 1px solid $gray-border;
-						color: $red-orange;
-						display: block;
-						font-size: rem-calc(16px);
-						padding: rem-calc(10px) 0;
-						position: relative;
-						@extend %border-radius;
-						@extend %font-bold-italic;
-						font-weight: bold;
-
-						&:after {
-							content: "Add to Cart";
-							display: block;
-						}
-						&.added {
-							background-color: $normal-gray;
-
-							&:after {
-								content: "Added";
-							}
-						}
-					}
-
-					.product-variant-filter {
-						background-image: url('../images/icon-arrow-down.png');
-						background-size: rem-calc(15px) rem-calc(10px);
-						background-position: 96% center;
-						background-color: white;
-						border-color: $gray-border;
-						color: $dark-gray;
-						line-height: rem-calc(12);
-						font-family: $body-font-family;
-						font-size: rem-calc(12px);
-						font-style: italic;
-						padding-right: rem-calc(20px);
-						@extend %border-radius;
-
-						//hide text
-						text-overflow: ellipsis;
-
-						// Required for text-overflow to do anything
-						white-space: nowrap;
-						overflow: hidden;
-						@include appearance(none);
-					}
-				}
-				
 			}
 		}
-		// Related Products
-		.related-item {
+	}
 
-			header {
-				margin-bottom: 2%;
+	.product {
+		margin: 0 0 10%;
+
+		&:last-child {
+			float: left;
+		}
+
+		.product-price {
+			color: black;
+			@extend %helvetica-neue-77-bold-condensed;
+			font-size: rem-calc(20px);
+			margin: 0 0 rem-calc(5px);
+
+			a {
+				color: inherit;
 			}
+		}
 
-			h1 {
-				color: $dark-gray;
-				font-size: rem-calc(17px);
-				margin: rem-calc(5px) 0 0;
+		.product-name {
+			color: $dark-gray;
+			font-size: rem-calc(17px);
+			margin: rem-calc(5px) 0 0;
+			@extend %font-bold-italic;
+		}
+
+		.rating-review-container {
+			margin: 0 0 rem-calc(5px);
+
+			a {
+				font-size: rem-calc(13px);
 				@extend %font-bold-italic;
 			}
-
-			h2 {
-				color: black;
-				@extend %helvetica-neue-77-bold-condensed;
-				font-size: rem-calc(20px);
-				margin: 0 0 rem-calc(5px);
-			}
-
-			.ratings {
-				width: 100%;
-			}
-
-			
 		}
+
+
+
+		.cta-add-to-cart {
+			@include button(
+			    // Primary color set in settings file. Default: $primary-color.
+			    $bg: white,
+			    // If true, set to button radius which is $global-radius or explicitly set radius amount in px (ex. $radius:10px). Default:false.
+			    $radius: 5px,
+			    // We can set $full-width:true to remove side padding extend width. Default:false
+			    $full-width:true,
+			    // We can set $disabled:true to create a disabled transparent button. Default:false
+			    $disabled:false
+			    );
+
+			border: 1px solid $gray-border;
+			color: $red-orange;
+			display: block;
+			font-size: rem-calc(16px);
+			padding: rem-calc(10px) 0;
+			position: relative;
+			@extend %border-radius;
+			@extend %font-bold-italic;
+			font-weight: bold;
+
+			&:after {
+				content: "Add to Cart";
+				display: block;
+			}
+			&.added {
+				background-color: $normal-gray;
+
+				&:after {
+					content: "Added";
+				}
+			}
+		}
+
+		.product-variant-filter {
+			background-image: url('../images/icon-arrow-down.png');
+			background-size: rem-calc(15px) rem-calc(10px);
+			background-position: 96% center;
+			background-color: white;
+			border-color: $gray-border;
+			color: $dark-gray;
+			line-height: rem-calc(12);
+			font-family: $body-font-family;
+			font-size: rem-calc(12px);
+			font-style: italic;
+			padding-right: rem-calc(20px);
+			@extend %border-radius;
+
+			//hide text
+			text-overflow: ellipsis;
+
+			// Required for text-overflow to do anything
+			white-space: nowrap;
+			overflow: hidden;
+			@include appearance(none);
+		}		
 	}
 }
