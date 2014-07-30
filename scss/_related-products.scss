@@ -27,22 +27,27 @@
 			}
 
 			> li {
-				
+				@extend %no-padding;
+				margin: 0 0 10%;
+
+				&:last-child {
+					float: left;
+				}
 			}
 		}
 	}
 
 	.product {
-		margin: 0 0 10%;
 
-		&:last-child {
-			float: left;
+		header {
+			@extend %no-padding;
 		}
 
 		.product-name {
 			color: black;
 			@extend %helvetica-neue-77-bold-condensed;
 			font-size: rem-calc(20px);
+			line-height: rem-calc(20px);
 			margin: 0 0 rem-calc(5px);
 
 			a {
@@ -53,6 +58,7 @@
 		.product-price {
 			color: $dark-gray;
 			font-size: rem-calc(17px);
+			line-height: rem-calc(17px);
 			margin: rem-calc(5px) 0 0;
 			@extend %font-bold-italic;
 		}
