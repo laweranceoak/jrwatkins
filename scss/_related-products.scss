@@ -15,15 +15,16 @@
 
 		ul {
 			@extend %no-padding;
-			padding: 0 rem-calc(15px);
 
 			> li {
 				@media #{$small-only} {
 					@include block-grid(2);
+					padding: 0 rem-calc(15px);
 				}
 
 				@media #{$medium-up} {
 					@include block-grid(3);
+					padding: 0 rem-calc(15px);
 				}
 			}
 		}
