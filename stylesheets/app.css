@@ -1690,20 +1690,21 @@ html, body { min-width: 0 !important; }
 .jrw-resp .related-products:after { clear: both; }
 .jrw-resp .related-products > article { padding-left: 0; padding-right: 0; width: 100%; float: left; }
 .jrw-resp .related-products > article h3 { font-size: 1.125rem; }
-@media only screen and (max-width: 40em) { .jrw-resp .related-products > article ul > li { display: block; padding: 0; margin: 0 -0.625rem; padding: 0 0.9375rem; }
-  .jrw-resp .related-products > article ul > li:before, .jrw-resp .related-products > article ul > li:after { content: " "; display: table; }
-  .jrw-resp .related-products > article ul > li:after { clear: both; }
-  .jrw-resp .related-products > article ul > li > li { display: block; height: auto; float: left; padding: 0 0.625rem 1.25rem; }
-  .jrw-resp .related-products > article ul > li > li { width: 50%; padding: 0 0.625rem 1.25rem; list-style: none; }
-  .jrw-resp .related-products > article ul > li > li:nth-of-type(1n) { clear: none; }
-  .jrw-resp .related-products > article ul > li > li:nth-of-type(2n+1) { clear: both; } }
-@media only screen and (min-width: 40.063em) { .jrw-resp .related-products > article ul > li { display: block; padding: 0; margin: 0 -0.625rem; padding: 0 0.9375rem; }
-  .jrw-resp .related-products > article ul > li:before, .jrw-resp .related-products > article ul > li:after { content: " "; display: table; }
-  .jrw-resp .related-products > article ul > li:after { clear: both; }
-  .jrw-resp .related-products > article ul > li > li { display: block; height: auto; float: left; padding: 0 0.625rem 1.25rem; }
-  .jrw-resp .related-products > article ul > li > li { width: 33.33333%; padding: 0 0.625rem 1.25rem; list-style: none; }
-  .jrw-resp .related-products > article ul > li > li:nth-of-type(1n) { clear: none; }
-  .jrw-resp .related-products > article ul > li > li:nth-of-type(3n+1) { clear: both; } }
+.jrw-resp .related-products > article ul { list-style: none; }
+@media only screen and (max-width: 40em) { .jrw-resp .related-products > article ul { display: block; padding: 0; margin: 0 -0.625rem; padding: 0 0.9375rem; }
+  .jrw-resp .related-products > article ul:before, .jrw-resp .related-products > article ul:after { content: " "; display: table; }
+  .jrw-resp .related-products > article ul:after { clear: both; }
+  .jrw-resp .related-products > article ul > li { display: block; height: auto; float: left; padding: 0 0.625rem 1.25rem; }
+  .jrw-resp .related-products > article ul > li { width: 50%; padding: 0 0.625rem 1.25rem; list-style: none; }
+  .jrw-resp .related-products > article ul > li:nth-of-type(1n) { clear: none; }
+  .jrw-resp .related-products > article ul > li:nth-of-type(2n+1) { clear: both; } }
+@media only screen and (min-width: 40.063em) { .jrw-resp .related-products > article ul { display: block; padding: 0; margin: 0 -0.625rem; padding: 0 0.9375rem; }
+  .jrw-resp .related-products > article ul:before, .jrw-resp .related-products > article ul:after { content: " "; display: table; }
+  .jrw-resp .related-products > article ul:after { clear: both; }
+  .jrw-resp .related-products > article ul > li { display: block; height: auto; float: left; padding: 0 0.625rem 1.25rem; }
+  .jrw-resp .related-products > article ul > li { width: 33.33333%; padding: 0 0.625rem 1.25rem; list-style: none; }
+  .jrw-resp .related-products > article ul > li:nth-of-type(1n) { clear: none; }
+  .jrw-resp .related-products > article ul > li:nth-of-type(3n+1) { clear: both; } }
 .jrw-resp .related-products .product { margin: 0 0 10%; }
 .jrw-resp .related-products .product:last-child { float: left; }
 .jrw-resp .related-products .product .product-name { color: black; font-size: 1.25rem; margin: 0 0 0.3125rem; }
