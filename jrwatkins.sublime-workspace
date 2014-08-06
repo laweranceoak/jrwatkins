@@ -5,11 +5,11 @@
 		[
 			[
 				"fon",
-				"font-family"
+				"font-weight"
 			],
 			[
 				"font",
-				"font-style"
+				"font-weight"
 			],
 			[
 				"marg",
@@ -456,10 +456,10 @@
 	"buffers":
 	[
 		{
-			"file": "category.html",
+			"file": "scss/_related-products.scss",
 			"settings":
 			{
-				"buffer_size": 12342,
+				"buffer_size": 2659,
 				"line_ending": "Unix"
 			}
 		},
@@ -517,6 +517,12 @@
 	"file_history":
 	[
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_variables.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_category.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_product-detail.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/product-detail.html",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_subscribe.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_related-products.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/category.html",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/customer-service.html",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/my-account-edit-page.html",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_my-account-edit-page.scss",
@@ -525,26 +531,20 @@
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_customer-service.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_customer-service-contact-us.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_customer-service-rates-table.scss",
-		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_category.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_main.scss",
-		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/category.html",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/stylesheets/app.css",
-		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_product-detail.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/index.html",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/humans.txt",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_header.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_body-nav.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_added-to-cart.scss",
-		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_related-products.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/js/app.js",
-		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_subscribe.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_social-share.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_search.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_login.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_jrw-override.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_jrw-carousel-container.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_footer.scss",
-		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/product-detail.html",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/bower_components/foundation/scss/foundation/components/_accordion.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/bower_components/foundation/js/foundation.js",
 		"/Users/ryan.payne/Desktop/theme.scss",
@@ -651,7 +651,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 93.0,
 		"where_history":
 		[
 			"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins",
@@ -666,6 +666,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"duplicate",
+			"accordion-read-review",
+			"product-column",
 			"form ",
 			"$global-radius",
 			"form",
@@ -790,10 +793,7 @@
 			"arege",
 			"small-",
 			"small-l",
-			"small-",
-			"min-width",
-			"max",
-			"-only"
+			"small-"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -818,28 +818,27 @@
 			[
 				{
 					"buffer": 0,
-					"file": "category.html",
+					"file": "scss/_related-products.scss",
 					"settings":
 					{
-						"buffer_size": 12342,
+						"buffer_size": 2659,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								12324,
-								12324
+								518,
+								518
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 4471.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -856,8 +855,8 @@
 						"selection":
 						[
 							[
-								1022,
-								1022
+								1028,
+								971
 							]
 						],
 						"settings":
@@ -866,7 +865,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 229.0,
+						"translation.y": 126.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
