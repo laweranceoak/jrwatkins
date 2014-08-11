@@ -1,5 +1,6 @@
 @import "foundation/functions";
 @import "foundation/components/grid";
+@import "foundation/components/buttons";
 @import "compass";
 
 
@@ -65,6 +66,48 @@ $normal-radius: 5px;
 
 %no-focus {
 	&:focus { outline: 0; }
+}
+
+////////////////////////////
+// Button Styles
+////////////////////////////
+
+// White Button
+%white-button {
+	@include button(
+		    $padding:rem-calc(8px),
+		    $bg:white,
+		    $radius:true,
+		    $full-width:true,
+		    $disabled:false
+	);
+	color: #ac3c1b;
+	font-style: italic;
+	font-weight: bold;
+	padding: rem-calc(8px) 0;
+
+	&:hover {
+		background: transparent;
+		color: #ac3c1b;
+	}
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+
+// Orange Button
+%norm-button {
+	@include button(
+	    $padding:rem-calc(8px),
+	    $bg:$red-orange,
+	    $radius:true,
+	    $full-width:true,
+	    $disabled:false
+		);
+	@include border-radius($normal-radius);
+	font-style: italic;
+	padding: rem-calc(8px) 0;
 }
 
 ////////////////////////////

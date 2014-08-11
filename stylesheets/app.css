@@ -276,6 +276,44 @@ select { width: 100%; }
   .pull-10 { position: relative; right: 83.33333%; left: auto; }
   .push-11 { position: relative; left: 91.66667%; right: auto; }
   .pull-11 { position: relative; right: 91.66667%; left: auto; } }
+button, .button { border-style: solid; border-width: 0px; cursor: pointer; font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; font-weight: normal; line-height: normal; margin: 0 0 1.25rem; position: relative; text-decoration: none; text-align: center; -webkit-appearance: none; -webkit-border-radius: 0; display: inline-block; padding-top: 1rem; padding-right: 2rem; padding-bottom: 1.0625rem; padding-left: 2rem; font-size: 1rem; background-color: #008cba; border-color: #007095; color: white; transition: background-color 300ms ease-out; }
+button:hover, button:focus, .button:hover, .button:focus { background-color: #007095; }
+button:hover, button:focus, .button:hover, .button:focus { color: white; }
+button.secondary, .button.secondary { background-color: #e7e7e7; border-color: #b9b9b9; color: #333333; }
+button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button.secondary:focus { background-color: #b9b9b9; }
+button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button.secondary:focus { color: #333333; }
+button.success, .button.success { background-color: #43ac6a; border-color: #368a55; color: white; }
+button.success:hover, button.success:focus, .button.success:hover, .button.success:focus { background-color: #368a55; }
+button.success:hover, button.success:focus, .button.success:hover, .button.success:focus { color: white; }
+button.alert, .button.alert { background-color: #f04124; border-color: #cf2a0e; color: white; }
+button.alert:hover, button.alert:focus, .button.alert:hover, .button.alert:focus { background-color: #cf2a0e; }
+button.alert:hover, button.alert:focus, .button.alert:hover, .button.alert:focus { color: white; }
+button.large, .button.large { padding-top: 1.125rem; padding-right: 2.25rem; padding-bottom: 1.1875rem; padding-left: 2.25rem; font-size: 1.25rem; }
+button.small, .button.small { padding-top: 0.875rem; padding-right: 1.75rem; padding-bottom: 0.9375rem; padding-left: 1.75rem; font-size: 0.8125rem; }
+button.tiny, .button.tiny { padding-top: 0.625rem; padding-right: 1.25rem; padding-bottom: 0.6875rem; padding-left: 1.25rem; font-size: 0.6875rem; }
+button.expand, .button.expand { padding-right: 0; padding-left: 0; width: 100%; }
+button.left-align, .button.left-align { text-align: left; text-indent: 0.75rem; }
+button.right-align, .button.right-align { text-align: right; padding-right: 0.75rem; }
+button.radius, .button.radius { border-radius: 3px; }
+button.round, .button.round { border-radius: 1000px; }
+button.disabled, button[disabled], .button.disabled, .button[disabled] { background-color: #008cba; border-color: #007095; color: white; cursor: default; opacity: 0.7; box-shadow: none; }
+button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus { background-color: #007095; }
+button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus { color: white; }
+button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus { background-color: #008cba; }
+button.disabled.secondary, button[disabled].secondary, .button.disabled.secondary, .button[disabled].secondary { background-color: #e7e7e7; border-color: #b9b9b9; color: #333333; cursor: default; opacity: 0.7; box-shadow: none; }
+button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus { background-color: #b9b9b9; }
+button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus { color: #333333; }
+button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus { background-color: #e7e7e7; }
+button.disabled.success, button[disabled].success, .button.disabled.success, .button[disabled].success { background-color: #43ac6a; border-color: #368a55; color: white; cursor: default; opacity: 0.7; box-shadow: none; }
+button.disabled.success:hover, button.disabled.success:focus, button[disabled].success:hover, button[disabled].success:focus, .button.disabled.success:hover, .button.disabled.success:focus, .button[disabled].success:hover, .button[disabled].success:focus { background-color: #368a55; }
+button.disabled.success:hover, button.disabled.success:focus, button[disabled].success:hover, button[disabled].success:focus, .button.disabled.success:hover, .button.disabled.success:focus, .button[disabled].success:hover, .button[disabled].success:focus { color: white; }
+button.disabled.success:hover, button.disabled.success:focus, button[disabled].success:hover, button[disabled].success:focus, .button.disabled.success:hover, .button.disabled.success:focus, .button[disabled].success:hover, .button[disabled].success:focus { background-color: #43ac6a; }
+button.disabled.alert, button[disabled].alert, .button.disabled.alert, .button[disabled].alert { background-color: #f04124; border-color: #cf2a0e; color: white; cursor: default; opacity: 0.7; box-shadow: none; }
+button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .button.disabled.alert:focus, .button[disabled].alert:hover, .button[disabled].alert:focus { background-color: #cf2a0e; }
+button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .button.disabled.alert:focus, .button[disabled].alert:hover, .button[disabled].alert:focus { color: white; }
+button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .button.disabled.alert:focus, .button[disabled].alert:hover, .button[disabled].alert:focus { background-color: #f04124; }
+
+@media only screen and (min-width: 40.063em) { button, .button { display: inline-block; } }
 .jrw-resp .customer-service h1, .jrw-resp .my-account h1, .jrw-resp .my-account-edit-page h1, .jrw-resp .customer-service h3, .jrw-resp .my-account h3, .jrw-resp .my-account-edit-page h3, .jrw-resp header .left-off-canvas-menu li label, .jrw-resp .added-cart > div p, .jrw-resp .added-cart > div a, .jrw-resp .body-nav nav ul li a, .jrw-resp .related-products .product .product-name, .jrw-resp .product-header > div h1, .jrw-resp .category-list ul .product-column .product-price, .jrw-resp .product-detail .product-info > header h1 { font-family: "HelveticaNeueW01-77BdCn 692722", "HelveticaNeue-CondensedBold", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; font-style: normal; font-weight: normal; text-transform: uppercase; }
 
 .jrw-resp .added-cart, .jrw-resp .body-nav, .jrw-resp .subscribe, .jrw-resp footer, .jrw-resp .related-products, .jrw-resp .product-header, .jrw-resp .product-filter, .jrw-resp .category-list, .jrw-resp .product-detail, .jrw-resp .product-detail .product-info .cta-review-section, .jrw-resp .product-detail .product-info .product-reviews .review header, .jrw-resp .product-detail .product-info .product-description, .jrw-resp .product-detail .product-info .learn-more { padding: 1.25rem 0; }
@@ -287,6 +325,16 @@ select { width: 100%; }
 .jrw-resp .customer-service input, .jrw-resp .my-account input, .jrw-resp .my-account-edit-page input, .jrw-resp .customer-service textarea, .jrw-resp .my-account textarea, .jrw-resp .my-account-edit-page textarea, .jrw-resp .related-products .product .cta-add-to-cart, .jrw-resp .related-products .product .product-variant-filter, .jrw-resp .product-filter select, .jrw-resp .category-list ul .product-column .cta-add-to-cart, .jrw-resp .category-list ul .product-column .product-variant-filter, .jrw-resp .product-detail .product-info .product-description article select { -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px; }
 
 .jrw-resp .customer-service h5, .jrw-resp .my-account h5, .jrw-resp .my-account-edit-page h5, .jrw-resp .related-products > article h3, .jrw-resp .related-products .product .product-price, .jrw-resp .related-products .product .rating-review-container a, .jrw-resp .related-products .product .cta-add-to-cart, .jrw-resp .product-filter select, .jrw-resp .category-list ul .product-column .product-name, .jrw-resp .category-list ul .product-column .rating-review-container a, .jrw-resp .category-list ul .product-column .cta-add-to-cart, .jrw-resp .product-detail .product-info > header h2, .jrw-resp .product-detail .product-info .ratings, .jrw-resp .product-detail .product-info .accordion-read-review, .jrw-resp .product-detail .product-info .cta-review-section .cta-review, .jrw-resp .product-detail .product-info .product-reviews .review h3, .jrw-resp .product-detail .product-info .product-reviews .review .review-ratings, .jrw-resp .product-detail .product-info .product-description article h3, .jrw-resp .product-detail .product-info .product-description article label, .jrw-resp .product-detail .product-info .product-description article select, .jrw-resp .product-detail .product-info .product-description article .cta-add-to-cart, .jrw-resp .product-detail .product-info .learn-more article h3 { font-style: italic; font-weight: bold; }
+
+.jrw-resp .my-account-edit-page a { border-style: solid; border-width: 0px; cursor: pointer; font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; font-weight: normal; line-height: normal; margin: 0 0 1.25rem; position: relative; text-decoration: none; text-align: center; -webkit-appearance: none; -webkit-border-radius: 0; display: inline-block; padding-top: 0.5rem; padding-right: 1rem; padding-bottom: 0.5625rem; padding-left: 1rem; padding-top: 0.5rem; padding-bottom: 0.5625rem; padding-right: 0; padding-left: 0; width: 100%; background-color: white; border-color: #cccccc; color: #333333; border-radius: 3px; color: #ac3c1b; font-style: italic; font-weight: bold; padding: 0.5rem 0; }
+.jrw-resp .my-account-edit-page a:hover, .jrw-resp .my-account-edit-page a:focus { background-color: #cccccc; }
+.jrw-resp .my-account-edit-page a:hover, .jrw-resp .my-account-edit-page a:focus { color: #333333; }
+.jrw-resp .my-account-edit-page a:hover { background: transparent; color: #ac3c1b; }
+.jrw-resp .my-account-edit-page a:last-child { margin-bottom: 0; }
+
+.jrw-resp .my-account-edit-page button { border-style: solid; border-width: 0px; cursor: pointer; font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; font-weight: normal; line-height: normal; margin: 0 0 1.25rem; position: relative; text-decoration: none; text-align: center; -webkit-appearance: none; -webkit-border-radius: 0; display: inline-block; padding-top: 0.5rem; padding-right: 1rem; padding-bottom: 0.5625rem; padding-left: 1rem; padding-top: 0.5rem; padding-bottom: 0.5625rem; padding-right: 0; padding-left: 0; width: 100%; background-color: #ac3c1b; border-color: #8a3016; color: white; border-radius: 3px; -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px; font-style: italic; padding: 0.5rem 0; }
+.jrw-resp .my-account-edit-page button:hover, .jrw-resp .my-account-edit-page button:focus { background-color: #8a3016; }
+.jrw-resp .my-account-edit-page button:hover, .jrw-resp .my-account-edit-page button:focus { color: white; }
 
 .jrw-resp .customer-service, .jrw-resp .my-account, .jrw-resp .my-account-edit-page { padding-left: 0; padding-right: 0; width: 100%; float: left; padding: 0.75rem 0; }
 .jrw-resp .customer-service > section, .jrw-resp .my-account > section, .jrw-resp .my-account-edit-page > section { width: 100%; margin-left: auto; margin-right: auto; margin-top: 0; margin-bottom: 0; max-width: 62.5rem; overflow: hidden; *zoom: 1; border-bottom: 1px solid #d9d8d8; margin-bottom: 1.25rem; padding-bottom: 1.25rem; }
@@ -460,44 +508,6 @@ select { width: 100%; }
 .breadcrumbs > *:before { content: "/"; color: #aaaaaa; margin: 0 0.75rem; position: relative; top: 1px; }
 .breadcrumbs > *:first-child:before { content: " "; margin: 0; }
 
-button, .button { border-style: solid; border-width: 0px; cursor: pointer; font-family: Georgia, "Times New Roman", Times, serif; font-weight: normal; line-height: normal; margin: 0 0 1.25rem; position: relative; text-decoration: none; text-align: center; -webkit-appearance: none; -webkit-border-radius: 0; display: inline-block; padding-top: 1rem; padding-right: 2rem; padding-bottom: 1.0625rem; padding-left: 2rem; font-size: 1rem; background-color: #ac3c1b; border-color: #8a3016; color: white; transition: background-color 300ms ease-out; }
-button:hover, button:focus, .button:hover, .button:focus { background-color: #8a3016; }
-button:hover, button:focus, .button:hover, .button:focus { color: white; }
-button.secondary, .button.secondary { background-color: black; border-color: black; color: white; }
-button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button.secondary:focus { background-color: black; }
-button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button.secondary:focus { color: white; }
-button.success, .button.success { background-color: #43ac6a; border-color: #368a55; color: white; }
-button.success:hover, button.success:focus, .button.success:hover, .button.success:focus { background-color: #368a55; }
-button.success:hover, button.success:focus, .button.success:hover, .button.success:focus { color: white; }
-button.alert, .button.alert { background-color: #f04124; border-color: #cf2a0e; color: white; }
-button.alert:hover, button.alert:focus, .button.alert:hover, .button.alert:focus { background-color: #cf2a0e; }
-button.alert:hover, button.alert:focus, .button.alert:hover, .button.alert:focus { color: white; }
-button.large, .button.large { padding-top: 1.125rem; padding-right: 2.25rem; padding-bottom: 1.1875rem; padding-left: 2.25rem; font-size: 1.25rem; }
-button.small, .button.small { padding-top: 0.875rem; padding-right: 1.75rem; padding-bottom: 0.9375rem; padding-left: 1.75rem; font-size: 0.8125rem; }
-button.tiny, .button.tiny { padding-top: 0.625rem; padding-right: 1.25rem; padding-bottom: 0.6875rem; padding-left: 1.25rem; font-size: 0.6875rem; }
-button.expand, .button.expand { padding-right: 0; padding-left: 0; width: 100%; }
-button.left-align, .button.left-align { text-align: left; text-indent: 0.75rem; }
-button.right-align, .button.right-align { text-align: right; padding-right: 0.75rem; }
-button.radius, .button.radius { border-radius: 5px; }
-button.round, .button.round { border-radius: 1000px; }
-button.disabled, button[disabled], .button.disabled, .button[disabled] { background-color: #ac3c1b; border-color: #8a3016; color: white; cursor: default; opacity: 0.7; box-shadow: none; }
-button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus { background-color: #8a3016; }
-button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus { color: white; }
-button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus { background-color: #ac3c1b; }
-button.disabled.secondary, button[disabled].secondary, .button.disabled.secondary, .button[disabled].secondary { background-color: black; border-color: black; color: white; cursor: default; opacity: 0.7; box-shadow: none; }
-button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus { background-color: black; }
-button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus { color: white; }
-button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus { background-color: black; }
-button.disabled.success, button[disabled].success, .button.disabled.success, .button[disabled].success { background-color: #43ac6a; border-color: #368a55; color: white; cursor: default; opacity: 0.7; box-shadow: none; }
-button.disabled.success:hover, button.disabled.success:focus, button[disabled].success:hover, button[disabled].success:focus, .button.disabled.success:hover, .button.disabled.success:focus, .button[disabled].success:hover, .button[disabled].success:focus { background-color: #368a55; }
-button.disabled.success:hover, button.disabled.success:focus, button[disabled].success:hover, button[disabled].success:focus, .button.disabled.success:hover, .button.disabled.success:focus, .button[disabled].success:hover, .button[disabled].success:focus { color: white; }
-button.disabled.success:hover, button.disabled.success:focus, button[disabled].success:hover, button[disabled].success:focus, .button.disabled.success:hover, .button.disabled.success:focus, .button[disabled].success:hover, .button[disabled].success:focus { background-color: #43ac6a; }
-button.disabled.alert, button[disabled].alert, .button.disabled.alert, .button[disabled].alert { background-color: #f04124; border-color: #cf2a0e; color: white; cursor: default; opacity: 0.7; box-shadow: none; }
-button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .button.disabled.alert:focus, .button[disabled].alert:hover, .button[disabled].alert:focus { background-color: #cf2a0e; }
-button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .button.disabled.alert:focus, .button[disabled].alert:hover, .button[disabled].alert:focus { color: white; }
-button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .button.disabled.alert:focus, .button[disabled].alert:hover, .button[disabled].alert:focus { background-color: #f04124; }
-
-@media only screen and (min-width: 40.063em) { button, .button { display: inline-block; } }
 .button-group { list-style: none; margin: 0; left: 0; }
 .button-group:before, .button-group:after { content: " "; display: table; }
 .button-group:after { clear: both; }
@@ -508,8 +518,8 @@ button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert
 .button-group.radius > * > button, .button-group.radius > * .button { border-left: 1px solid; border-color: rgba(255, 255, 255, 0.5); }
 .button-group.radius > *:first-child button, .button-group.radius > *:first-child .button { border-left: 0; }
 .button-group.radius > *, .button-group.radius > * > a, .button-group.radius > * > button, .button-group.radius > * > .button { border-radius: 0; }
-.button-group.radius > *:first-child, .button-group.radius > *:first-child > a, .button-group.radius > *:first-child > button, .button-group.radius > *:first-child > .button { border-bottom-left-radius: 5px; border-top-left-radius: 5px; }
-.button-group.radius > *:last-child, .button-group.radius > *:last-child > a, .button-group.radius > *:last-child > button, .button-group.radius > *:last-child > .button { border-bottom-right-radius: 5px; border-top-right-radius: 5px; }
+.button-group.radius > *:first-child, .button-group.radius > *:first-child > a, .button-group.radius > *:first-child > button, .button-group.radius > *:first-child > .button { border-bottom-left-radius: 3px; border-top-left-radius: 3px; }
+.button-group.radius > *:last-child, .button-group.radius > *:last-child > a, .button-group.radius > *:last-child > button, .button-group.radius > *:last-child > .button { border-bottom-right-radius: 3px; border-top-right-radius: 3px; }
 .button-group.round > * > button, .button-group.round > * .button { border-left: 1px solid; border-color: rgba(255, 255, 255, 0.5); }
 .button-group.round > *:first-child button, .button-group.round > *:first-child .button { border-left: 0; }
 .button-group.round > *, .button-group.round > * > a, .button-group.round > * > button, .button-group.round > * > .button { border-radius: 0; }
@@ -676,9 +686,9 @@ select::-ms-expand { display: none; }
 
 .prefix.button { padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; text-align: center; line-height: 2.125rem; border: none; }
 
-.prefix.button.radius { border-radius: 0; border-bottom-left-radius: 5px; border-top-left-radius: 5px; }
+.prefix.button.radius { border-radius: 0; border-bottom-left-radius: 3px; border-top-left-radius: 3px; }
 
-.postfix.button.radius { border-radius: 0; border-bottom-right-radius: 5px; border-top-right-radius: 5px; }
+.postfix.button.radius { border-radius: 0; border-bottom-right-radius: 3px; border-top-right-radius: 3px; }
 
 .prefix.button.round { border-radius: 0; border-bottom-left-radius: 1000px; border-top-left-radius: 1000px; }
 
@@ -1712,7 +1722,7 @@ html, body { min-width: 0 !important; }
 .jrw-resp .related-products .product .product-price { color: #606060; font-size: 1.0625rem; line-height: 1.0625rem; margin: 0.3125rem 0 0; }
 .jrw-resp .related-products .product .rating-review-container { margin: 0 0 0.3125rem; }
 .jrw-resp .related-products .product .rating-review-container a { font-size: 0.8125rem; }
-.jrw-resp .related-products .product .cta-add-to-cart { border-style: solid; border-width: 0px; cursor: pointer; font-family: Georgia, "Times New Roman", Times, serif; font-weight: normal; line-height: normal; margin: 0 0 1.25rem; position: relative; text-decoration: none; text-align: center; -webkit-appearance: none; -webkit-border-radius: 0; display: inline-block; padding-top: 1rem; padding-right: 2rem; padding-bottom: 1.0625rem; padding-left: 2rem; font-size: 1rem; padding-top: 1rem; padding-bottom: 1.0625rem; padding-right: 0; padding-left: 0; width: 100%; background-color: white; border-color: #cccccc; color: #333333; border-radius: 5px; border: 1px solid #dad7d7; color: #ac3c1b; display: block; font-size: 1rem; padding: 0.625rem 0; position: relative; font-weight: bold; }
+.jrw-resp .related-products .product .cta-add-to-cart { border-style: solid; border-width: 0px; cursor: pointer; font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; font-weight: bold; line-height: normal; margin: 0 0 1.25rem; position: relative; text-decoration: none; text-align: center; -webkit-appearance: none; -webkit-border-radius: 0; display: inline-block; padding-top: 1rem; padding-right: 2rem; padding-bottom: 1.0625rem; padding-left: 2rem; font-size: 1rem; padding-top: 1rem; padding-bottom: 1.0625rem; padding-right: 0; padding-left: 0; width: 100%; background-color: white; border-color: #cccccc; color: #333333; border-radius: 5px; border: 1px solid #dad7d7; color: #ac3c1b; display: block; font-size: 1rem; padding: 0.625rem 0; position: relative; font-weight: bold; }
 .jrw-resp .related-products .product .cta-add-to-cart:hover, .jrw-resp .related-products .product .cta-add-to-cart:focus { background-color: #cccccc; }
 .jrw-resp .related-products .product .cta-add-to-cart:hover, .jrw-resp .related-products .product .cta-add-to-cart:focus { color: #333333; }
 .jrw-resp .related-products .product .cta-add-to-cart:after { content: "Add to Cart"; display: block; }
@@ -1778,7 +1788,7 @@ html, body { min-width: 0 !important; }
 .jrw-resp .category-list ul .product-column .product-price a { color: inherit; }
 .jrw-resp .category-list ul .product-column .rating-review-container { margin: 0 0 0.3125rem; }
 .jrw-resp .category-list ul .product-column .rating-review-container a { font-size: 0.8125rem; }
-.jrw-resp .category-list ul .product-column .cta-add-to-cart { border-style: solid; border-width: 0px; cursor: pointer; font-family: Georgia, "Times New Roman", Times, serif; font-weight: normal; line-height: normal; margin: 0 0 1.25rem; position: relative; text-decoration: none; text-align: center; -webkit-appearance: none; -webkit-border-radius: 0; display: inline-block; padding-top: 1rem; padding-right: 2rem; padding-bottom: 1.0625rem; padding-left: 2rem; font-size: 1rem; padding-top: 1rem; padding-bottom: 1.0625rem; padding-right: 0; padding-left: 0; width: 100%; background-color: white; border-color: #cccccc; color: #333333; border-radius: 5px; border: 1px solid #dad7d7; color: #ac3c1b; display: block; font-size: 1rem; padding: 0.625rem 0; position: relative; font-weight: bold; }
+.jrw-resp .category-list ul .product-column .cta-add-to-cart { border-style: solid; border-width: 0px; cursor: pointer; font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; font-weight: bold; line-height: normal; margin: 0 0 1.25rem; position: relative; text-decoration: none; text-align: center; -webkit-appearance: none; -webkit-border-radius: 0; display: inline-block; padding-top: 1rem; padding-right: 2rem; padding-bottom: 1.0625rem; padding-left: 2rem; font-size: 1rem; padding-top: 1rem; padding-bottom: 1.0625rem; padding-right: 0; padding-left: 0; width: 100%; background-color: white; border-color: #cccccc; color: #333333; border-radius: 5px; border: 1px solid #dad7d7; color: #ac3c1b; display: block; font-size: 1rem; padding: 0.625rem 0; position: relative; font-weight: bold; }
 .jrw-resp .category-list ul .product-column .cta-add-to-cart:hover, .jrw-resp .category-list ul .product-column .cta-add-to-cart:focus { background-color: #cccccc; }
 .jrw-resp .category-list ul .product-column .cta-add-to-cart:hover, .jrw-resp .category-list ul .product-column .cta-add-to-cart:focus { color: #333333; }
 .jrw-resp .category-list ul .product-column .cta-add-to-cart:after { content: "Add to Cart"; display: block; }
@@ -1810,7 +1820,7 @@ html, body { min-width: 0 !important; }
 .jrw-resp .product-detail .product-info .cta-review-section { width: 100%; margin-left: auto; margin-right: auto; margin-top: 0; margin-bottom: 0; max-width: 62.5rem; }
 .jrw-resp .product-detail .product-info .cta-review-section:before, .jrw-resp .product-detail .product-info .cta-review-section:after { content: " "; display: table; }
 .jrw-resp .product-detail .product-info .cta-review-section:after { clear: both; }
-.jrw-resp .product-detail .product-info .cta-review-section .cta-review { border-style: solid; border-width: 0px; cursor: pointer; font-family: Georgia, "Times New Roman", Times, serif; font-weight: normal; line-height: normal; margin: 0 0 1.25rem; position: relative; text-decoration: none; text-align: center; -webkit-appearance: none; -webkit-border-radius: 0; display: inline-block; padding-top: 1rem; padding-right: 2rem; padding-bottom: 1.0625rem; padding-left: 2rem; font-size: 1rem; padding-top: 1rem; padding-bottom: 1.0625rem; padding-right: 0; padding-left: 0; width: 100%; background-color: white; border-color: #cccccc; color: #333333; border-radius: 5px; border: 1px solid #d2d2d2; color: #a8a8a8; font-weight: bold !important; }
+.jrw-resp .product-detail .product-info .cta-review-section .cta-review { border-style: solid; border-width: 0px; cursor: pointer; font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; font-weight: bold; line-height: normal; margin: 0 0 1.25rem; position: relative; text-decoration: none; text-align: center; -webkit-appearance: none; -webkit-border-radius: 0; display: inline-block; padding-top: 1rem; padding-right: 2rem; padding-bottom: 1.0625rem; padding-left: 2rem; font-size: 1rem; padding-top: 1rem; padding-bottom: 1.0625rem; padding-right: 0; padding-left: 0; width: 100%; background-color: white; border-color: #cccccc; color: #333333; border-radius: 5px; border: 1px solid #d2d2d2; color: #a8a8a8; font-weight: bold !important; }
 .jrw-resp .product-detail .product-info .cta-review-section .cta-review:hover, .jrw-resp .product-detail .product-info .cta-review-section .cta-review:focus { background-color: #cccccc; }
 .jrw-resp .product-detail .product-info .cta-review-section .cta-review:hover, .jrw-resp .product-detail .product-info .cta-review-section .cta-review:focus { color: #333333; }
 .jrw-resp .product-detail .product-info .product-reviews { width: auto; margin-left: -0.9375rem; margin-right: -0.9375rem; margin-top: 0; margin-bottom: 0; max-width: none; border-bottom: 1px solid #d9d8d8; text-align: left; }
@@ -1841,7 +1851,7 @@ html, body { min-width: 0 !important; }
 .jrw-resp .product-detail .product-info .product-description article label { padding-left: 0; padding-right: 0; width: 50%; float: left; font-weight: normal; font-size: 17px; }
 .jrw-resp .product-detail .product-info .product-description article select { padding-left: 0.9375rem; padding-right: 0.9375rem; width: 50%; float: left; }
 .jrw-resp .product-detail .product-info .product-description article select { background-image: url("../images/icon-arrow-down.png"); background-size: 0.9375rem 0.625rem; background-position: 96% center; border-color: #dad7d7; color: #606060; font-family: Georgia, "Times New Roman", Times, serif; }
-.jrw-resp .product-detail .product-info .product-description article .cta-add-to-cart { border-style: solid; border-width: 0px; cursor: pointer; font-family: Georgia, "Times New Roman", Times, serif; font-weight: normal; line-height: normal; margin: 0 0 1.25rem; position: relative; text-decoration: none; text-align: center; -webkit-appearance: none; -webkit-border-radius: 0; display: inline-block; padding-top: 1rem; padding-right: 2rem; padding-bottom: 1.0625rem; padding-left: 2rem; font-size: 1rem; padding-top: 1rem; padding-bottom: 1.0625rem; padding-right: 0; padding-left: 0; width: 100%; background-color: #ac3c1b; border-color: #8a3016; color: white; border-radius: 5px; font-weight: bold !important; }
+.jrw-resp .product-detail .product-info .product-description article .cta-add-to-cart { border-style: solid; border-width: 0px; cursor: pointer; font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; font-weight: bold; line-height: normal; margin: 0 0 1.25rem; position: relative; text-decoration: none; text-align: center; -webkit-appearance: none; -webkit-border-radius: 0; display: inline-block; padding-top: 1rem; padding-right: 2rem; padding-bottom: 1.0625rem; padding-left: 2rem; font-size: 1rem; padding-top: 1rem; padding-bottom: 1.0625rem; padding-right: 0; padding-left: 0; width: 100%; background-color: #ac3c1b; border-color: #8a3016; color: white; border-radius: 5px; font-weight: bold !important; }
 .jrw-resp .product-detail .product-info .product-description article .cta-add-to-cart:hover, .jrw-resp .product-detail .product-info .product-description article .cta-add-to-cart:focus { background-color: #8a3016; }
 .jrw-resp .product-detail .product-info .product-description article .cta-add-to-cart:hover, .jrw-resp .product-detail .product-info .product-description article .cta-add-to-cart:focus { color: white; }
 .jrw-resp .product-detail .product-info .learn-more { width: 100%; margin-left: auto; margin-right: auto; margin-top: 0; margin-bottom: 0; max-width: 62.5rem; }
@@ -1868,3 +1878,6 @@ html, body { min-width: 0 !important; }
 .jrw-resp .share-social article ul li:nth-child(2) a { background: url("../images/logo-social.png") no-repeat -26px -1px; }
 .jrw-resp .share-social article ul li:nth-child(3) a { background: url("../images/logo-social.png") no-repeat -52px -1px; }
 .jrw-resp .share-social article ul li:nth-child(4) a { background: url("../images/logo-social.png") no-repeat -78px -1px; }
+.jrw-resp .product { font-family: Georgia, "Times New Roman", Times, serif; padding-left: 0.9375rem; padding-right: 0.9375rem; width: 100%; float: left; }
+.jrw-resp .product .price-each .filter { font-size: 0.875rem; font-style: italic; }
+.jrw-resp .product .sku { font-size: 0.875rem; font-style: italic; }

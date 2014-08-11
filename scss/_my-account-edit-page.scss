@@ -6,4 +6,12 @@
 	label {
 		font-style: italic;
 	}
+
+	a {
+		@extend %white-button;
+	}
+
+	button {
+		@extend %norm-button;
+	}	
 }

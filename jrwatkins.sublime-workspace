@@ -455,22 +455,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "scss/_related-products.scss",
-			"settings":
-			{
-				"buffer_size": 2659,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "scss/_category.scss",
-			"settings":
-			{
-				"buffer_size": 3431,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -516,12 +500,12 @@
 	},
 	"file_history":
 	[
-		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_variables.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_category.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_related-products.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_variables.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_product-detail.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/product-detail.html",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_subscribe.scss",
-		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_related-products.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/category.html",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/customer-service.html",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/my-account-edit-page.html",
@@ -651,7 +635,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 93.0,
+		"height": 0.0,
 		"where_history":
 		[
 			"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins",
@@ -813,63 +797,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "scss/_related-products.scss",
-					"settings":
-					{
-						"buffer_size": 2659,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								518,
-								518
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "scss/_category.scss",
-					"settings":
-					{
-						"buffer_size": 3431,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1028,
-								971
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 126.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],

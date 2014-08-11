@@ -373,6 +373,8 @@ $accordion-content-active-bg-color: transparent;
 // $button-font-lrg: rem-calc(20);
 // $button-font-weight: $font-weight-normal;
 // $button-font-align: center;
+$button-font-weight: bold;
+
 
 // We use these to control various hover effects.
 // $button-function-factor: -20%;
@@ -382,11 +384,13 @@ $accordion-content-active-bg-color: transparent;
 // $button-border-style: solid;
 // $button-bg: $primary-color;
 // $button-border-color: scale-color($bg, $lightness: $button-function-factor);
+$button-bg: $red-orange;
 $button-border-width: 0px;
 
 // We use this to set the default radius used throughout the core.
 // $button-radius: $global-radius;
 // $button-round: $global-rounded;
+
 
 // We use this to set default opacity for disabled buttons.
 // $button-disabled-opacity: 0.7;
