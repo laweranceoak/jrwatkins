@@ -1,60 +1,117 @@
 .product {
 	font-family: $body-font-family;
-
+	font-size: rem-calc(14px);
+	font-style: italic;
+	@extend %spacing;
 	@include grid-column(12);
 
-	a {
-		font-size: rem-calc(13px);
-		@extend %font-bold-italic;
+	header {
+		@include grid-row();
+		margin-bottom: 0;
+		a {
+			font-size: rem-calc(13px);
+			@include grid-column($columns:6,$collapse:true);
+			@extend %font-bold-italic;
 
-		&:first-child {
-			color: black;
-			font-size: rem-calc(19px);
-			font-style: normal;
-			font-weight: normal;
-			text-transform: uppercase;
-			@extend %helvetica-neue-77-bold-condensed;
+			&:first-child {
+				color: black;
+				display: inline-block;
+				font-size: rem-calc(19px);
+				font-style: normal;
+				font-weight: normal;
+				margin-bottom: 5%;
+				text-transform: uppercase;
+				@extend %helvetica-neue-77-bold-condensed;
+			}
 		}
-
+		.action-remove {
+			text-align: right;
+		}
 	}
 
-	p {
 
+	
+
+	p {
+		margin-bottom: 0;
 	}
 
 	img {
 
 	}
 
-	.action-remove {
+	section {
+		clear: both;
+		@extend %spacing;
+		@include grid-row($behavior: nest);
 
+		&.product-discription {
+			div {
+				@include grid-column(5);
+
+				&+div {
+					@include grid-column(7);
+				}
+			}
+
+			ul {
+				list-style: none;
+				@extend %no-padding;
+
+				li {
+					@extend %no-padding;
+				}
+			}
+		}
+
+		&.product-quantity {
+			div {
+				@include grid-column(2);
+
+				&+div {
+					@include grid-column(10);
+				}
+			}
+		}
+
+		&.product-footer {
+
+			p {
+				@include grid-column(12);
+
+				span {
+					display: inline-block;
+					float: right;
+				}
+			}
+		}
 	}
+	
 
 	.price-each {
-		@extend %font-bold-italic;
 		font-size: rem-calc(18px);
+		margin-bottom: 0;
+		@extend %font-bold-italic;
 	}
 
 	.filter {
-		font-size: rem-calc(14px);
-		font-style: italic;
-
+		// display: inline-block;
 		span {
 
 		}
 	}
 
 	.sku {
-		font-size: rem-calc(14px);
-		font-style: italic;
 	}
 
 	select {
-
+		background-color: white;
+		// font-size: rem-calc(25px);
+		font-style: italic;
 	}
 
 	.price {
-
+		font-style: normal;
 	}
 
 
