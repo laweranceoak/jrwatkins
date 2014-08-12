@@ -4,6 +4,17 @@
 	@include grid-column(12);
 
 	a {
+		font-size: rem-calc(13px);
+		@extend %font-bold-italic;
+
+		&:first-child {
+			color: black;
+			font-size: rem-calc(19px);
+			font-style: normal;
+			font-weight: normal;
+			text-transform: uppercase;
+			@extend %helvetica-neue-77-bold-condensed;
+		}
 
 	}
 
@@ -20,16 +31,17 @@
 	}
 
 	.price-each {
+		@extend %font-bold-italic;
+		font-size: rem-calc(18px);
+	}
 
-		.filter {
-			font-size: rem-calc(14px);
-			font-style: italic;
+	.filter {
+		font-size: rem-calc(14px);
+		font-style: italic;
 
-			span {
+		span {
 
-			}
 		}
-
 	}
 
 	.sku {
