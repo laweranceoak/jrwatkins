@@ -119,6 +119,49 @@
 	.price {
 		font-style: normal;
 	}
+}
 
+.cart-total {
+
+	p {
+		display: block;
+		margin-bottom: 0;
+		@extend %font-bold-italic;
+
+		span {
+			float: right;
+			font-style: normal;
+		}
+	}
+}
+
+.cart-checkout {
+	font-size: rem-calc(17px);
+
+	a {		
+		&.action-checkout {
+			@extend %font-bold-italic;
+			@extend %norm-button;
+
+			span.label {
+				font-size: inherit;
+				margin-bottom: 0;
+			}
+
+			&:hover {
+				span.label {
+						background-color: #8a3016;
+				}
+			}
+		}
+
+		&.continue-shopping {
+			@extend %white-button;
+			font-size: rem-calc(14px);
+		}
+	}
+}
+
+.cart-empty {
 
 }
