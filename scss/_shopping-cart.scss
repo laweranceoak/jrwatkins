@@ -5,11 +5,16 @@
 
 
 .product {
+	border-bottom: 1px solid $hr-gray;
 	font-family: $body-font-family;
 	font-size: rem-calc(14px);
 	font-style: italic;
 	@extend %spacing;
 	@include grid-column(12);
+
+	&:last-child {
+		border-bottom: none;
+	}
 
 	header {
 		@include grid-row();
@@ -71,6 +76,8 @@
 		}
 
 		&.product-quantity {
+			padding: 0;
+			
 			div {
 				@include grid-column(2);
 
@@ -81,6 +88,7 @@
 		}
 
 		&.product-footer {
+			padding: 0;
 
 			p {
 				@include grid-column(12);
