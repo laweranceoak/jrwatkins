@@ -76,13 +76,12 @@
 		}
 
 		&.product-quantity {
-			padding: 0;
-			
+
 			div {
-				@include grid-column(2);
+				@include grid-column(3);
 
 				&+div {
-					@include grid-column(10);
+					@include grid-column(9);
 				}
 			}
 		}

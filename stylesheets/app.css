@@ -1893,9 +1893,8 @@ html, body { min-width: 0 !important; }
 .jrw-resp .product section.product-discription div { padding-left: 0.9375rem; padding-right: 0.9375rem; width: 41.66667%; float: left; }
 .jrw-resp .product section.product-discription div + div { padding-left: 0.9375rem; padding-right: 0.9375rem; width: 58.33333%; float: left; }
 .jrw-resp .product section.product-discription ul { list-style: none; }
-.jrw-resp .product section.product-quantity { padding: 0; }
-.jrw-resp .product section.product-quantity div { padding-left: 0.9375rem; padding-right: 0.9375rem; width: 16.66667%; float: left; }
-.jrw-resp .product section.product-quantity div + div { padding-left: 0.9375rem; padding-right: 0.9375rem; width: 83.33333%; float: left; }
+.jrw-resp .product section.product-quantity div { padding-left: 0.9375rem; padding-right: 0.9375rem; width: 25%; float: left; }
+.jrw-resp .product section.product-quantity div + div { padding-left: 0.9375rem; padding-right: 0.9375rem; width: 75%; float: left; }
 .jrw-resp .product section.product-footer { padding: 0; }
 .jrw-resp .product section.product-footer p { padding-left: 0.9375rem; padding-right: 0.9375rem; width: 100%; float: left; }
 .jrw-resp .product section.product-footer p span { display: inline-block; float: right; }
