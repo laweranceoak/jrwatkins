@@ -1,3 +1,9 @@
+.view-shopping-cart {
+	@extend %internal-page-structure;
+}
+
+
+
 .product {
 	font-family: $body-font-family;
 	font-size: rem-calc(14px);
