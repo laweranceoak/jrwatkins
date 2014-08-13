@@ -57,6 +57,8 @@
 		@include grid-row($behavior: nest);
 
 		&.product-discription {
+			padding: 0;
+			
 			div {
 				@include grid-column(5);
 

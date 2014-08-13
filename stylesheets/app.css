@@ -1890,6 +1890,7 @@ html, body { min-width: 0 !important; }
 .jrw-resp .product section { clear: both; width: auto; margin-left: -0.9375rem; margin-right: -0.9375rem; margin-top: 0; margin-bottom: 0; max-width: none; }
 .jrw-resp .product section:before, .jrw-resp .product section:after { content: " "; display: table; }
 .jrw-resp .product section:after { clear: both; }
+.jrw-resp .product section.product-discription { padding: 0; }
 .jrw-resp .product section.product-discription div { padding-left: 0.9375rem; padding-right: 0.9375rem; width: 41.66667%; float: left; }
 .jrw-resp .product section.product-discription div + div { padding-left: 0.9375rem; padding-right: 0.9375rem; width: 58.33333%; float: left; }
 .jrw-resp .product section.product-discription ul { list-style: none; }
