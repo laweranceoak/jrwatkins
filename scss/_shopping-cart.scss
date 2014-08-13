@@ -58,7 +58,7 @@
 
 		&.product-discription {
 			padding: 0;
-			
+
 			div {
 				@include grid-column(5);
 
@@ -173,4 +173,14 @@
 
 .cart-empty {
 
+	p {
+		font-size: rem-calc(14px);
+		margin-bottom: 0;
+		@extend %font-bold-italic;
+	}
 }
+
+
+
+
+
