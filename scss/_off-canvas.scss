@@ -1,13 +1,7 @@
 @import "compass";
 
-body {
-	margin-top: $tabbar-height;
-}
-.fixed {
-	height: 100%;
-}
-.fixed, .left-off-canvas-menu {
-	z-index: 1003;
+.fixed-canvas .left-off-canvas-menu {
+	z-index: 2000;
 }
 .move-right .left-off-canvas-menu {
 	-webkit-transform: translate3d(0, 0, 0);
@@ -28,8 +22,4 @@ body {
 .move-right a.exit-off-canvas {
 	-webkit-transition: none;
 	transition: none;
-}
-
-aside {
-	top: $tabbar-height !important;
 }
