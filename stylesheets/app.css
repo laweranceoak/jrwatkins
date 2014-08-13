@@ -1904,7 +1904,7 @@ html, body { min-width: 0 !important; }
 .jrw-resp .product .price { font-style: normal; }
 .jrw-resp .cart-total p { display: block; margin-bottom: 0; }
 .jrw-resp .cart-total p span { float: right; font-style: normal; }
-.jrw-resp .cart-checkout { font-size: 1.0625rem; border-bottom: none; margin-bottom: 0; }
+.jrw-resp .cart-checkout { font-size: 1.0625rem; border-bottom: none !important; margin-bottom: 0 !important; }
 .jrw-resp .cart-checkout a.action-checkout span.label { font-size: inherit; margin-bottom: 0; }
 .jrw-resp .cart-checkout a.action-checkout:hover span.label { background-color: #8a3016; }
 .jrw-resp .cart-checkout a.continue-shopping { font-size: 0.875rem; }
