@@ -726,7 +726,7 @@ $tabbar-left-section-border: none;
 // Off Canvas Menu Variables
 // $off-canvas-width: rem-calc(250);
 // $off-canvas-bg: #333;
-$off-canvas-width: rem-calc(270);
+$off-canvas-width: 100%; /* orignally was rem-calc(270) - change if need be */
 $off-canvas-bg: white;
 
 // Off Canvas Menu List Variables
