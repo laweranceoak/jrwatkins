@@ -1,25 +1,30 @@
-@import "compass";
+// @import "compass";
 
-.fixed-canvas .left-off-canvas-menu {
-	z-index: 2000;
-}
-.move-right .left-off-canvas-menu {
-	-webkit-transform: translate3d(0, 0, 0);
-	transform: translate3d(0, 0, 0);
-	left: 0;
-}
-.left-off-canvas-menu {
-	-webkit-transform: translate3d(-100%, 0, 0);
-	transform: translate3d(-100%, 0, 0);
-	left: -100%;
-	-webkit-transition: 0.5s;
-	transition: 0.5s;
-}
-.move-right>.inner-wrap {
-	-webkit-transform: none;
-	transform: none;
-}
-.move-right a.exit-off-canvas {
-	-webkit-transition: none;
-	transition: none;
-}
+// .fixed-canvas .left-off-canvas-menu {
+// 	z-index: 1003;
+// }
+// .move-right .left-off-canvas-menu {
+// 	-webkit-transform: translate3d(0, 0, 0);
+// 	transform: translate3d(0, 0, 0);
+// 	left: 0;
+// }
+// .left-off-canvas-menu {
+// 	-webkit-transform: translate3d(-100%, 0, 0);
+// 	transform: translate3d(-100%, 0, 0);
+// 	left: -100%;
+// 	-webkit-transition: 0.5s;
+// 	transition: 0.5s;
+// }
+// .move-right>.inner-wrap {
+// 	-webkit-transform: none;
+// 	transform: none;
+// }
+// .move-right a.exit-off-canvas {
+// 	-webkit-transition: none;
+// 	transition: none;
+// }
+
+// aside {
+// 	position: fixed;
+// 	top: 0;
+// }
