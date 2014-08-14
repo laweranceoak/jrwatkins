@@ -17,7 +17,7 @@ CTA_AddToCart.click(function(){
 	$(this).toggleClass("added");
 
 	if ($(this).hasClass("added")) {
-		AddedToCartDialog.fadeIn( "slow", "linear" ).delay(500).fadeOut("fast","linear");
+		AddedToCartDialog.fadeIn( "slow", "linear" ).delay(1000).fadeOut("fast","linear");
 	}
 	else {
 		AddedToCartDialog.hide();

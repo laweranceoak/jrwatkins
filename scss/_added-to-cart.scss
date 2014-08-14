@@ -39,7 +39,9 @@
 			}
 		}
 
-		a {
+		span {
+			color: $red-orange;
+			cursor: pointer;
 			display: inline-block;
 			@extend %helvetica-neue-77-bold-condensed;
 			@include grid-column(5);
