@@ -1648,7 +1648,7 @@ html, body { min-width: 0 !important; }
 .jrw-resp .search .search-cta { padding-left: 0; padding-right: 0; width: 25%; float: left; }
 .jrw-resp .search .search-cta a { display: block; position: relative; z-index: 2; text-align: center; width: 100%; padding-top: 0; padding-bottom: 0; border-style: solid; border-width: 1px; overflow: hidden; font-size: 0.8125rem; height: 2.3125rem; line-height: 2.3125rem; background: #ac3c1b; border-right: none; color: white; border-color: #cccccc; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; text-align: center; line-height: 2.125rem; border: none; -webkit-border-radius: 0 5px 5px 0; -moz-border-radius: 0 5px 5px 0; -ms-border-radius: 0 5px 5px 0; -o-border-radius: 0 5px 5px 0; border-radius: 0 5px 5px 0; border: none; color: white; font-style: italic; }
 .jrw-resp *:focus { outline: 0; }
-.jrw-resp .added-cart { background-color: rgba(230, 230, 230, 0.9); position: fixed; top: 4.0625rem; left: 0; z-index: 50; width: 100%; margin-left: auto; margin-right: auto; margin-top: 0; margin-bottom: 0; max-width: 62.5rem; padding-bottom: 0; max-width: 100%; display: none; }
+.jrw-resp .added-cart { background-color: rgba(230, 230, 230, 0.9); position: fixed; top: 0; left: 0; z-index: 50; width: 100%; margin-left: auto; margin-right: auto; margin-top: 0; margin-bottom: 0; max-width: 62.5rem; padding-bottom: 0; max-width: 100%; display: none; }
 .jrw-resp .added-cart:before, .jrw-resp .added-cart:after { content: " "; display: table; }
 .jrw-resp .added-cart:after { clear: both; }
 .jrw-resp .added-cart > div { width: 100%; margin-left: auto; margin-right: auto; margin-top: 0; margin-bottom: 0; max-width: 62.5rem; }
