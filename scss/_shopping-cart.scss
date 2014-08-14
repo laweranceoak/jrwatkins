@@ -53,12 +53,13 @@
 		}
 
 		.action-update {
-			margin-right: 5%;
+			margin-right: 3%;
 
 			&:after {
 				content: "|";
 				color: $red-orange;
 				display: inline-block;
+				padding-left: 4%;
 			}
 		}
 
@@ -130,7 +131,8 @@
 		.sku {
 		}
 
-		select {
+		select, input {
+			height: rem-calc(15px);
 			background-color: white;
 			// font-size: rem-calc(25px);
 			font-style: italic;
