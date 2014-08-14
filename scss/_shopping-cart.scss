@@ -52,6 +52,16 @@
 
 		}
 
+		.action-update {
+			margin-right: 5%;
+
+			&:after {
+				content: "|";
+				color: $red-orange;
+				display: inline-block;
+			}
+		}
+
 		section {
 			clear: both;
 			@extend %spacing;
