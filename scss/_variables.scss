@@ -157,7 +157,7 @@ $normal-radius: 5px;
 	}
 
 	h1,h2,h3,h4,h5,h6 {
-		@extend %no-padding;
+		// @extend %no-padding;
 	}
 
 	h1 {
@@ -186,6 +186,7 @@ $normal-radius: 5px;
 
 	h6 {
 		line-height: rem-calc(14px);
+		line-height: rem-calc(22px);
 		font-weight: bold;
 	}
 

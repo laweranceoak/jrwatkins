@@ -7,8 +7,12 @@
 		margin-bottom: rem-calc(10px);
 	}
 
+	a {
+		font-style: italic;
+	}
+
 	ul {
-		line-height: rem-calc(14px);
+		line-height: rem-calc(22px);
 		list-style: none;
 		@extend %no-padding;
 
