@@ -90,6 +90,7 @@
 			}
 
 			&.product-quantity {
+				padding-bottom: 0;
 
 				div {
 					@include grid-column(3);
@@ -110,6 +111,14 @@
 						display: inline-block;
 						float: right;
 					}
+				}
+			}
+
+			&.update-remove {
+				padding-top: 0;
+
+				div {
+					@include grid-column(12);
 				}
 			}
 		}
