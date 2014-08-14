@@ -1,0 +1,30 @@
+.promo-area {
+	background-color: $red-orange;
+	color: white;
+	font-family: $body-font-family;
+	padding: rem-calc(10px) 0;
+	@extend %font-bold-italic;
+	@include grid-row();
+
+	.left {
+		@include grid-column(10);
+	}
+
+	.right {
+		text-align: right;
+		@include grid-column(2);
+	}
+
+	p {
+		font-size: rem-calc(14px);
+		line-height: rem-calc(19px);
+		margin-bottom: 0;
+	}
+
+	.close-promo {
+		color: inherit;
+		font-size: rem-calc(14px);
+		line-height: rem-calc(19px);
+		text-transform: uppercase;
+	}
+}
