@@ -22,7 +22,7 @@
 			margin-bottom: 0;
 			a {
 				font-size: rem-calc(13px);
-				@include grid-column($columns:6,$collapse:true);
+				@include grid-column($columns:12,$collapse:true);
 				@extend %font-bold-italic;
 
 				&:first-child {

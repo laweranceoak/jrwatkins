@@ -1891,7 +1891,7 @@ html, body { min-width: 0 !important; }
 .jrw-resp .product-container .product header { width: 100%; margin-left: auto; margin-right: auto; margin-top: 0; margin-bottom: 0; max-width: 62.5rem; margin-bottom: 0; }
 .jrw-resp .product-container .product header:before, .jrw-resp .product-container .product header:after { content: " "; display: table; }
 .jrw-resp .product-container .product header:after { clear: both; }
-.jrw-resp .product-container .product header a { font-size: 0.8125rem; padding-left: 0; padding-right: 0; width: 50%; float: left; }
+.jrw-resp .product-container .product header a { font-size: 0.8125rem; padding-left: 0; padding-right: 0; width: 100%; float: left; }
 .jrw-resp .product-container .product header a:first-child { color: black; display: inline-block; font-size: 1.1875rem; font-style: normal; font-weight: normal; margin-bottom: 5%; text-transform: uppercase; }
 .jrw-resp .product-container .product header .action-remove { text-align: right; }
 .jrw-resp .product-container .product p { margin-bottom: 0; }
