@@ -1910,7 +1910,7 @@ html, body { min-width: 0 !important; }
 .jrw-resp .product-container .product section.product-footer p { padding-left: 0.9375rem; padding-right: 0.9375rem; width: 100%; float: left; }
 .jrw-resp .product-container .product section.product-footer p span { display: inline-block; float: right; }
 .jrw-resp .product-container .product .price-each { font-size: 1.125rem; margin-bottom: 0; }
-.jrw-resp .product-container .product select, .jrw-resp .product-container .product input { height: 2rem; background-color: white; font-style: italic; }
+.jrw-resp .product-container .product select, .jrw-resp .product-container .product input { height: 2rem; background-color: white; font-style: italic; margin-top: -5px; }
 .jrw-resp .product-container .product .price { font-style: normal; }
 .jrw-resp .cart-total p { display: block; margin-bottom: 0; }
 .jrw-resp .cart-total p span { float: right; font-style: normal; }
