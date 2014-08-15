@@ -402,6 +402,7 @@
 		}
 
 	    .cta-add-to-cart {
+	    	color: white;
 	    	@include button(
 		    // Primary color set in settings file. Default: $primary-color.
 		    $bg: $red-orange,
