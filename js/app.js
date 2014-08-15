@@ -39,6 +39,10 @@ $('.language li').click(function(e) {
     e.preventDefault();
 });
 
+//Show and Hide Promo Container
+    $(".close-promo").click(function () {
+        $(".promo-area").fadeToggle("3000");
+    });
 
 
 

@@ -2,7 +2,8 @@
 header {
 	@include grid-row();
 	// margin-bottom: $tabbar-height;
-	overflow: visible;
+	// overflow: visible;
+	// position: relative;
 
 	
 
@@ -120,4 +121,11 @@ header {
 			}
 		}
 	}
+}
+
+.move-right {
+
+		header.navigation-container {
+				position: static !important;
+		}
 }
