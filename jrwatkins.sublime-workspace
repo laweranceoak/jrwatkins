@@ -4,16 +4,40 @@
 		"selected_items":
 		[
 			[
-				"fon",
-				"font-weight"
-			],
-			[
-				"font",
-				"font-weight"
+				"margin",
+				"margin-top"
 			],
 			[
 				"marg",
 				"margin-bottom"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"fo",
+				"footer	Tag"
+			],
+			[
+				"head",
+				"header	Tag"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"pad",
+				"padding"
 			],
 			[
 				"min",
@@ -22,10 +46,6 @@
 			[
 				"tex",
 				"textarea"
-			],
-			[
-				"mar",
-				"margin-bottom"
 			],
 			[
 				"h",
@@ -60,10 +80,6 @@
 				"extend"
 			],
 			[
-				"margin",
-				"margin-bottom"
-			],
-			[
 				"backgr",
 				"background-color"
 			],
@@ -96,10 +112,6 @@
 				"inline-block"
 			],
 			[
-				"pad",
-				"padding-top"
-			],
-			[
 				"tab1",
 				"tab1Info"
 			],
@@ -122,10 +134,6 @@
 			[
 				"le",
 				"letter-spacing"
-			],
-			[
-				"text",
-				"text-decoration"
 			],
 			[
 				"bo",
@@ -500,32 +508,44 @@
 	},
 	"file_history":
 	[
-		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_category.scss",
-		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_related-products.scss",
-		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_variables.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_search.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/index.html",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_header.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_product-detail.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_related-products.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/product-detail.html",
-		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_subscribe.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/js/app.js",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_variables.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/shopping-cart.html",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_shopping-cart.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_added-to-cart.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/category.html",
-		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/customer-service.html",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_settings.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_promo.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/app.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/my-account.html",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_my-account.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/index-fixedOffCanvas.html",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_off-canvas.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_login.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/stylesheets/app.css",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_main.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/my-account-edit-page.html",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_my-account-edit-page.scss",
-		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/app.scss",
-		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_settings.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/my-account-review-order.html",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_global-styles.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/stylesheets/style.css",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/index-fixed-offcanvas.html",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_off-canvas-fixed.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_category.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_subscribe.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/customer-service.html",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_customer-service.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_customer-service-contact-us.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_customer-service-rates-table.scss",
-		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_main.scss",
-		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/stylesheets/app.css",
-		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/index.html",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/humans.txt",
-		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_header.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_body-nav.scss",
-		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_added-to-cart.scss",
-		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/js/app.js",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_social-share.scss",
-		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_search.scss",
-		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_login.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_jrw-override.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_jrw-carousel-container.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_footer.scss",
@@ -615,19 +635,7 @@
 		"/Users/ryan.payne/Desktop/WORK/Prototype/_build/sass/wow-guide-styles.scss",
 		"/Users/ryan.payne/Desktop/WORK/Prototype/_build/stylesheets/wow-guide-styles.css",
 		"/Users/ryan.payne/Desktop/WORK/STPattyLookbook/build/_build/index_final.html",
-		"/Users/ryan.payne/Desktop/WORK/Prototype/_build/sass/_variables.scss",
-		"/Users/ryan.payne/Desktop/WORK/Prototype/_build/sass/_mixins.scss",
-		"/Users/ryan.payne/Desktop/prototype/stylesheets/screen.css",
-		"/Users/ryan.payne/Desktop/prototype/sass/screen.scss",
-		"/Users/ryan.payne/Desktop/WORK/Prototype/_build/css/_mixins.scss",
-		"/Users/ryan.payne/Desktop/WORK/Prototype/_build/css/_variables.scss",
-		"/Users/ryan.payne/Desktop/WORK/Prototype/_build/css/wow-guide-styles.scss",
-		"/Users/ryan.payne/Desktop/WORK/Prototype/_build/css/wow-guide-styles.css",
-		"/Users/ryan.payne/Desktop/WORK/Prototype/_build/css/grid_OG.css",
-		"/Users/ryan.payne/Dropbox/Public/Prototype/_build/css/normalize.css",
-		"/Users/ryan.payne/Dropbox/Public/Prototype/_build/index.html",
-		"/Users/ryan.payne/Dropbox/Public/Prototype/_build/css/grid_OG.css",
-		"/Users/ryan.payne/Dropbox/Public/Prototype/_build/css/wow-guide-styles.scss.haml"
+		"/Users/ryan.payne/Desktop/WORK/Prototype/_build/sass/_variables.scss"
 	],
 	"find":
 	{
@@ -635,7 +643,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 93.0,
 		"where_history":
 		[
 			"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins",
@@ -650,6 +658,14 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"cta-add",
+			"article",
+			"section",
+			".left-off-canvas-menu",
+			".move-right",
+			"action-checkout",
+			"butt",
+			"button",
 			"duplicate",
 			"accordion-read-review",
 			"product-column",
@@ -769,15 +785,7 @@
 			"green-color",
 			"@media",
 			"page_bottom_box",
-			"h4",
-			"page_inner",
-			"textwidget",
-			"img/",
-			"images",
-			"arege",
-			"small-",
-			"small-l",
-			"small-"
+			"h4"
 		],
 		"highlight": true,
 		"in_selection": false,
