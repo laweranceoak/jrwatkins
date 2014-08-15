@@ -6,30 +6,33 @@
 	.product-info {
 		@include grid-column(12);
 
-		> header {
-			@include grid-row();
-			text-align: center;
+		.product-group {
 
-			img {
-				margin-bottom: 5%;
-			}
+			header {
+				@include grid-row();
+				text-align: center;
 
-			.product-name {
-				color: black;
-				@extend %helvetica-neue-77-bold-condensed;
-				font-size: rem-calc(25px);
-				line-height: rem-calc(25px);
-				margin: 0 0 1%;
-				text-align: left;
-			}
+				img {
+					margin-bottom: 5%;
+				}
 
-			.product-price {
-				color: $dark-gray;
-				font-size: rem-calc(21px);
-				line-height: rem-calc(21px);
-				margin: 0 0 5%;
-				text-align: left;
-				@extend %font-bold-italic;
+				.product-name {
+					color: black;
+					@extend %helvetica-neue-77-bold-condensed;
+					font-size: rem-calc(25px);
+					line-height: rem-calc(25px);
+					margin: 0 0 1%;
+					text-align: left;
+				}
+
+				.product-price {
+					color: $dark-gray;
+					font-size: rem-calc(21px);
+					line-height: rem-calc(21px);
+					margin: 0 0 5%;
+					text-align: left;
+					@extend %font-bold-italic;
+				}
 			}
 		}
 
