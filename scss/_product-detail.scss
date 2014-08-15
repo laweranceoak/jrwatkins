@@ -14,7 +14,7 @@
 				margin-bottom: 5%;
 			}
 
-			h1 {
+			.product-name {
 				color: black;
 				@extend %helvetica-neue-77-bold-condensed;
 				font-size: rem-calc(25px);
@@ -23,7 +23,7 @@
 				text-align: left;
 			}
 
-			h2 {
+			.product-price {
 				color: $dark-gray;
 				font-size: rem-calc(21px);
 				line-height: rem-calc(21px);
