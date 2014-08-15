@@ -280,12 +280,12 @@
 			    	font-weight: normal;
 			    	font-size: (17px);
 			    }
-			    select {
+			    select, input {
 			    	@include grid-column(6);
 			    	@extend %border-radius;
 			    }
 
-			    select {
+			    select, input {
 					background-image: url('../images/icon-arrow-down.png');
 					background-size: rem-calc(15px) rem-calc(10px);
 					background-position: 96% center;
@@ -389,12 +389,12 @@
 		    	font-weight: normal;
 		    	font-size: (17px);
 		    }
-		    select {
+		    select, input {
 		    	@include grid-column(6);
 		    	@extend %border-radius;
 		    }
 
-		    select {
+		    select, input {
 				background-image: url('../images/icon-arrow-down.png');
 				background-size: rem-calc(15px) rem-calc(10px);
 				background-position: 96% center;
