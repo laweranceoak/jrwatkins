@@ -1728,7 +1728,7 @@ html, body { min-width: 0 !important; }
 .jrw-resp .related-products .product-group .product-name { color: black; font-size: 1.25rem; line-height: 1.25rem; margin: 0 0 0.3125rem; }
 .jrw-resp .related-products .product-group .product-name a { color: inherit; }
 .jrw-resp .related-products .product-group .product-price { color: #606060; font-size: 1.0625rem; line-height: 1.0625rem; margin: 0.3125rem 0 0; }
-.jrw-resp .related-products .product-group .rating-review-container { margin: 0 0 0.3125rem; }
+.jrw-resp .related-products .product-group .rating-review-container { margin: 0 0 0.3125rem; text-align: left; }
 .jrw-resp .related-products .product-group .rating-review-container a { font-size: 0.8125rem; }
 .jrw-resp .related-products .product-group .cta-add-to-cart { border-style: solid; border-width: 0px; cursor: pointer; font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; font-weight: bold; line-height: normal; margin: 0 0 1.25rem; position: relative; text-decoration: none; text-align: center; -webkit-appearance: none; -webkit-border-radius: 0; display: inline-block; padding-top: 1rem; padding-right: 2rem; padding-bottom: 1.0625rem; padding-left: 2rem; font-size: 1rem; padding-top: 1rem; padding-bottom: 1.0625rem; padding-right: 0; padding-left: 0; width: 100%; background-color: white; border-color: #cccccc; color: #333333; border-radius: 5px; border: 1px solid #dad7d7; color: #ac3c1b; display: block; font-size: 1rem; padding: 0.625rem 0; position: relative; font-weight: bold; }
 .jrw-resp .related-products .product-group .cta-add-to-cart:hover, .jrw-resp .related-products .product-group .cta-add-to-cart:focus { background-color: #cccccc; }
