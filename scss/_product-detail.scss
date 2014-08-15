@@ -379,42 +379,44 @@
 		}
 
 		// Mobile Product Detail Group Display Control
-		label {
-	    	@include grid-column($columns:6,$collapse:true);
-	    	@extend %font-bold-italic;
-	    	font-weight: normal;
-	    	font-size: (17px);
-	    }
-	    select {
-	    	@include grid-column(6);
-	    	@extend %border-radius;
-	    }
+		#main_0_page_0_MobileProductDetailGroupDisplayControl_pnlAddToCart {
+			label {
+		    	@include grid-column($columns:6,$collapse:true);
+		    	@extend %font-bold-italic;
+		    	font-weight: normal;
+		    	font-size: (17px);
+		    }
+		    select {
+		    	@include grid-column(6);
+		    	@extend %border-radius;
+		    }
 
-	    select {
-			background-image: url('../images/icon-arrow-down.png');
-			background-size: rem-calc(15px) rem-calc(10px);
-			background-position: 96% center;
-			border-color: $gray-border;
-			color: $dark-gray;
-			font-family: $body-font-family;
-			@extend %font-bold-italic;
-			@extend %border-radius;
+		    select {
+				background-image: url('../images/icon-arrow-down.png');
+				background-size: rem-calc(15px) rem-calc(10px);
+				background-position: 96% center;
+				border-color: $gray-border;
+				color: $dark-gray;
+				font-family: $body-font-family;
+				@extend %font-bold-italic;
+				@extend %border-radius;
+			}
+
+		    .cta-add-to-cart {
+		    	@include button(
+			    // Primary color set in settings file. Default: $primary-color.
+			    $bg: $red-orange,
+			    // If true, set to button radius which is $global-radius or explicitly set radius amount in px (ex. $radius:10px). Default:false.
+			    $radius: 5px,
+			    // We can set $full-width:true to remove side padding extend width. Default:false
+			    $full-width:true,
+			    // We can set $disabled:true to create a disabled transparent button. Default:false
+			    $disabled:false
+			    );
+			    @extend %font-bold-italic;
+			    font-weight: bold !important;
+		    }
 		}
-
-	    .cta-add-to-cart {
-	    	@include button(
-		    // Primary color set in settings file. Default: $primary-color.
-		    $bg: $red-orange,
-		    // If true, set to button radius which is $global-radius or explicitly set radius amount in px (ex. $radius:10px). Default:false.
-		    $radius: 5px,
-		    // We can set $full-width:true to remove side padding extend width. Default:false
-		    $full-width:true,
-		    // We can set $disabled:true to create a disabled transparent button. Default:false
-		    $disabled:false
-		    );
-		    @extend %font-bold-italic;
-		    font-weight: bold !important;
-	    }
 	}
 }
 
