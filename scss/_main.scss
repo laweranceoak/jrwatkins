@@ -1,5 +1,6 @@
 .main {
 	@include grid-row();
+	position: relative;
 	background-color: #fdfbfb;
 	border-left: 1px solid #cacaca;
 	border-right: 1px solid #cacaca;

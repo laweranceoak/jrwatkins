@@ -5,7 +5,7 @@ $(document).foundation();
 
 //Show and Hide Search Container
 $("#icon-search").click(function(){
-	$(".search").fadeToggle( "slow", "linear" );
+	$(".search-container").fadeToggle( "slow", "linear" );
 });
 
 //Add to cart CTA

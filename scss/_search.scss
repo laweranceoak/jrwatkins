@@ -1,20 +1,11 @@
 @import "compass";
 .search-container {
 	@include grid-row();
-}
-
-.search {
-	@include grid-row();
-	background-color: white;
-	max-width: 100%;
-	padding: rem-calc(10px);
-	position: absolute;
-	top: $tabbar-height;
-	left: 0;
-	z-index: 2000;
-	overflow: visible;
-
 	display: none;
+	left: 0;
+	position: absolute;
+	top: 0;
+	z-index: 2000;
 
 	&:before {
 		content: "";
@@ -28,6 +19,14 @@
 		border-right: 10px solid transparent;
 		border-bottom: 10px solid white;
 	}
+}
+
+.search {
+	@include grid-row();
+	background-color: white;
+	max-width: 100%;
+	padding: rem-calc(10px);
+	
 
 	.search-input {
 		@include grid-column(
