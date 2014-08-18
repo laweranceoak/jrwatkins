@@ -5,13 +5,19 @@
 
 	h3 {
 		margin-bottom: rem-calc(10px);
+
+		span {
+			color: $red-orange;
+			display: block;
+			font-size: rem-calc(12px);
+		}
 	}
 
 	a {
 		font-style: italic;
 	}
 
-	ul {
+	ul,ol {
 		line-height: rem-calc(22px);
 		list-style: none;
 		@extend %no-padding;
@@ -34,4 +40,39 @@
 			}
 		}
 	}
+
+	fieldset {
+		border: none !important;
+	}
+
+	hr {
+		display: none;
+	}
+
+	.cancel-link {
+		@extend %white-button;
+	}
+
+	.btn-primary {
+		@extend %norm-button;
+	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

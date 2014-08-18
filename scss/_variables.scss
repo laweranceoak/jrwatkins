@@ -81,7 +81,10 @@ $normal-radius: 5px;
 		    $full-width:true,
 		    $disabled:false
 	);
+	background: none;
 	color: #ac3c1b;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: rem-calc(17px) !important;
 	font-style: italic;
 	font-weight: bold;
 	padding: rem-calc(8px) 0;
@@ -106,8 +109,24 @@ $normal-radius: 5px;
 	    $disabled:false
 		);
 	@include border-radius($normal-radius);
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: rem-calc(17px) !important;
 	font-style: italic;
 	padding: rem-calc(8px) 0;
+	border-bottom: none !important;
+	margin-bottom: 0 !important;
+
+
+	span {
+		font-size: inherit;
+		margin-bottom: 0;
+	}
+
+	&:hover {
+		span.label {
+				background-color: #8a3016;
+		}
+	}
 }
 
 ////////////////////////////
