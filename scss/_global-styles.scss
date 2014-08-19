@@ -25,5 +25,17 @@ input, textarea, select {
 
 // Forgot password
 .forgot-link {
+	font-size: rem-calc(12px);
+	font-size: rem-calc(14px);
+	font-weight: normal;
+}
 
+// Disabled
+.form .disabled {
+	@include opacity(0.3);
+	filter: alpha(opacity=30);
+
+	label,a {
+		cursor: default;
+	}
 }

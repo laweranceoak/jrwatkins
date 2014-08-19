@@ -1,0 +1,86 @@
+.create-account {
+	@extend %internal-page-structure;
+	font-family: $body-font-family;
+	font-size: rem-calc(14px);
+
+	h3 {
+		margin-bottom: rem-calc(10px);
+
+		span {
+			color: $red-orange;
+			display: block;
+			font-size: rem-calc(12px);
+		}
+	}
+
+	a {
+		font-style: italic;
+	}
+
+	ul,ol {
+		line-height: rem-calc(22px);
+		list-style: none;
+		@extend %no-padding;
+
+		li {
+			font-style: italic;
+			margin-bottom: rem-calc(10px);
+
+			&:last-child {
+				margin-bottom: 0;
+			}
+
+			&.edit {
+				margin-top: rem-calc(23px);
+			}
+
+			span {
+				font-style: normal;
+				font-weight: bold;
+			}
+		}
+	}
+
+	fieldset {
+		border: none !important;
+
+		label {
+			display: inline-block;
+		}
+	}
+
+	hr {
+		display: none;
+	}
+
+	.product-header {
+		h1 {
+			border: none;
+			margin-bottom: 0;
+		}
+
+		h1 + p {
+			font-size: rem-calc(16px);
+			line-height: rem-calc(20px);
+			margin-bottom: 0;
+			padding-bottom: 0;
+		}
+	}
+
+	.now-for-a-few-details {
+
+		input {
+			margin-bottom: 0;
+		}
+
+		input,label {
+			display: inline;
+		}
+	}
+
+	.email-opt-in-field {
+		border-top: $grey-border;
+		margin-top: $section-spacing;
+		padding-top: $section-spacing;
+	}
+}

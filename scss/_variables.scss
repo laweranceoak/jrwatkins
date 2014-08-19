@@ -26,10 +26,13 @@ $hr-gray: #d9d8d8; //Navigation Seperators
 $red-orange: #ac3c1b; //Secondary Color
 $form-copy: $light-gray;
 $normal-radius: 5px;
+$grey-border: 1px solid $hr-gray; 
 
 // 2. Typography
 
 // 3. Spacing
+$section-spacing: rem-calc(20px);
+
 
 
 // 4. Mixins/Extend/Function
@@ -166,9 +169,9 @@ $normal-radius: 5px;
 
 	& > section {
 		@include grid-row();
-		border-bottom: 1px solid $hr-gray;
-		margin-bottom: rem-calc(20px);
-		padding-bottom: rem-calc(20px);
+		border-bottom: $grey-border;
+		margin-bottom: $section-spacing;
+		padding-bottom: $section-spacing;
 
 		&:last-child {
 			border: none;
@@ -205,7 +208,7 @@ $normal-radius: 5px;
 	}
 
 	h1 {
-		border-bottom: 1px solid $hr-gray;
+		border-bottom: $grey-border;
 		display: block;
 		font-size: rem-calc(25px);
 		line-height: rem-calc(25px);
@@ -226,6 +229,13 @@ $normal-radius: 5px;
 		line-height: rem-calc(18px);
 		margin: 0 0 rem-calc(13px);
 		@extend %font-bold-italic;
+
+		span {
+			font-size: rem-calc(12px);
+			font-size: rem-calc(14px);
+			font-weight: normal;
+			display: block;
+		}
 	}
 
 	h6 {
@@ -248,7 +258,7 @@ $normal-radius: 5px;
 
 
 
-// 5. Misc. 
+// 5. Misc.
 $include-html-classes: jrw-resp;
 
 
