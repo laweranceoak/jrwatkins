@@ -1,3 +1,29 @@
+// Add Border Radius to all form elements
 input, textarea, select {
 	@extend %border-radius;
+}
+
+// Global for all submit buttons
+.action-submit {
+	@extend %norm-button;
+}
+
+// Cancel Links
+.cancel-link {
+	@extend %white-button;
+}
+
+// Primary Button
+.btn-primary {
+	@extend %norm-button;
+}
+
+// Right link (forgot password)
+.right-link {
+	float: right;
+}
+
+// Forgot password
+.forgot-link {
+
 }
