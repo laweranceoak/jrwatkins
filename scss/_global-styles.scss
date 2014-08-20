@@ -63,9 +63,15 @@ input.error, textarea.error, select.error {
 	color: $red;
 }
 
+label.error {
+	font-size: rem-calc(10px);
+	font-style: italic;
+	line-height: rem-calc(14px);
+}
+
 //h3 Title Span class
 .title {
-	font-size: inherit;
-	color: inherit;
-	display: inline;
+	font-size: inherit !important;
+	color: inherit !important;
+	display: inline !important;
 }
