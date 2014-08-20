@@ -29,12 +29,12 @@ label {
 		line-height: rem-calc(14px);
 		margin-top: 5px;
 		text-align: right;
-	}
 
-	&[for="shipping-address-state"], &[for="shipping-address-zipCode"] {
-		float: none;
-		margin: rem-calc(0 0 16 0);
-		text-align: left;
+		&[for="shipping-address-state"], &[for="shipping-address-zipCode"] {
+			float: none;
+			margin: rem-calc(0 0 16 0);
+			text-align: left;
+		}
 	}
 }
 
