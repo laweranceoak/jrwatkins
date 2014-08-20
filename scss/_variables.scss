@@ -118,7 +118,7 @@ $section-spacing: rem-calc(20px);
 	font-weight: bold;
 	padding: rem-calc(8px) 0;
 
-	&:hover {
+	&:hover, &:focus {
 		background: transparent;
 		color: #ac3c1b;
 	}
@@ -151,7 +151,7 @@ $section-spacing: rem-calc(20px);
 		margin-bottom: 0;
 	}
 
-	&:hover {
+	&:hover, &:focus {
 		span.label {
 				background-color: #8a3016;
 		}
