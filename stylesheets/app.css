@@ -1603,6 +1603,9 @@ html, body { min-width: 0 !important; }
 .jrw-resp .forgot-link { font-size: 0.75rem; font-size: 0.875rem; font-weight: normal; }
 .jrw-resp .form .disabled { filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=30); opacity: 0.3; filter: alpha(opacity=30); }
 .jrw-resp .form .disabled label, .jrw-resp .form .disabled a { cursor: default; }
+.jrw-resp .alert { color: red; }
+.jrw-resp .alert p { font-size: 0.625rem; font-style: italic; line-height: 0.875rem; }
+.jrw-resp input.error { border: 1px solid red; }
 .jrw-resp .main { width: 100%; margin-left: auto; margin-right: auto; margin-top: 0; margin-bottom: 0; max-width: 62.5rem; position: relative; background-color: #fdfbfb; border-left: 1px solid #cacaca; border-right: 1px solid #cacaca; }
 .jrw-resp .main:before, .jrw-resp .main:after { content: " "; display: table; }
 .jrw-resp .main:after { clear: both; }

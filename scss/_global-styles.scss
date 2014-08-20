@@ -39,3 +39,18 @@ input, textarea, select {
 		cursor: default;
 	}
 }
+
+// Alert (alert-error)
+.alert {
+	color: $red;
+
+	p {
+		font-size: rem-calc(10px);
+		font-style: italic;
+		line-height: rem-calc(14px);
+	}
+}
+
+input.error {
+	border: 1px solid $red;
+}
