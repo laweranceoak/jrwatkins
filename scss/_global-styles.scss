@@ -49,5 +49,18 @@ input, textarea, select {
 	}
 }
 
+// removing <br> in <p>
+p {
+
+	br {
+		display: none;
+
+		&:after {
+			content: " ";
+			display: inline;
+		}
+	}
+}
+
 // Alert (alert-error)
 @import "error";
