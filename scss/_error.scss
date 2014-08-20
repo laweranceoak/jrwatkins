@@ -30,7 +30,13 @@ label {
 		margin-top: 5px;
 		text-align: right;
 
-		&[for="shipping-address-state"], &[for="shipping-address-zipCode"], &[for="credit-card-state"], &[for="credit-card-zipCode"] {
+		&[for="shipping-address-state"], 
+		&[for="shipping-address-zipCode"], 
+		&[for="credit-card-state"], 
+		&[for="credit-card-zipCode"],
+		&[for="credit-card-expirationMonth"],
+		&[for="credit-card-expirationYear"]
+		 {
 			float: none;
 			margin: rem-calc(0 0 16 0);
 			text-align: left;
