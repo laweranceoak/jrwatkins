@@ -1610,6 +1610,7 @@ html, body { min-width: 0 !important; }
 .jrw-resp .alert p, .jrw-resp .alert ul { font-size: 0.625rem; font-style: italic; line-height: 0.875rem; text-align: center; }
 .jrw-resp input.error, .jrw-resp textarea.error, .jrw-resp select.error { border: 1px solid red; color: red; }
 .jrw-resp label.error { font-size: 0.625rem; font-style: italic; float: right; line-height: 0.875rem; margin-top: 5px; text-align: right; }
+.jrw-resp label[for="shipping-address-state"] { float: none; margin-top: 0; }
 .jrw-resp span.title { font-size: inherit !important; color: inherit !important; display: inline !important; }
 .jrw-resp .main { width: 100%; margin-left: auto; margin-right: auto; margin-top: 0; margin-bottom: 0; max-width: 62.5rem; position: relative; background-color: #fdfbfb; border-left: 1px solid #cacaca; border-right: 1px solid #cacaca; }
 .jrw-resp .main:before, .jrw-resp .main:after { content: " "; display: table; }

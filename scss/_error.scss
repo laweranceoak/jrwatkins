@@ -30,7 +30,14 @@ label {
 		margin-top: 5px;
 		text-align: right;
 	}
+
+	&[for="shipping-address-state"] {
+		float: none;
+		margin-top: 0;
+	}
 }
+
+
 
 //h3 Title Span class
 span.title {
