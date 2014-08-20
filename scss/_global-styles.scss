@@ -45,12 +45,13 @@ input, textarea, select {
 	color: $red;
 
 	p {
-		font-size: rem-calc(10px);
+		font-size: rem-calc(12px);
 		font-style: italic;
 		line-height: rem-calc(14px);
+		text-align: center;
 	}
 }
 
-input.error {
+input.error, textarea.error, select.error {
 	border: 1px solid $red;
 }
