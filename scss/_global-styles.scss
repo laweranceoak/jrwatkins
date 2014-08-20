@@ -53,12 +53,7 @@ input, textarea, select {
 p {
 
 	br {
-		display: none;
-
-		&:after {
-			content: " ";
-			display: inline;
-		}
+		clear: none;
 	}
 }
 

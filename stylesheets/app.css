@@ -1605,8 +1605,7 @@ html, body { min-width: 0 !important; }
 .jrw-resp .form .disabled label, .jrw-resp .form .disabled a { cursor: default; }
 .jrw-resp .form .active { filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100); opacity: 1; filter: alpha(opacity=100); }
 .jrw-resp .form .active label, .jrw-resp .form .active a { cursor: pointer; }
-.jrw-resp p br { display: none; }
-.jrw-resp p br:after { content: " "; display: inline; }
+.jrw-resp p br { clear: none; }
 .jrw-resp .alert { color: red; }
 .jrw-resp .alert p { margin-bottom: 0; }
 .jrw-resp .alert p, .jrw-resp .alert ul { font-size: 0.625rem; font-style: italic; line-height: 0.875rem; text-align: center; }
