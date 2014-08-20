@@ -60,4 +60,12 @@ input, textarea, select {
 
 input.error, textarea.error, select.error {
 	border: 1px solid $red;
+	color: $red;
+}
+
+//h3 Title Span class
+.title {
+	font-size: inherit;
+	color: inherit;
+	display: inline;
 }
