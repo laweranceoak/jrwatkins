@@ -30,7 +30,7 @@ input, textarea, select {
 	font-weight: normal;
 }
 
-// Disabled
+// Disabled + Active
 .form .disabled {
 	@include opacity(0.3);
 	filter: alpha(opacity=30);
@@ -40,38 +40,14 @@ input, textarea, select {
 	}
 }
 
+.form .active {
+	@include opacity(1);
+	filter: alpha(opacity=100);
+
+	label,a {
+		cursor: pointer;
+	}
+}
+
 // Alert (alert-error)
-.alert {
-	color: $red;
-
-	p {
-		margin-bottom: 0;
-	}
-
-	p,ul {
-		font-size: rem-calc(10px);
-		font-style: italic;
-		line-height: rem-calc(14px);
-		text-align: center;
-	}
-
-
-}
-
-input.error, textarea.error, select.error {
-	border: 1px solid $red;
-	color: $red;
-}
-
-label.error {
-	font-size: rem-calc(10px);
-	font-style: italic;
-	line-height: rem-calc(14px);
-}
-
-//h3 Title Span class
-span.title {
-	font-size: inherit !important;
-	color: inherit !important;
-	display: inline !important;
-}
+@import "error";
