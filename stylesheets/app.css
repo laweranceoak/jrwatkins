@@ -1945,6 +1945,7 @@ html, body { min-width: 0 !important; }
 .jrw-resp .share-social article ul li:nth-child(2) a { background: url("../images/logo-social.png") no-repeat -26px -1px; }
 .jrw-resp .share-social article ul li:nth-child(3) a { background: url("../images/logo-social.png") no-repeat -52px -1px; }
 .jrw-resp .share-social article ul li:nth-child(4) a { background: url("../images/logo-social.png") no-repeat -78px -1px; }
+.jrw-resp .social-icons .addthis_button_tweet iframe, .jrw-resp .social-icons .addthis_button_google_plusone iframe, .jrw-resp .social-icons .addthis_button_pinterest_pinit iframe, .jrw-resp .social-icons .addthis_button_facebook_like iframe, .jrw-resp .social-icons .addthis_button_facebook_send iframe { display: none; }
 .jrw-resp .product-container .product { border-bottom: 1px solid #d9d8d8; font-family: Georgia, "Times New Roman", Times, serif; font-size: 0.875rem; font-style: italic; padding-left: 0.9375rem; padding-right: 0.9375rem; width: 100%; float: left; }
 .jrw-resp .product-container .product:last-child { border-bottom: none; }
 .jrw-resp .product-container .product header { width: 100%; margin-left: auto; margin-right: auto; margin-top: 0; margin-bottom: 0; max-width: 62.5rem; margin-bottom: 0; }
