@@ -1,0 +1,52 @@
+// size of triangle
+$left-right: 8px;
+$off-set: $left-right + 5px;
+
+.promo-section {
+	@extend %spacing;
+
+	dd {
+		background-color: #ececec;
+		margin-bottom: rem-calc(4px) !important;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+
+		&.active {
+
+			& > a {
+
+				&:after {
+					@include transform(rotate(90deg));
+					@include transition-duration(0.2s);
+				}
+			}
+		}
+
+		& > a {
+			background-color: transparent;
+			font-size: rem-calc(15px);
+			line-height:  rem-calc(18px);
+			padding: rem-calc(15px);
+
+			&:hover, &:focus {
+				background-color: transparent;
+			}
+
+			&:after {
+				content: "";
+				display: inline-block;
+				float: right;
+				width: 0; 
+				height: 0; 
+				border-top: $left-right solid transparent;
+				border-bottom: $left-right solid transparent;
+				border-left: $off-set solid #9d9d9d;
+				@include transition-property(all);
+				@include transition-duration(0.2s);
+
+			}
+		}
+	}
+}

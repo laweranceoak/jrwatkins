@@ -1,0 +1,273 @@
+.check-out {
+	@extend %internal-page-structure;
+	font-family: $body-font-family;
+	font-size: rem-calc(14px);
+	font-style: italic;
+
+	h1 {
+		margin-bottom: 0;
+	}
+
+	dl {
+
+		dd {
+
+			&:first-child {
+
+				a {
+					border-top: none;
+				}
+			}
+		}
+	}
+
+	.content {
+		padding-top: 0;
+
+		> section {
+			@include grid-row($behavior: nest);
+			position: relative;
+
+			&.general-info {
+				& > div {
+					font-size: rem-calc(14px);
+
+					&:first-child {
+						@include grid-column(9);
+
+						ul {
+							list-style: none;
+							@extend %no-padding;
+						}
+					}
+
+					&:last-child {
+						text-align: right;
+						@include grid-column(3);
+						// Places the div at the bottom of the container - moving edit to the bottom
+						position: absolute;
+						bottom: 0;
+						right: 0;
+					}
+				}
+			}
+		}
+
+		.product-container {
+			border-bottom: $grey-border !important;
+			padding-bottom: $section-spacing; // This add back space that is removed by default style
+		}
+	}
+}
+
+
+
+
+
+.check-out-total {
+
+	p {
+		display: block;
+		margin-bottom: 0;
+		font-stretch: italic;
+
+		span {
+			float: right;
+			font-style: normal;
+		}
+
+		&.total {
+			font-size: rem-calc(16px);
+			margin: 5% 0 10%;
+			@extend %font-bold-italic;
+		}
+	}
+
+	button {
+		@extend %norm-button;
+		font-weight: bold;
+	}
+}
+
+
+
+.check-out-general {
+	@extend %internal-page-structure;
+	font-family: $body-font-family;
+	font-size: rem-calc(14px);
+
+	h3 {
+		display: block;
+		margin-bottom: rem-calc(10px);
+		position: relative;
+
+		&:before {
+			background-color: black;
+			content: "1";
+			color: white;
+			display: inline-block;
+			font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+			font-size: rem-calc(17px);
+			font-style: normal;
+			font-weight: normal;
+			height: 20px;
+			margin-right: 3%;
+			padding-top: 1px;
+			width: 20px;
+			text-align: center;
+			@include border-radius(50%);
+		}
+
+		span {
+			color: $red-orange;
+			display: block;
+			font-size: rem-calc(12px);
+		}
+	}
+
+	a {
+		font-style: italic;
+	}
+
+	ul,ol {
+		line-height: rem-calc(22px);
+		list-style: none;
+		@extend %no-padding;
+
+		li {
+			font-style: italic;
+			margin-bottom: rem-calc(10px);
+
+			&:last-child {
+				margin-bottom: 0;
+			}
+
+			&.edit {
+				margin-top: rem-calc(23px);
+			}
+
+			span {
+				font-style: normal;
+				font-weight: bold;
+			}
+		}
+	}
+
+	fieldset {
+		border: none !important;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+
+		label {
+			display: inline-block;
+		}
+	}
+
+	hr {
+		display: none;
+	}
+}
+
+.new-customer {
+	div {
+
+	 	h5 ~ a {
+	 		@extend %white-button;
+	 		@include border-radius($normal-radius);
+	 		background-color: white;
+	 		border: $grey-border;
+
+	 		&:hover, &:focus {
+	 			background-color: white;
+	 		}
+	 	}
+
+	 	article {
+	 		@include grid-row();
+	 		@extend %spacing;
+		 	background-color: #ececec;
+		 	margin-bottom: $section-spacing;
+
+		 	&:last-child {
+		 		margin-bottom: 0;
+		 	}
+
+		 	section {
+		 		 @include grid-column(12);
+		 	}
+	 	}
+
+	 	fieldset {
+	 		margin: 0;
+	 	}
+	}
+}
+
+.check-box {
+	@include grid-row();
+
+	h5 {
+		font-size: rem-calc(14px);
+		line-height: rem-calc(16px);
+		margin: 0 0 2%;
+	}
+
+	p {
+		font-size: rem-calc(13px);
+		line-height: rem-calc(15px);
+		margin: rem-calc(5px) 0 0;
+	}
+
+	input {
+		margin: 0;
+	}
+
+	.col2 {
+		@include grid-column(1, $collapse:true);
+
+		&:last-child {
+			@include grid-column(11, $collapse:true);
+		}
+	}
+}
+
+.expiration-date {
+
+		section {
+
+			@include grid-row($behavior: nest);
+
+			div {
+				@include grid-column(6);
+			}
+		}
+}
+
+.review-order {
+
+	button {
+		@extend %white-button;
+ 		@include border-radius($normal-radius);
+ 		background-color: white;
+ 		border: $grey-border;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

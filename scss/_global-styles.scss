@@ -1,3 +1,4 @@
+@import "compass";
 // Add Border Radius to all form elements
 input, textarea, select {
 	@extend %border-radius;
@@ -57,6 +58,55 @@ p {
 
 		&:after {
 			content: ' ';
+		}
+	}
+}
+
+// Input Box with Input and Label inline
+.general-input-container {
+	@include grid-row();
+	max-width: 100%;	
+
+	.general-input {
+		@include grid-column(
+		    $columns:9,
+		    $collapse:true
+		);
+
+		input[type="text"] {
+			line-height: rem-calc(14px);
+			@include border-radius(5px 0 0 5px);
+			@include single-box-shadow(none);
+		}
+	}
+
+	.general-cta {
+		@include grid-column(
+		    $columns:3,
+		    $collapse:true
+		);
+		
+		a {
+			@include prefix-postfix-base();
+			@include prefix($bg: $red-orange,$is-button: true);
+			@include border-radius(0 5px 5px 0);			
+			border: none;
+			color: white;
+			font-style: italic;
+		}
+	}
+	
+}
+
+// Form Element State/Zip
+.state-zip-row {
+	@include grid-row($behavior: nest);
+
+	.col2 {
+		@include grid-column(4);
+
+		&:last-child {
+			@include grid-column(8);
 		}
 	}
 }

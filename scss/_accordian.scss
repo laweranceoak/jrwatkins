@@ -1,0 +1,73 @@
+@import "compass";
+.section-accordian {
+	position: relative;
+	@include grid-row($behavior: nest);
+
+	dd.active > a {
+
+		&:after {
+			content: "-";
+			font-weight: bold;
+		}
+	}
+
+
+	dd {
+
+		& > a {
+			background-color: transparent;
+			border-top: 1px solid $hr-gray;
+			font-size: rem-calc(14px);
+			font-style: italic;
+			padding: rem-calc(5px) rem-calc(15px);
+			text-align: left;
+
+			&:after {
+				background-color: white;
+				border: 1px solid $gray-border;
+				color: $red-orange;
+				content: "+";
+				display: inline-block;
+				float: right;
+				font-size: rem-calc(20px);
+				font-weight: bold;
+				line-height: rem-calc(16px);
+				height: 20px;
+				text-align: center;
+				vertical-align: top;
+				width: 20px;
+				@include border-radius(50%);
+			}
+
+			h3 {
+				display: inline;
+				@extend %no-padding;
+			}
+		}
+
+		&:last-child {
+
+			& > a {
+				border-bottom: 1px solid $hr-gray;
+			}
+
+			div:last-child {
+				padding-bottom: 0;
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

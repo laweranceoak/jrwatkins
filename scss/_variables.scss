@@ -166,7 +166,7 @@ $section-spacing: rem-calc(20px);
 		$columns:12,
 		$collapse:true
 		);
-	padding: rem-calc(12px) 0;
+	padding: $section-spacing/2 0 $section-spacing;
 
 	& > section {
 		@include grid-row();
@@ -176,6 +176,7 @@ $section-spacing: rem-calc(20px);
 
 		&:last-child {
 			border: none;
+			padding-bottom: 0;
 			margin-bottom: 0;
 		}
 
@@ -213,8 +214,8 @@ $section-spacing: rem-calc(20px);
 		display: block;
 		font-size: rem-calc(25px);
 		line-height: rem-calc(25px);
-		margin-bottom: rem-calc(21px);
-		padding-bottom: rem-calc(12px);
+		margin: 0 0 $section-spacing;
+		padding-bottom: $section-spacing/2;
 		text-align: center;
 		@extend %helvetica-neue-77-bold-condensed;
 	}
