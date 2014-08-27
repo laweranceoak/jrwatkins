@@ -178,6 +178,14 @@ $section-spacing: rem-calc(20px);
 			border: none;
 			padding-bottom: 0;
 			margin-bottom: 0;
+
+			p:last-child {
+				margin-bottom: 0;
+			}
+		}
+
+		p:last-child {
+			margin-bottom: 0;
 		}
 
 		& > div {
