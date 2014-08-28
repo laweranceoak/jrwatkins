@@ -5,19 +5,39 @@
 		[
 			[
 				"margin",
-				"margin-top"
-			],
-			[
-				"marg",
 				"margin-bottom"
 			],
 			[
-				"mar",
-				"margin-top"
+				"font",
+				"font-style"
 			],
 			[
 				"fon",
-				"font-size"
+				"font-weight"
+			],
+			[
+				"sec",
+				"section"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"text",
+				"text-shadow"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"ao",
+				"absolute"
 			],
 			[
 				"fo",
@@ -26,14 +46,6 @@
 			[
 				"head",
 				"header	Tag"
-			],
-			[
-				"font",
-				"font-style"
-			],
-			[
-				"text",
-				"text-transform"
 			],
 			[
 				"pad",
@@ -61,10 +73,6 @@
 			],
 			[
 				"padd",
-				"padding-right"
-			],
-			[
-				"padding",
 				"padding-right"
 			],
 			[
@@ -230,10 +238,6 @@
 			[
 				"po",
 				"position"
-			],
-			[
-				"sec",
-				"section-padding"
 			],
 			[
 				"op",
@@ -508,51 +512,71 @@
 	},
 	"file_history":
 	[
-		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_search.scss",
-		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/index.html",
-		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_header.scss",
-		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_product-detail.scss",
-		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_related-products.scss",
-		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/product-detail.html",
-		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/js/app.js",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_check-out.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_variables.scss",
-		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/shopping-cart.html",
-		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_shopping-cart.scss",
-		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_added-to-cart.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/my-account-review-order.html",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_my-account-review-order.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/category.html",
-		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_settings.scss",
-		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_promo.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/create-account.html",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/app.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/my-account.html",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/check-out-step-4.html",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/my-account-basic-info.html",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/check-out-step-3.html",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/check-out-step-2.html",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_create-account.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/customer-service.html",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_our-story.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_customer-service.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/our-story.html",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_global-styles.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_login-page.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/login.html",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/check-out-step-1.html",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/my-account-edit-basic-info.html",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/check-out.html",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_shopping-cart.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/shopping-cart.html",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_accordian-promo.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_accordian.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_search.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/js/app.js",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/product-detail.html",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_product-detail.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_error.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_header.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_social-share.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_our-stories.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_added-to-cart.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_my-account.scss",
+		"/Applications/MAMP/htdocs/wellmark/whatmatters/content/what_to_know.php",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/config.rb",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_settings.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_login.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_my-account-edit-page.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/my-account-edit-page.html",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/index.html",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_main.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_related-products.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_promo.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/index-fixedOffCanvas.html",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_off-canvas.scss",
-		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_login.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/stylesheets/app.css",
-		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_main.scss",
-		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/my-account-edit-page.html",
-		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_my-account-edit-page.scss",
-		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/my-account-review-order.html",
-		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_global-styles.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/stylesheets/style.css",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/index-fixed-offcanvas.html",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_off-canvas-fixed.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_category.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_subscribe.scss",
-		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/customer-service.html",
-		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_customer-service.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_customer-service-contact-us.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_customer-service-rates-table.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/humans.txt",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_body-nav.scss",
-		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_social-share.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_jrw-override.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_jrw-carousel-container.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_footer.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/bower_components/foundation/scss/foundation/components/_accordion.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/bower_components/foundation/js/foundation.js",
 		"/Users/ryan.payne/Desktop/theme.scss",
-		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/config.rb",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/compass_app_log.txt",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_jrw-overides.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/bower_components/foundation/scss/foundation.scss",
@@ -615,27 +639,7 @@
 		"/Users/ryan.payne/Desktop/WORK/WOW Guide/April Wow Guide/_build/index_sitecore.html",
 		"/Users/ryan.payne/Desktop/WORK/WOW Guide/May Wow Guide/WOWGuide/sass/_variables.scss",
 		"/Users/ryan.payne/Desktop/WORK/WOW Guide/May Wow Guide/WOWGuide/config.rb",
-		"/Users/ryan.payne/Desktop/WORK/WOW Guide/STPattyLookbook/build/_build/index_sitebuilder_V.html",
-		"/Users/ryan.payne/Desktop/WORK/WOW Guide/April Wow Guide/_build/sass/_variables.scss",
-		"/Users/ryan.payne/Desktop/WORK/WOW Guide/April Wow Guide/_build/index.html",
-		"/Users/ryan.payne/Desktop/WORK/April Wow Guide/_build/sass/wow-guide-styles.scss",
-		"/Users/ryan.payne/Desktop/WORK/April Wow Guide/_build/index_sitecore.html",
-		"/Users/ryan.payne/Desktop/WORK/April Wow Guide/_build/stylesheets/wow-guide-styles.css",
-		"/Users/ryan.payne/Desktop/WORK/STPattyLookbook/build/_build/css/main.css",
-		"/Users/ryan.payne/Desktop/WORK/STPattyLookbook/build/_build/css/main.scss",
-		"/Users/ryan.payne/Desktop/WORK/STPattyLookbook/build/_build/index_sitebuilder_V.html",
-		"/Users/ryan.payne/Desktop/WORK/April Wow Guide/_build/stylesheets/screen.css",
-		"/Users/ryan.payne/Desktop/foundation_edited.css",
-		"/Users/ryan.payne/Desktop/WORK/STPattyLookbook/build/_build/css/foundation.css",
-		"/Users/ryan.payne/Desktop/WORK/April Wow Guide/_build/index.html",
-		"/Users/ryan.payne/Desktop/WORK/April Wow Guide/_build/sass/_variables.scss",
-		"/Users/ryan.payne/Desktop/WORK/April Wow Guide/_build/sass/_mixins.scss",
-		"/Users/ryan.payne/Desktop/WORK/STPattyLookbook/build/_build/newGrid_sitebuilder_V.html",
-		"/Users/ryan.payne/Desktop/WORK/Prototype/_build/index.html",
-		"/Users/ryan.payne/Desktop/WORK/Prototype/_build/sass/wow-guide-styles.scss",
-		"/Users/ryan.payne/Desktop/WORK/Prototype/_build/stylesheets/wow-guide-styles.css",
-		"/Users/ryan.payne/Desktop/WORK/STPattyLookbook/build/_build/index_final.html",
-		"/Users/ryan.payne/Desktop/WORK/Prototype/_build/sass/_variables.scss"
+		"/Users/ryan.payne/Desktop/WORK/WOW Guide/STPattyLookbook/build/_build/index_sitebuilder_V.html"
 	],
 	"find":
 	{
@@ -658,6 +662,22 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			".shipping-info",
+			".our-story",
+			".sign-in",
+			" data-equalizer",
+			" data-equalizer-watch",
+			"equalizer-watch",
+			"reviews-container",
+			"form ",
+			"error",
+			"border",
+			"vanilla-list",
+			"footer",
+			"hide",
+			"class=\"main",
+			"basic-account-info",
+			"\n",
 			"cta-add",
 			"article",
 			"section",
@@ -769,23 +789,7 @@
 			"<img src=\"",
 			"href=\"#\"",
 			"/-/media/PB/Images/everyday-eats/breakfast-brunch/wow-guide-april-2014/images/Makers_Spotlight.jpg",
-			"wowguild",
-			"data-filetype=\"image\"",
-			"href=\"#\"",
-			"margin-top: 10%;",
-			"10%",
-			"Mom Hints",
-			"min-height",
-			"40px",
-			"svg",
-			"src=\"images",
-			"width: 100%;",
-			"brown-color",
-			"bodyPadding",
-			"green-color",
-			"@media",
-			"page_bottom_box",
-			"h4"
+			"wowguild"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -866,7 +870,7 @@
 		],
 		"width": 380.0
 	},
-	"show_minimap": true,
+	"show_minimap": false,
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
