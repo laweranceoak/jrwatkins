@@ -1644,6 +1644,7 @@ html, body { min-width: 0 !important; }
 .jrw-resp .general-container div article:last-child { margin-bottom: 0; }
 .jrw-resp .general-container div article section { padding-left: 0.9375rem; padding-right: 0.9375rem; width: 100%; float: left; }
 .jrw-resp .general-container div fieldset { margin: 0; }
+.jrw-resp .invisible { visibility: hidden; }
 .jrw-resp .alert { color: red; }
 .jrw-resp .alert p { margin-bottom: 0; }
 .jrw-resp .alert p, .jrw-resp .alert ul { font-size: 0.625rem; font-style: italic; line-height: 0.875rem; text-align: center; }

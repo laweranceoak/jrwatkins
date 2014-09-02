@@ -226,6 +226,10 @@ p {
 	}
 }
 
+// Invisible
+.invisible {
+	visibility: hidden;
+}
 
 // Alert (alert-error)
 @import "error";
