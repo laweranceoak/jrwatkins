@@ -17,6 +17,13 @@ input, textarea, select {
 // Primary Button
 .btn-primary {
 	@extend %norm-button;
+
+	&.action-submit {
+
+		span {
+			@extend %font-bold-italic;
+		}
+	}
 }
 
 // Right link (forgot password)
@@ -110,6 +117,115 @@ p {
 		}
 	}
 }
+// Global/General Structure
+.general-structure {
+	@extend %internal-page-structure;
+	font-family: $body-font-family;
+	font-size: rem-calc(14px);
+
+	h3 {
+		display: block;
+		margin-bottom: rem-calc(10px);
+
+		span {
+			color: $red-orange;
+			display: block;
+			font-size: rem-calc(12px);
+		}
+	}
+
+	a {
+		font-style: italic;
+	}
+
+	ul,ol {
+		line-height: rem-calc(22px);
+		list-style: none;
+		@extend %no-padding;
+
+		li {
+			font-style: italic;
+			margin-bottom: rem-calc(10px);
+
+			&:last-child {
+				margin-bottom: 0;
+			}
+
+			&.edit {
+				margin-top: rem-calc(23px);
+			}
+
+			span {
+				font-style: normal;
+				font-weight: bold;
+			}
+		}
+	}
+
+	fieldset {
+		border: none !important;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+
+		label {
+			display: inline-block;
+		}
+	}
+
+	hr {
+		display: none;
+	}
+
+	&.thank-you {
+		font-style: italic;
+	}
+
+	.shipping-info, .billing-info, .shipping-via {
+
+		ul, ul li {
+			margin: 0;
+			padding: 0;
+		}
+	}
+}
+
+.general-container {
+	div {
+
+	 	h5 ~ a {
+	 		@extend %white-button;
+	 		@include border-radius($normal-radius);
+	 		background-color: white;
+	 		border: $grey-border;
+
+	 		&:hover, &:focus {
+	 			background-color: white;
+	 		}
+	 	}
+
+	 	article {
+	 		@include grid-row();
+	 		@extend %spacing;
+		 	background-color: #ececec;
+		 	margin-bottom: $section-spacing;
+
+		 	&:last-child {
+		 		margin-bottom: 0;
+		 	}
+
+		 	section {
+		 		 @include grid-column(12);
+		 	}
+	 	}
+
+	 	fieldset {
+	 		margin: 0;
+	 	}
+	}
+}
+
 
 // Alert (alert-error)
 @import "error";
