@@ -1,6 +1,10 @@
 .share-social {
 	@include grid-row();
 
+	.addthis_toolbox {
+		display: inline-block;
+	}
+
 	article {
 		@include grid-column(
 			$columns:12,
@@ -29,29 +33,29 @@
 				display: inline-block;
 				
 
-				a {
-					@extend %hide-text;
-					display: block;
-					height: rem-calc(23px);
-					width: rem-calc(23px);
-				}
+				// a {
+				// 	@extend %hide-text;
+				// 	display: block;
+				// 	height: rem-calc(23px);
+				// 	width: rem-calc(23px);
+				// }
 
-				// Facebook
-				&:nth-child(1) {
-					a { background: url('../images/logo-social.png') no-repeat 0 -1px; }
-				}
-				// Twitter
-				&:nth-child(2) {
-					a { background: url('../images/logo-social.png') no-repeat -26px -1px; }
-				}
-				// Pinterest
-				&:nth-child(3) {
-					a { background: url('../images/logo-social.png') no-repeat -52px -1px; }
-				}
-				// Tumblr
-				&:nth-child(4) {
-					a { background: url('../images/logo-social.png') no-repeat -78px -1px; }
-				}
+				// // Facebook
+				// &:nth-child(1) {
+				// 	a { background: url('../images/logo-social.png') no-repeat 0 -1px; }
+				// }
+				// // Twitter
+				// &:nth-child(2) {
+				// 	a { background: url('../images/logo-social.png') no-repeat -26px -1px; }
+				// }
+				// // Pinterest
+				// &:nth-child(3) {
+				// 	a { background: url('../images/logo-social.png') no-repeat -52px -1px; }
+				// }
+				// // Tumblr
+				// &:nth-child(4) {
+				// 	a { background: url('../images/logo-social.png') no-repeat -78px -1px; }
+				// }
 			}
 		}
 	}
