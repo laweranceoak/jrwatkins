@@ -514,6 +514,9 @@
 	[
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_social-share.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/product-detail.html",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/js/app.js",
+		"/Applications/MAMP/htdocs/wellmark/whatmatters/content/what_to_know.php",
+		"/Applications/MAMP/htdocs/wellmark/whatmatters/content/js/popup.js",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/find-consultant.html",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_find-consultant.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_error.scss",
@@ -546,13 +549,11 @@
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_accordian-promo.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_accordian.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_search.scss",
-		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/js/app.js",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_product-detail.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_header.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_our-stories.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_added-to-cart.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_my-account.scss",
-		"/Applications/MAMP/htdocs/wellmark/whatmatters/content/what_to_know.php",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/config.rb",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_settings.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_login.scss",
@@ -638,8 +639,7 @@
 		"/Users/ryan.payne/Desktop/WORK/WOW Guide/May Wow Guide/WOWGuide/pictureFillSetup.html",
 		"/Users/ryan.payne/Desktop/WORK/WOW Guide/May Wow Guide/WOWGuide/sass/_mixins.scss",
 		"/Users/ryan.payne/Desktop/WORK/WOW Guide/April Wow Guide/_build/stylesheets/wow-guide-styles.css",
-		"/Users/ryan.payne/Desktop/WORK/WOW Guide/April Wow Guide/_build/index_sitecore.html",
-		"/Users/ryan.payne/Desktop/WORK/WOW Guide/May Wow Guide/WOWGuide/sass/_variables.scss"
+		"/Users/ryan.payne/Desktop/WORK/WOW Guide/April Wow Guide/_build/index_sitecore.html"
 	],
 	"find":
 	{
@@ -650,6 +650,7 @@
 		"height": 93.0,
 		"where_history":
 		[
+			"/Applications/MAMP/htdocs/wellmark/whatmatters/content",
 			"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins",
 			"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss",
 			"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins",
@@ -662,6 +663,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			".popup",
+			"popup",
+			"pinter",
+			".popup",
+			"popup",
+			".popup",
+			"facebook",
 			".error",
 			"error",
 			"input.error",
@@ -782,14 +790,7 @@
 			"May_WG_10Seconds.jpg",
 			"May_WG_brownie_2X.jpg",
 			"PB Cup Cookie Dough Brownie",
-			"May_WG_brownie.jpg",
-			"May_WG_pasta_plate_2X.jpg",
-			"One-Pot Pasta",
-			"May_WG_pasta_plate.jpg",
-			"May_WG_ground_beef_2X.jpg",
-			"Stuffed Cheeseburger Loaf",
-			"May_WG_ground_beef.jpg",
-			"font-bitter-Bold"
+			"May_WG_brownie.jpg"
 		],
 		"highlight": true,
 		"in_selection": false,
