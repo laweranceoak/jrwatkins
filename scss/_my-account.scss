@@ -41,8 +41,9 @@
 		}
 
 		hr {
+			background-color: $red-orange;
 			display: block !important;
-			padding: rem-calc(10px) 0;
+			padding: rem-calc(20px) 0;
 		}
 	}
 
