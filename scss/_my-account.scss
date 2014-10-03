@@ -39,6 +39,11 @@
 				font-weight: bold;
 			}
 		}
+
+		hr {
+			display: block !important;
+			padding: rem-calc(10px) 0;
+		}
 	}
 
 	fieldset {
