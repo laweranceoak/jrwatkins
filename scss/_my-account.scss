@@ -72,12 +72,6 @@
 	}
 
 	a {
-		color: white;
-		display: block;
-
-		&:hover, &:focus {
-			color: white;
-		}
 
 		&.confirm-yes {
 			@extend %norm-button;
