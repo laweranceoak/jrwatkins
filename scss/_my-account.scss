@@ -63,8 +63,6 @@
 }
 
 .form-confirm  {
-	background-color: $red-orange;
-	color: white;
 	margin: rem-calc(10px) 0;
 	padding: rem-calc(10px);
 	text-align: center;
@@ -82,16 +80,7 @@
 		}
 
 		&.confirm-yes {
-			@include button(
-			    // Primary color set in settings file. Default: $primary-color.
-			    $bg: white,
-			    // If true, set to button radius which is $global-radius or explicitly set radius amount in px (ex. $radius:10px). Default:false.
-			    $radius: 5px,
-			    // We can set $full-width:true to remove side padding extend width. Default:false
-			    $full-width:true,
-			    // We can set $disabled:true to create a disabled transparent button. Default:false
-			    $disabled:false
-			    );
+			@extend %norm-button;
 		}
 	}
 }
