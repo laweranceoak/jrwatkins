@@ -63,7 +63,9 @@
 }
 
 .form-confirm  {
-	margin: rem-calc(10px) 0;
+	background-color: $light-gray;
+	margin: rem-calc(20px 0);
+	margin: rem-calc(10px 0);
 	text-align: center;
 
 	p {
@@ -74,7 +76,10 @@
 
 		&.confirm-yes {
 			@extend %norm-button;
-			margin-bottom: rem-calc(10px);
+		}
+
+		&.confirm-no {
+			margin-top: rem-calc(10px);
 		}
 	}
 }
