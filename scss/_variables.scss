@@ -149,6 +149,8 @@ $section-spacing: rem-calc(20px);
 	span {
 		font-size: inherit;
 		margin-bottom: 0;
+		@include transition-property(background-color);
+		@include transition-duration(1s);
 	}
 
 	&:hover, &:focus {
