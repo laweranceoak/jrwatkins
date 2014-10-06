@@ -40,6 +40,10 @@
 			}
 		}
 
+		> p {
+			margin-bottom: rem-calc(10px);
+		}
+
 		hr {
 			border: 0;
 			border-bottom: 1px dashed $red-orange;
