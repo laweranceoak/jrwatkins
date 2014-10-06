@@ -82,7 +82,8 @@
 		}
 
 		&.confirm-yes {
-			// Primary color set in settings file. Default: $primary-color.
+			@include button(
+			    // Primary color set in settings file. Default: $primary-color.
 			    $bg: white,
 			    // If true, set to button radius which is $global-radius or explicitly set radius amount in px (ex. $radius:10px). Default:false.
 			    $radius: 5px,
