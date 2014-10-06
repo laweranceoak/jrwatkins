@@ -63,12 +63,13 @@
 }
 
 .form-confirm  {
-	background-color: $light-gray;
+	// background-color: $light-gray;
 	margin: rem-calc(20px 0);
-	margin: rem-calc(10px 0);
+	// margin: rem-calc(10px);
 	text-align: center;
 
 	p {
+		font-weight: bold;
 		margin-bottom: rem-calc(10px);
 	}
 
