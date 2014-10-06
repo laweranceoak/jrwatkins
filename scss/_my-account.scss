@@ -64,7 +64,6 @@
 
 .form-confirm  {
 	margin: rem-calc(10px) 0;
-	padding: rem-calc(10px);
 	text-align: center;
 
 	p {
@@ -75,6 +74,7 @@
 
 		&.confirm-yes {
 			@extend %norm-button;
+			margin-bottom: rem-calc(10px);
 		}
 	}
 }
