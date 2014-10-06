@@ -154,6 +154,8 @@ $section-spacing: rem-calc(20px);
 	&:hover, &:focus {
 		span.label {
 				background-color: #8a3016;
+				@include transition-property(background-color);
+				@include transition-duration(1s);
 		}
 	}
 }

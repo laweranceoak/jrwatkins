@@ -79,10 +79,6 @@
 		&.confirm-yes {
 			@extend %norm-button;
 		}
-
-		&.confirm-no {
-			margin-top: rem-calc(10px);
-		}
 	}
 }
 
