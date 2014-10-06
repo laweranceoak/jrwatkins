@@ -74,6 +74,7 @@
 	}
 
 	a {
+		display: block;
 
 		&.confirm-yes {
 			@extend %norm-button;
