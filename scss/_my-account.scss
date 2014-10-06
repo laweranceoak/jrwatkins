@@ -41,9 +41,11 @@
 		}
 
 		hr {
-			background-color: $red-orange;
-			display: block !important;
-			padding: rem-calc(20px) 0;
+			border: 0;
+			border-bottom: 1px dashed $red-orange;
+			display: block;
+			margin: 15% auto;
+			width: 85%;
 		}
 	}
 
