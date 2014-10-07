@@ -16,6 +16,7 @@
 			}
 
 			li {
+				line-height: 1;
 
 				&:last-child {
 					margin: 0 0 $section-spacing;
@@ -27,7 +28,7 @@
 	article {
 
 		&.box-content {
-			margin: $section-spacing;
+			margin: $section-spacing 0;
 		}
 	}
 }
