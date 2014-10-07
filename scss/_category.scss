@@ -80,10 +80,11 @@
 			}
 
 			.product-name {
-				color: $dark-gray;
-				font-size: rem-calc(17px);
-				margin: rem-calc(5px) 0 0;
-				@extend %font-bold-italic;
+				color: black;
+				@extend %helvetica-neue-77-bold-condensed;
+				font-size: rem-calc(20px);
+				line-height: rem-calc(20px);
+				margin: 0 0 rem-calc(5px);
 
 				a {
 					color: inherit;
