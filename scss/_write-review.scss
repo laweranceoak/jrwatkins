@@ -11,12 +11,23 @@
 
 		ul {
 
+			&:last-child {
+				margin: 0 0 $section-spacing;
+			}
+
 			li {
 
 				&:last-child {
 					margin: 0 0 $section-spacing;
 				}
 			}
+		}
+	}
+
+	article {
+
+		&.box-content {
+			margin: $section-spacing;
 		}
 	}
 }
