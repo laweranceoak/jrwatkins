@@ -87,10 +87,12 @@
 			}
 
 			.product-price {
-				color: black;
-				@extend %helvetica-neue-77-bold-condensed;
-				font-size: rem-calc(20px);
-				margin: 0 0 rem-calc(5px);
+				color: $dark-gray;
+					font-size: rem-calc(21px);
+					line-height: rem-calc(21px);
+					margin: 0 0 5%;
+					text-align: left;
+					@extend %font-bold-italic;
 
 				a {
 					color: inherit;
