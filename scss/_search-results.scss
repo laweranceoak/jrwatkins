@@ -2,7 +2,11 @@
 
 	p {
 		text-align: center;
-		@extend %helvetica-neue-77-bold-condensed;
+
+		span {
+			font-weight: bold;
+		}
+		
 	}
 }
 
