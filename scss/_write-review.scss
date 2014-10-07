@@ -31,4 +31,13 @@
 			margin: $section-spacing 0;
 		}
 	}
+
+	.main {
+		background-color: transparent;
+		border: none;
+		margin: 0;
+		max-width: none;
+		position: static;
+		width: auto;
+	}
 }
