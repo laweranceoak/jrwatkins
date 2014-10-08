@@ -28,6 +28,7 @@
 				@extend %no-padding;
 				margin: 0 0 10%;
 				padding-bottom: 0;
+				position: relative;
 
 				&:last-child {
 					float: left;
@@ -93,10 +94,12 @@
 			display: block;
 			font-size: rem-calc(16px);
 			padding: rem-calc(10px) 0;
-			position: relative;
+			position: absolute;
+			bottom: 0;
 			@extend %border-radius;
 			@extend %font-bold-italic;
 			font-weight: bold;
+			margin: 0;
 
 			&:after {
 				content: "Add to Cart";
