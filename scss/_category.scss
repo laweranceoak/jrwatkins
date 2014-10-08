@@ -142,6 +142,7 @@
 				@extend %border-radius;
 				@extend %font-bold-italic;
 				font-weight: bold;
+				margin: 0;
 
 				&:after {
 					content: "Add to Cart";
