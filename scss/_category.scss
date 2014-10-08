@@ -73,6 +73,8 @@
 			// }			
 			
 			.product {
+				height: 100%;
+				position: relative;
 
 				header {
 					margin: 0 0 5%;
@@ -134,7 +136,8 @@
 				font-family: $body-font-family;
 				font-size: rem-calc(16px);
 				padding: rem-calc(10px) 0;
-				position: relative;
+				position: absolute;
+				bottom: 0;
 				@extend %border-radius;
 				@extend %font-bold-italic;
 				font-weight: bold;
