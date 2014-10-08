@@ -62,6 +62,10 @@ header {
 		padding-top: rem-calc(19px);
 		vertical-align: top;
 		width: rem-calc(30px);
+
+		&.cart-empty {
+			margin-left: rem-calc(23px);
+		}
 	}
 
 	.jrw-logo {
