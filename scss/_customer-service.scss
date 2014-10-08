@@ -16,4 +16,15 @@
 	textarea {
 		min-height: 100px;
 	}	
+
+	.shipping-policy {
+
+		section {
+			margin-bottom: rem-calc(30px);
+
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
 }
