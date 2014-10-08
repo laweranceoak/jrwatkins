@@ -231,5 +231,10 @@ p {
 	visibility: hidden;
 }
 
+.visuallyhidden {
+	visibility: hidden:
+	display: none;
+}
+
 // Alert (alert-error)
 @import "error";
