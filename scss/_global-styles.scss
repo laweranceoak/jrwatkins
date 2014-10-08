@@ -83,7 +83,7 @@ p {
 		input[type="text"] {
 			line-height: rem-calc(14px);
 			@include border-radius(5px 0 0 5px);
-			@include single-box-shadow(none);
+			@include box-shadow(none);
 		}
 	}
 
