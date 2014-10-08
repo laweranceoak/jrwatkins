@@ -48,16 +48,12 @@
 		}
 	}
 
-	.name {
-		color: black;
-		@extend %helvetica-neue-77-bold-condensed;
-		font-size: rem-calc(20px);
-		line-height: rem-calc(20px);
-		margin: 0 0 rem-calc(5px);
+	.product-description {
 
-		a {
-			color: inherit;
-			font-style: normal;
-		}
+		h3 {
+    	@extend %font-bold-italic;
+    	font-size: rem-calc(18px);
+    	font-family: $body-font-family
+    }
 	}
 }
