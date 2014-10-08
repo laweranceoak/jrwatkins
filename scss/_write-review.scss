@@ -47,4 +47,17 @@
 			width: 100%;
 		}
 	}
+
+	.name {
+		color: black;
+		@extend %helvetica-neue-77-bold-condensed;
+		font-size: rem-calc(20px);
+		line-height: rem-calc(20px);
+		margin: 0 0 rem-calc(5px);
+
+		a {
+			color: inherit;
+			font-style: normal;
+		}
+	}
 }
