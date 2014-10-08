@@ -48,7 +48,7 @@
 		}
 	}
 
-	.product-description {
+	.product-description, .section-header, #form-write-review, .box-content, #write-review {
 
 		h3 {
     	@extend %font-bold-italic;
