@@ -17,6 +17,17 @@
 		min-height: 100px;
 	}	
 
+	.returns-exchange {
+
+		> article {
+			margin-bottom: rem-calc(30px);
+
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+
 	.shipping-policy {
 
 		section {
