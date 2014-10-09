@@ -3,44 +3,32 @@
 	font-family: $body-font-family;
 	font-size: rem-calc(14px);
 	font-style: italic;
-
 	h1 {
 		margin-bottom: 0;
 	}
-
 	dl {
-
 		dd {
-
 			&:first-child {
-
-				a {
-					border-top: none;
+				a{border-top: none;
 				}
 			}
 		}
 	}
-
 	.content {
 		padding-top: 0;
-
 		> section {
 			@include grid-row($behavior: nest);
 			position: relative;
-
 			&.general-info {
 				& > div {
 					font-size: rem-calc(14px);
-
 					&:first-child {
 						@include grid-column(9);
-
 						ul {
 							list-style: none;
 							@extend %no-padding;
 						}
 					}
-
 					&:last-child {
 						text-align: right;
 						@include grid-column(3);
@@ -52,54 +40,39 @@
 				}
 			}
 		}
-
 		.product-container {
 			border-bottom: $grey-border !important;
-			padding-bottom: $section-spacing; // This add back space that is removed by default style
+			padding-bottom: $section-spacing;
+			// This add back space that is removed by default style
 		}
 	}
 }
-
-
-
-
-
 .check-out-total {
-
-	p {
-		display: block;
+	p{display: block;
 		margin-bottom: 0;
 		font-stretch: italic;
-
 		span {
 			float: right;
 			font-style: normal;
 		}
-
 		&.total {
 			font-size: rem-calc(16px);
 			margin: 5% 0 10%;
 			@extend %font-bold-italic;
 		}
 	}
-
 	button {
 		@extend %norm-button;
 		font-weight: bold;
 	}
 }
-
-
-
 .check-out-general {
 	@extend %internal-page-structure;
 	font-family: $body-font-family;
 	font-size: rem-calc(14px);
-
 	// Adding circle Number before Copy on present on Check Out Step 2
 	.contact-info-check-out {
 		h3 {
-
 			&:before {
 				background-color: black;
 				content: "1";
@@ -121,161 +94,125 @@
 	h3 {
 		display: block;
 		margin-bottom: rem-calc(10px);
-
 		span {
 			color: $red-orange;
 			display: block;
 			font-size: rem-calc(12px);
 		}
 	}
-
 	a {
 		font-style: italic;
 	}
-
-	ul,ol {
+	ul, ol {
 		line-height: rem-calc(22px);
 		list-style: none;
 		@extend %no-padding;
-
 		li {
 			font-style: italic;
 			margin-bottom: rem-calc(10px);
-
 			&:last-child {
 				margin-bottom: 0;
 			}
-
 			&.edit {
 				margin-top: rem-calc(23px);
 			}
-
 			span {
 				font-style: normal;
 				font-weight: bold;
 			}
 		}
 	}
-
 	fieldset {
 		border: none !important;
-
 		&:last-child {
 			margin-bottom: 0;
 		}
-
 		label {
 			display: inline-block;
 		}
 	}
-
 	hr {
 		display: none;
 	}
-
 	&.thank-you {
 		font-style: italic;
 	}
-
 	.shipping-info, .billing-info, .shipping-via {
-
 		ul, ul li {
 			margin: 0;
 			padding: 0;
 		}
 	}
 }
-
 .new-customer {
 	div {
-
-	 	h5 ~ a {
-	 		@extend %white-button;
-	 		@include border-radius($normal-radius);
-	 		background-color: white;
-	 		border: $grey-border;
-
-	 		&:hover, &:focus {
-	 			background-color: white;
-	 		}
-	 	}
-
-	 	article {
-	 		@include grid-row();
-	 		@extend %spacing;
-		 	background-color: #ececec;
-		 	margin-bottom: $section-spacing;
-
-		 	&:last-child {
-		 		margin-bottom: 0;
-		 	}
-
-		 	section {
-		 		 @include grid-column(12);
-		 	}
-	 	}
-
-	 	fieldset {
-	 		margin: 0;
-	 	}
+		h5 ~ a {
+			@extend %white-button;
+			@include border-radius($normal-radius);
+			background-color: white;
+			border: $grey-border;
+			&:hover, &:focus {
+				background-color: white;
+			}
+		}
+		article {
+			@include grid-row();
+			@extend %spacing;
+			background-color: #ececec;
+			margin-bottom: $section-spacing;
+			&:last-child {
+				margin-bottom: 0;
+			}
+			section {
+				@include grid-column(12);
+			}
+		}
+		fieldset {
+			margin: 0;
+		}
 	}
 }
-
 .check-box {
 	@include grid-row();
-
 	h5 {
 		font-size: rem-calc(14px);
 		line-height: rem-calc(16px);
 		margin: 0 0 2%;
 	}
-
 	p {
 		font-size: rem-calc(13px);
 		line-height: rem-calc(15px);
 		margin: rem-calc(5px) 0 0;
 	}
-
 	input {
 		margin: 0;
 	}
-
 	.col2 {
-		@include grid-column(1, $collapse:true);
-
+		@include grid-column(1, $collapse: true);
 		&:last-child {
-			@include grid-column(11, $collapse:true);
+			@include grid-column(11, $collapse: true);
 		}
 	}
 }
-
 .expiration-date {
-
-		section {
-
-			@include grid-row($behavior: nest);
-
-			div {
-				@include grid-column(6);
-			}
+	section {
+		@include grid-row($behavior: nest);
+		div {
+			@include grid-column(6);
 		}
+	}
 }
-
 .review-order {
-
 	button {
 		@extend %white-button;
- 		@include border-radius($normal-radius);
- 		background-color: white;
- 		border: $grey-border;
+		@include border-radius($normal-radius);
+		background-color: white;
+		border: $grey-border;
 	}
 }
-
 .check-out-create-account {
 	margin-bottom: rem-calc(10px) !important;
-
 	label {
-
 		span {
 			color: #666;
 			display: block;
@@ -285,16 +222,12 @@
 			line-height: rem-calc(13px);
 		}
 	}
-
 	a {
 		@extend %norm-button;
 	}
 }
-
-
 .check-out-item-review-container {
 	@include grid-row($behavior: nest);
-
 	> li {
 		@include grid-column(12);
 		border-bottom: $grey-border;
@@ -302,34 +235,27 @@
 		padding-bottom: $section-spacing;
 	}
 }
-
 .check-out-item-review {
 	padding-bottom: rem-calc(10px) !important;
-
 	div {
 		> ul {
 			list-style: none;
 			@extend %no-padding;
 			@include grid-row($behavior: nest);
-
 			> li {
 				margin: 0;
 				padding: 0;
 				@include grid-column(2);
-
 				& + li {
 					@include grid-column(6);
 				}
-
 				& + li + li {
 					text-align: right;
 					@include grid-column(4);
 				}
-
 				ul {
 					margin: 0;
 					padding: 0;
-
 					li {
 						margin: 0;
 						padding: 0;
@@ -337,41 +263,23 @@
 				}
 			}
 		}
-
 		h3, h5 {
 			margin-bottom: 0;
 		}
 	}
 }
-
-
 ul {
-
 	li {
 		.check-out-item-review {
 			padding-bottom: 0 !important;
-		}	
+		}
 	}
 }
+// Additional Styles
+// checkout-sign-in
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.err-container {
+	> label {
+		font-style: italic;
+	}
+}
