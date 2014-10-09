@@ -73,6 +73,10 @@
 	// Adding circle Number before Copy on present on Check Out Step 2
 	.contact-info-check-out {
 		h3 {
+
+			display: block;
+			margin-bottom: rem-calc(10px);
+
 			span {
 				background-color: black;
 				content: "1";
@@ -89,18 +93,20 @@
 				text-align: center;
 				@include border-radius(50%);
 			}
+
+			// Old Styles - Not in use
+			// span {
+			// 	color: $red-orange;
+			// 	display: block;
+			// 	font-size: rem-calc(12px);
+			// }
+
+			&.next-step {
+				margin: $section-spacing 0;
+			}
 		}
 	}
-	h3 {
-		display: block;
-		margin-bottom: rem-calc(10px);
-		// span {
-		// 			color: $red-orange;
-		// 			display: block;
-		// 			font-size: rem-calc(12px);
-			
-		// }
-	}
+
 	a {
 		font-style: italic;
 	}
@@ -292,4 +298,8 @@ ul {
 			margin-bottom: 0;
 		}
 	}
+}
+
+.cart-count, .cart-total {
+	font-size: rem-calc(16px);
 }
