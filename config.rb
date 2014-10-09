@@ -25,4 +25,4 @@ relative_assets = true
 # sass-convert -R --from scss --to sass sass scss && rm -rf sass && mv scss sass
 
 line_comments = false # by Compass.app 
-output_style = :compressed # by Compass.app 
+output_style = :expanded # by Compass.app 
