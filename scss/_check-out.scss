@@ -303,3 +303,18 @@ ul {
 .cart-count, .cart-total {
 	font-size: rem-calc(16px);
 }
+
+#form-checkout-shipping {
+
+	> form {
+
+		input {
+			margin-bottom: 0;
+		}
+
+		span {
+			font-size: rem-calc(13px);
+			font-style: italic;
+		}
+	}
+}
