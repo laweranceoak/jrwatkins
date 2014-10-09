@@ -304,10 +304,13 @@
                                         <label for="checkout-billing-cardNumber">Card Number*</label>
                                         <input type="text" id="checkout-billing-cardNumber" name="cardNumber" class="required creditcard" maxlength="19" tabindex="10" value="">
                                     </li>
-                                    <li class="field clearfix">
-                                        <div class="month-field">
-                                            <label for="checkout-billing-expirationMonth">Expiration Date*</label>
-                                            
+                                    <li class="field clearfix expiration-date">
+                                        <label for="checkout-billing-expirationMonth">Expiration Date*</label>
+                                        <section>
+                                            <div class="month-field">
+                                                
+
+                                                
 
 <select id="checkout-billing-expirationMonth" name="expirationMonth" class="required" tabindex="11">
     <option value="">Month</option>
@@ -324,10 +327,10 @@
     <option value="11">11</option>
     <option value="12">12</option> 
 </select>
-                                        </div>
-                                        <div class="year-field">
-                                            <label for="checkout-billing-expirationYear">&nbsp;</label>
-                                            
+                                            </div>
+                                            <div class="year-field">
+                                                <label for="checkout-billing-expirationYear">&nbsp;</label>
+                                                
 
 <select id="checkout-billing-expirationYear" name="expirationYear" class="required" tabindex="12">
     <option value="">Year</option>
@@ -356,14 +359,23 @@
   <option value="2036">2036</option>
   <option value="2037">2037</option> 
 </select>
-                                        </div>
-                                    </li>
-                                    <li class="field">
+                                            </div>
+                                        </section>
+
+                                        <article>
                                         <label for="checkout-billing-securityCode">Security Code*</label>
+                                            <section>
+                                                <div>
                                         <a class="security-code-tooltip-link right" rel="tooltip" data-original-title="A Security Code is an anti-fraud feature that helps to verify that you are in possession of your credit card. On most cards, it is located on the back near your signature. On American Express cards, it is located on the front—look on the right-hand side slightly above your credit card number.">What is this?</a>
                                         <input type="text" id="checkout-billing-securityCode" name="securityCode" class="required" maxlength="4" tabindex="13" value="">
+                                                    </div>
+                                                <div class="credit-card-secur-code">
+                                                    <img src="images/check-out-card-back.png" alt="Credit Card Back">
+                                                </div>
+                                                </section>
+                                            </article>
                                     </li>
-                                </ol>
+    </ol>
 
                                 
                                     <div class="field save-to-account-field">
@@ -373,12 +385,12 @@
                                     </div>
                                 
 
-                            </div>
+    </div>
                         </div>
                     </div>
                 </fieldset>
                 <a id="SubmitButton" class="btn btn-primary action-submit" tabindex="15"><span class="label">Review Order</span></a>
-            </form></div>
+    </form></div>
         </div>
     </section>
 </article>
@@ -387,7 +399,7 @@
 
 
 
-      
+
 
       <footer>
         <section>

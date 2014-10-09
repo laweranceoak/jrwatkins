@@ -346,6 +346,17 @@ ul {
 	font-size: rem-calc(13px);
 }
 
+.year-field {
+
+	> label {
+		display: none !important;	
+	}
+}
+
+.credit-card-secur-code {
+	padding-top: rem-calc(18px);
+}
+
 
 
 
