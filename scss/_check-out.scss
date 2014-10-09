@@ -357,6 +357,17 @@ ul {
 	padding-top: rem-calc(18px);
 }
 
+.save-to-account-field {
+
+	> input, > label {
+		float: left;
+	}
+
+	label {
+		margin-right: 0;
+		width: 90%;
+	}
+}
 
 
 
