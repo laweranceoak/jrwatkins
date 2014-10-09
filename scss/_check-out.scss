@@ -73,7 +73,7 @@
 	// Adding circle Number before Copy on present on Check Out Step 2
 	.contact-info-check-out {
 		h3 {
-			&:before {
+			span {
 				background-color: black;
 				content: "1";
 				color: white;
@@ -94,10 +94,11 @@
 	h3 {
 		display: block;
 		margin-bottom: rem-calc(10px);
-		span {
-			color: $red-orange;
-			display: block;
-			font-size: rem-calc(12px);
+		// span {
+			// 	color: $red-orange;
+			// 	display: block;
+			// 	font-size: rem-calc(12px);
+			//
 		}
 	}
 	a {
