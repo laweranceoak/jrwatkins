@@ -95,9 +95,9 @@
 		display: block;
 		margin-bottom: rem-calc(10px);
 		// span {
-		// 		color: $red-orange;
-		// 		display: block;
-		// 		font-size: rem-calc(12px);
+		// 			color: $red-orange;
+		// 			display: block;
+		// 			font-size: rem-calc(12px);
 			
 		// }
 	}
@@ -282,5 +282,14 @@ ul {
 .err-container {
 	> label {
 		font-style: italic;
+	}
+}
+// Check Out Step 1
+.shipping-address {
+	ul {
+		margin-bottom: $section-spacing;
+		li {
+			margin-bottom: 0;
+		}
 	}
 }
