@@ -290,7 +290,9 @@ ul {
 		font-style: italic;
 	}
 }
+////////////////////////////
 // Check Out Step 1
+////////////////////////////
 .shipping-address {
 	ul {
 		margin-bottom: $section-spacing;
@@ -318,3 +320,75 @@ ul {
 		}
 	}
 }
+////////////////////////////
+// Check Out Step 2
+////////////////////////////
+.billing-address {
+
+	.state-zip-row {
+
+		margin: 0; // Remove -15 L/R padding
+	}
+}
+
+.phone-field {
+
+	> label {
+		width: 100%; // Stretches full width so <a> can be positioned to the right
+	}
+}
+
+.card-details {
+	margin: 10% 0 0 !important ;
+}
+
+.security-code-tooltip-link {
+	font-size: rem-calc(13px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
