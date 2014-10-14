@@ -4,20 +4,36 @@
 		"selected_items":
 		[
 			[
-				"font",
+				"margin",
+				"margin-top"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"sec",
+				"section-spacing"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"fon",
 				"font-style"
 			],
 			[
-				"margin",
-				"margin-bottom"
+				"font",
+				"font-size"
 			],
 			[
 				"vis",
 				"visibility"
-			],
-			[
-				"fon",
-				"font-family"
 			],
 			[
 				"searc",
@@ -30,22 +46,6 @@
 			[
 				"backg",
 				"background-color"
-			],
-			[
-				"mar",
-				"margin"
-			],
-			[
-				"sec",
-				"section"
-			],
-			[
-				"marg",
-				"margin-top"
-			],
-			[
-				"padding",
-				"padding-bottom"
 			],
 			[
 				"text",
@@ -483,9 +483,21 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 47.0,
 		"selected_items":
 		[
+			[
+				"install package",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"sass",
+				"Set Syntax: Shell Script (Bash)"
+			],
 			[
 				"form",
 				"Format CSS: Compressed"
@@ -501,10 +513,6 @@
 			[
 				"pack",
 				"Package Control: Install Package"
-			],
-			[
-				"sass",
-				"Set Syntax: Shell Script (Bash)"
 			]
 		],
 		"width": 449.0
@@ -524,7 +532,10 @@
 	},
 	"file_history":
 	[
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/config.rb",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_check-out.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/check-out-step-3-VS-version.html",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_accordian-promo.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_global-styles.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_customer-service.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/customer-service.html",
@@ -553,7 +564,6 @@
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/my-account.html",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_my-account.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_subscribe.scss",
-		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/config.rb",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/Gemfile",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_login.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/login.html",
@@ -576,7 +586,6 @@
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/my-account-edit-basic-info.html",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/check-out.html",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/shopping-cart.html",
-		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_accordian-promo.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_accordian.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_our-stories.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_added-to-cart.scss",
@@ -650,8 +659,7 @@
 		"/Users/ryan.payne/Desktop/WORK/Prototype/HideHeader/build/index.html",
 		"/Users/ryan.payne/Desktop/WORK/Prototype/HideHeader/build/stylesheets/app.css",
 		"/Users/ryan.payne/Desktop/WORK/Brando/assets/grunticon/icons.fallback.css",
-		"/Users/ryan.payne/Desktop/WORK/Brando/assets/grunticon/icons.data.png.css",
-		"/Users/ryan.payne/Desktop/WORK/WOW Guide/May Wow Guide/WOWGuide/index_sitecore.html"
+		"/Users/ryan.payne/Desktop/WORK/Brando/assets/grunticon/icons.data.png.css"
 	],
 	"find":
 	{
@@ -676,6 +684,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"image ",
+			"check-out-general",
 			"single-",
 			"single",
 			"single-box-shadow",
@@ -801,8 +811,6 @@
 			"pastBottom",
 			"getScrollY",
 			"scrollTop",
-			"top",
-			"notTop",
 			"top"
 		],
 		"highlight": true,

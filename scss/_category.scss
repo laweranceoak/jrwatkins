@@ -58,8 +58,9 @@
 
 
 		.product-column {
-			margin: 0 0 10%;
+			margin: 0 0 20%;
 			padding: 0 rem-calc(10px);
+			position: relative;
 
 			&:last-child {
 				float: left;
@@ -75,7 +76,8 @@
 			
 			.product-group {
 				height: 100%;
-				min-height: 425px;
+				min-height: 100%;
+				padding-bottom: rem-calc(30px);
 				position: relative;
 
 				header {
