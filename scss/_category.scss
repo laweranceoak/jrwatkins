@@ -58,7 +58,7 @@
 
 
 		.product-column {
-			margin: 0 0 20%;
+			margin: 0 0 10%;
 			padding: 0 rem-calc(10px);
 			position: relative;
 
@@ -75,9 +75,6 @@
 			// }			
 			
 			.product-group {
-				height: 100%;
-				min-height: 100%;
-				padding-bottom: rem-calc(30px);
 				position: relative;
 
 				header {
@@ -91,6 +88,10 @@
 				font-size: rem-calc(20px);
 				line-height: rem-calc(20px);
 				margin: 0 0 rem-calc(5px);
+				width: 100%;
+				// white-space: nowrap; //Removed this to show full product name
+				overflow: hidden;
+				text-overflow: ellipsis;
 
 				a {
 					color: inherit;
@@ -139,13 +140,12 @@
 				display: block;
 				font-family: $body-font-family;
 				font-size: rem-calc(16px);
-				padding: rem-calc(10px) 0;
-				position: absolute;
-				bottom: 0;
+				padding: rem-calc(8px) 0;
 				@extend %border-radius;
 				@extend %font-bold-italic;
 				font-weight: bold;
 				margin: 0;
+				margin-bottom: rem-calc(5px);
 
 				&:after {
 					content: "Add to Cart";
@@ -167,7 +167,7 @@
 				background-color: white;
 				border-color: $gray-border;
 				color: $dark-gray;
-				line-height: rem-calc(12);
+				line-height: rem-calc(16);
 				font-family: $body-font-family;
 				font-size: rem-calc(12px);
 				font-style: italic;
@@ -181,16 +181,29 @@
 				white-space: nowrap;
 				overflow: hidden;
 				@include appearance(none);
+
+				margin-bottom: rem-calc(5px);
 			}
 		}
 	}
 }
+
+
+
+
+// <a href> around product image
+.image-link {
+	display: block;
+	margin-bottom: $section-spacing;
+}
+
+
 // Kurt Need this to function
 .product-variant {
 	display: none;
 
 	&.active {
-		display: initial;
+		display: block;
 	}
 }
 
