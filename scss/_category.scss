@@ -78,6 +78,10 @@
 			.product-group {
 				position: relative;
 
+				& + div + .cta-add-to-cart {
+					margin-top: rem-calc(68px);
+				}
+
 				header {
 					margin: 0 0 5%;
 				}
@@ -184,10 +188,6 @@
 				@include appearance(none);
 
 				margin-bottom: rem-calc(5px);
-
-				& + .cta-add-to-cart {
-					margin-top: rem-calc(68px);
-				}
 			}
 		}
 	}
