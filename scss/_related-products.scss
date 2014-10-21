@@ -92,11 +92,10 @@
 
 			border: 1px solid $gray-border;
 			color: $red-orange;
+			font-family: $body-font-family;
 			display: block;
 			font-size: rem-calc(16px);
 			padding: rem-calc(8px) 0;
-			position: absolute;
-			bottom: 0;
 			@extend %border-radius;
 			@extend %font-bold-italic;
 			font-weight: bold;
@@ -137,6 +136,8 @@
 			white-space: nowrap;
 			overflow: hidden;
 			@include appearance(none);
+
+			margin-bottom: rem-calc(5px);
 		}		
 	}
 }

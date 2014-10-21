@@ -4,12 +4,12 @@
 		"selected_items":
 		[
 			[
-				"margin",
-				"margin-top"
+				"mar",
+				"margin-bottom"
 			],
 			[
-				"mar",
-				"margin-right"
+				"margin",
+				"margin-top"
 			],
 			[
 				"padding",
@@ -532,13 +532,15 @@
 	},
 	"file_history":
 	[
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_variables.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/category.html",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_related-products.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_category.scss",
+		"/Users/ryan.payne/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/our-story.html",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/my-account.html",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/find-consultant.html",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/create-account.html",
-		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/category.html",
-		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_related-products.scss",
-		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_category.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/config.rb",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_product-detail.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_check-out.scss",
@@ -553,7 +555,6 @@
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_header.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_write-review.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/js/app.js",
-		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_variables.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/bower_components/foundation/js/foundation/foundation.equalizer.js",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_settings.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_search-results.scss",
@@ -658,8 +659,7 @@
 		"/Users/ryan.payne/Desktop/WORK/Prototype/HideHeader/_build/config.rb",
 		"/Users/ryan.payne/Desktop/WORK/Prototype/HideHeader/build/index.html",
 		"/Users/ryan.payne/Desktop/WORK/Prototype/HideHeader/build/stylesheets/app.css",
-		"/Users/ryan.payne/Desktop/WORK/Brando/assets/grunticon/icons.fallback.css",
-		"/Users/ryan.payne/Desktop/WORK/Brando/assets/grunticon/icons.data.png.css"
+		"/Users/ryan.payne/Desktop/WORK/Brando/assets/grunticon/icons.fallback.css"
 	],
 	"find":
 	{
@@ -684,6 +684,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			".product-group",
+			"\"\" style=\"height: 415px;\"",
+			"~/media",
 			".product-group",
 			"style=\"height: 440px;\"",
 			"~/media/",
@@ -808,10 +811,7 @@
 			"offset",
 			"notTop",
 			"reset",
-			"slide--up",
-			"pastBottom",
-			"isOutOfBounds",
-			"pastBottom"
+			"slide--up"
 		],
 		"highlight": true,
 		"in_selection": false,
