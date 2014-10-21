@@ -184,6 +184,10 @@
 				@include appearance(none);
 
 				margin-bottom: rem-calc(5px);
+
+				& + .product-variant {
+					margin-top: rem-calc(42px);
+				}
 			}
 		}
 	}
