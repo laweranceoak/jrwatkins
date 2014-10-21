@@ -32,6 +32,7 @@
 		border-color: $gray-border;
 		color: $dark-gray;
 		font-family: $body-font-family;
+		line-height: 1.4;
 		@extend %font-bold-italic;
 		@extend %border-radius;
 	}
