@@ -78,7 +78,7 @@
 			.product-group {
 				position: relative;
 
-				& + div + .cta-add-to-cart {
+				& > div + .cta-add-to-cart {
 					margin-top: rem-calc(68px);
 				}
 
