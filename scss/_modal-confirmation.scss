@@ -2,6 +2,7 @@
 .modal-confirmation {
 	@include grid-row();
 	border-bottom: $grey-border;
+	margin: 0 0 $section-spacing;
 	padding: rem-calc(10px 0 20px);
 
 
