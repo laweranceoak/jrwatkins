@@ -479,6 +479,30 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "scss/_related-products.scss",
+			"settings":
+			{
+				"buffer_size": 2906,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "scss/_category.scss",
+			"settings":
+			{
+				"buffer_size": 4189,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "scss/_product-detail.scss",
+			"settings":
+			{
+				"buffer_size": 8870,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -533,6 +557,9 @@
 	"file_history":
 	[
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_variables.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_product-detail.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/bower_components/foundation/scss/foundation/components/_global.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_global-styles.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/category.html",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_related-products.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_category.scss",
@@ -542,11 +569,9 @@
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/find-consultant.html",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/create-account.html",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/config.rb",
-		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_product-detail.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_check-out.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/check-out-step-3-VS-version.html",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_accordian-promo.scss",
-		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_global-styles.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_customer-service.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/customer-service.html",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_customer-service-contact-us.scss",
@@ -616,7 +641,6 @@
 		"/Users/ryan.payne/Desktop/WORK/WOW Guide/STPattyLookbook/build/_build/css/main.scss",
 		"/Users/ryan.payne/Desktop/WORK/WOW Guide/STPattyLookbook/build/_build/css/main.css",
 		"/Users/ryan.payne/Desktop/WORK/WOW Guide/STPattyLookbook/build/_build/css/main2.scss",
-		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/bower_components/foundation/scss/foundation/components/_global.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/index.html",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/scss/_settings.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/config.rb",
@@ -684,6 +708,14 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			".product-group",
+			".product-filter",
+			"line-height: normal",
+			".product-filter",
+			"select {",
+			"line-height: normal",
+			"select {",
+			".category-list",
 			".product-group",
 			"\"\" style=\"height: 415px;\"",
 			"~/media",
@@ -803,15 +835,7 @@
 			"panel3",
 			"max-width: 500px",
 			"font-size, 14px",
-			"font-size, 12px",
-			"radiu",
-			"offset",
-			"ease-in-out",
-			".25s",
-			"offset",
-			"notTop",
-			"reset",
-			"slide--up"
+			"font-size, 12px"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -831,8 +855,90 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "scss/_related-products.scss",
+					"settings":
+					{
+						"buffer_size": 2906,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								561,
+								561
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 532.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "scss/_category.scss",
+					"settings":
+					{
+						"buffer_size": 4189,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1299,
+								1366
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 823.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "scss/_product-detail.scss",
+					"settings":
+					{
+						"buffer_size": 8870,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								143,
+								143
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 5.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
