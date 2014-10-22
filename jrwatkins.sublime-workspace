@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"font",
+				"font-style"
+			],
+			[
+				"tex",
+				"text-transform"
+			],
+			[
 				"mar",
 				"margin-bottom"
 			],
@@ -26,10 +34,6 @@
 			[
 				"fon",
 				"font-style"
-			],
-			[
-				"font",
-				"font-size"
 			],
 			[
 				"vis",
@@ -70,10 +74,6 @@
 			[
 				"min",
 				"min-height"
-			],
-			[
-				"tex",
-				"textarea"
 			],
 			[
 				"h",
@@ -480,26 +480,42 @@
 	"buffers":
 	[
 		{
-			"file": "scss/_related-products.scss",
+			"file": "scss/app.scss",
 			"settings":
 			{
-				"buffer_size": 2906,
+				"buffer_size": 2314,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "scss/_category.scss",
+			"file": "modal-confirmation.html",
 			"settings":
 			{
-				"buffer_size": 4189,
+				"buffer_size": 29561,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "scss/_product-detail.scss",
+			"file": "scss/_modal-confirmation.scss",
 			"settings":
 			{
-				"buffer_size": 8870,
+				"buffer_size": 763,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "scss/_variables.scss",
+			"settings":
+			{
+				"buffer_size": 4663,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "scss/_global-styles.scss",
+			"settings":
+			{
+				"buffer_size": 3266,
 				"line_ending": "Unix"
 			}
 		}
@@ -556,13 +572,15 @@
 	},
 	"file_history":
 	[
-		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_variables.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_search.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_related-products.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_settings.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_product-detail.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_category.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_variables.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/bower_components/foundation/scss/foundation/components/_global.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_global-styles.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/category.html",
-		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_related-products.scss",
-		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_category.scss",
 		"/Users/ryan.payne/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/our-story.html",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/my-account.html",
@@ -581,9 +599,7 @@
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_write-review.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/js/app.js",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/bower_components/foundation/js/foundation/foundation.equalizer.js",
-		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_settings.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_search-results.scss",
-		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_search.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/write-your-review.html",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/check-out-step-4.html",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/app.scss",
@@ -691,7 +707,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 93.0,
+		"height": 0.0,
 		"where_history":
 		[
 			"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins",
@@ -860,18 +876,18 @@
 			[
 				{
 					"buffer": 0,
-					"file": "scss/_related-products.scss",
+					"file": "scss/app.scss",
 					"settings":
 					{
-						"buffer_size": 2906,
+						"buffer_size": 2314,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								561,
-								561
+								1849,
+								1867
 							]
 						],
 						"settings":
@@ -880,52 +896,79 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 532.0,
+						"translation.y": 667.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "scss/_category.scss",
+					"file": "modal-confirmation.html",
 					"settings":
 					{
-						"buffer_size": 4189,
+						"buffer_size": 29561,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1299,
-								1366
+								4919,
+								4919
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 823.0,
+						"translation.y": 1700.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "scss/_product-detail.scss",
+					"file": "scss/_modal-confirmation.scss",
 					"settings":
 					{
-						"buffer_size": 8870,
+						"buffer_size": 763,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								143,
-								143
+								640,
+								640
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "scss/_variables.scss",
+					"settings":
+					{
+						"buffer_size": 4663,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3892,
+								3911
 							]
 						],
 						"settings":
@@ -934,7 +977,34 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 5.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "scss/_global-styles.scss",
+					"settings":
+					{
+						"buffer_size": 3266,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								113,
+								61
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -995,6 +1065,10 @@
 		"height": 500.0,
 		"selected_items":
 		[
+			[
+				"",
+				"/Applications/MAMP/htdocs/wellmark/whatmatters/content/wellmark-WM.sublime-project"
+			]
 		],
 		"width": 380.0
 	},

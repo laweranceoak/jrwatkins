@@ -1,7 +1,9 @@
 @import "compass";
 .modal-confirmation {
 	@include grid-row();
+	border-bottom: $grey-border;
 	padding: rem-calc(10px 0 20px);
+
 
 	div {
 		@include grid-column(12);
