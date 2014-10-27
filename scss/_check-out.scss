@@ -323,7 +323,7 @@ ul {
 ////////////////////////////
 // Check Out Step 2
 ////////////////////////////
-.billing-address {
+.billing-address, #form-account-new-address {
 
 	.state-zip-row {
 
@@ -331,7 +331,7 @@ ul {
 	}
 }
 
-.phone-field {
+.phone-field, .phone-number-field {
 
 	> label {
 		width: 100%; // Stretches full width so <a> can be positioned to the right

@@ -479,46 +479,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "scss/app.scss",
-			"settings":
-			{
-				"buffer_size": 2314,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "modal-confirmation.html",
-			"settings":
-			{
-				"buffer_size": 29561,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "scss/_modal-confirmation.scss",
-			"settings":
-			{
-				"buffer_size": 763,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "scss/_variables.scss",
-			"settings":
-			{
-				"buffer_size": 4663,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "scss/_global-styles.scss",
-			"settings":
-			{
-				"buffer_size": 3266,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -572,14 +532,17 @@
 	},
 	"file_history":
 	[
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_global-styles.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/app.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/modal-confirmation.html",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_variables.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_modal-confirmation.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_search.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_related-products.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_settings.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_product-detail.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_category.scss",
-		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_variables.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/bower_components/foundation/scss/foundation/components/_global.scss",
-		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_global-styles.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/category.html",
 		"/Users/ryan.payne/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/our-story.html",
@@ -602,7 +565,6 @@
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_search-results.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/write-your-review.html",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/check-out-step-4.html",
-		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/app.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/product-detail.html",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_promo.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_my-account.scss",
@@ -697,9 +659,7 @@
 		"/Users/ryan.payne/Desktop/WORK/Prototype/HideHeader/_build/css/animate2.css",
 		"/Users/ryan.payne/Desktop/WORK/Prototype/HideHeader/_build/sass/_mixins.scss",
 		"/Users/ryan.payne/Desktop/WORK/Prototype/HideHeader/_build/config.rb",
-		"/Users/ryan.payne/Desktop/WORK/Prototype/HideHeader/build/index.html",
-		"/Users/ryan.payne/Desktop/WORK/Prototype/HideHeader/build/stylesheets/app.css",
-		"/Users/ryan.payne/Desktop/WORK/Brando/assets/grunticon/icons.fallback.css"
+		"/Users/ryan.payne/Desktop/WORK/Prototype/HideHeader/build/index.html"
 	],
 	"find":
 	{
@@ -871,144 +831,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "scss/app.scss",
-					"settings":
-					{
-						"buffer_size": 2314,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1849,
-								1867
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 667.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "modal-confirmation.html",
-					"settings":
-					{
-						"buffer_size": 29561,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4919,
-								4919
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1700.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "scss/_modal-confirmation.scss",
-					"settings":
-					{
-						"buffer_size": 763,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								640,
-								640
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "scss/_variables.scss",
-					"settings":
-					{
-						"buffer_size": 4663,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3892,
-								3911
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "scss/_global-styles.scss",
-					"settings":
-					{
-						"buffer_size": 3266,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								113,
-								61
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
