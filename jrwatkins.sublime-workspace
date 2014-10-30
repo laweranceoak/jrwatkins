@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"marg",
+				"margin-bottom"
+			],
+			[
 				"font",
 				"font-style"
 			],
@@ -26,10 +30,6 @@
 			[
 				"sec",
 				"section-spacing"
-			],
-			[
-				"marg",
-				"margin"
 			],
 			[
 				"fon",
@@ -532,7 +532,9 @@
 	},
 	"file_history":
 	[
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_terms-conditions.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_global-styles.scss",
+		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_check-out.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/app.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/modal-confirmation.html",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_variables.scss",
@@ -550,7 +552,6 @@
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/find-consultant.html",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/create-account.html",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/config.rb",
-		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_check-out.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/check-out-step-3-VS-version.html",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_accordian-promo.scss",
 		"/Users/ryan.payne/Desktop/WORK/jrwatkins/jrwatkins/scss/_customer-service.scss",
@@ -658,8 +659,7 @@
 		"/Users/ryan.payne/Desktop/WORK/WOW Guide/May Wow Guide/WOWGuide/sass/wow-guide-styles.scss",
 		"/Users/ryan.payne/Desktop/WORK/Prototype/HideHeader/_build/css/animate2.css",
 		"/Users/ryan.payne/Desktop/WORK/Prototype/HideHeader/_build/sass/_mixins.scss",
-		"/Users/ryan.payne/Desktop/WORK/Prototype/HideHeader/_build/config.rb",
-		"/Users/ryan.payne/Desktop/WORK/Prototype/HideHeader/build/index.html"
+		"/Users/ryan.payne/Desktop/WORK/Prototype/HideHeader/_build/config.rb"
 	],
 	"find":
 	{
@@ -684,6 +684,14 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"611",
+			"rel=\"addilay-gallery[group-611]\" ",
+			"[group-611]",
+			"rel=\"addilay-gallery[group-611]\"",
+			".check-out-general",
+			".billing-address",
+			"state-zip-row",
+			".state-field",
 			".product-group",
 			".product-filter",
 			"line-height: normal",
@@ -803,15 +811,7 @@
 			"&",
 			"small",
 			"last",
-			"auto",
-			"vertical-nav",
-			"nav_selector",
-			"data-section",
-			"ie9",
-			"panel3",
-			"max-width: 500px",
-			"font-size, 14px",
-			"font-size, 12px"
+			"auto"
 		],
 		"highlight": true,
 		"in_selection": false,
